@@ -1,0 +1,13 @@
+{
+  "name": "fut-desbravado-engine",
+  "version": "1.0.0",
+  "description": "Engine de automação e criação de conteúdo do canal Fut Desbravado — Copa do Mundo FIFA 2026 (104 jogos)",
+  "private": true,
+  "scripts": {
+    "simulate": "node tools/simulate.js",
+    "extract": "python tools/extract.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

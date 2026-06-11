@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fut Desbravado — Engine Copa 2026</title>
+<style>
+  :root { --bg:#0a0e14; --card:#121826; --line:#1f2937; --txt:#e5e7eb; --dim:#94a3b8;
+          --gold:#fbbf24; --green:#34d399; --red:#f87171; --blue:#60a5fa; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--txt); font:15px/1.5 'Segoe UI',system-ui,sans-serif; padding:24px; }
+  header { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px; }
+  h1 { font-size:26px; letter-spacing:.5px; }
+  h1 b { color:var(--gold); }
+  .sub { color:var(--dim); margin-bottom:20px; }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:24px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 18px; }
+  .stat .n { font-size:22px; font-weight:700; color:var(--gold); }
+  .stat .l { font-size:12px; color:var(--dim); text-transform:uppercase; letter-spacing:1px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:12px; }
+  .match { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+  .match .top { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+  .match .conf { font-weight:600; font-size:16px; }
+  .badge { font-size:11px; padding:3px 9px; border-radius:99px; font-weight:700; letter-spacing:.5px; }
+  .AGENDADO,.AGUARDANDO_AQUECIMENTO { background:#1e293b; color:var(--dim); }
+  .PREVIA_24H { background:#172554; color:var(--blue); }
+  .AQUECIMENTO { background:#451a03; color:var(--gold); }
+  .AO_VIVO { background:#450a0a; color:var(--red); animation:pulse 1.2s infinite; }
+  .POS_JOGO { background:#052e16; color:var(--green); }
+  .ENCERRADO { background:#1e293b; color:#64748b; }
+  @keyframes pulse { 50% { opacity:.55; } }
+  .meta { color:var(--dim); font-size:13px; }
+  .meta .g { color:var(--gold); font-weight:600; }
+  .actions { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+  .actions a { font-size:12px; color:var(--blue); text-decoration:none; border:1px solid var(--line); padding:3px 9px; border-radius:6px; }
+  .actions a:hover { background:var(--line); }
+  #filtro { background:var(--card); border:1px solid var(--line); color:var(--txt); padding:8px 12px; border-radius:8px; margin-bottom:18px; width:300px; }
+</style>
+</head>
+<body>
+<header><h1>⚽ FUT <b>DESBRAVADO</b> · Engine Copa 2026</h1></header>
+<div class="sub">Orquestrador Central de Automação, Design e Inteligência de Conteúdo — fase de grupos (72 jogos · horários de Brasília). Aquecimento 1h antes · varredura social a cada 30min · empacotamento no apito final.</div>
+<div class="stats" id="stats"></div>
+<input id="filtro" placeholder="Filtrar por seleção ou grupo…" oninput="render()">
+<div class="grid" id="grid"></div>
+<script>
+let JOGOS = [];
+const LABEL = { AGENDADO:'Agendado', PREVIA_24H:'Prévia 24h', AGUARDANDO_AQUECIMENTO:'Aguardando',
+  AQUECIMENTO:'Aquecimento', AO_VIVO:'● AO VIVO', POS_JOGO:'Pós-jogo', ENCERRADO:'Encerrado' };
+async function load() {
+  const r = await fetch('/api/state'); const j = await r.json();
+  JOGOS = j.jogos; render();
+  const c = f => JOGOS.filter(x=>x.fase===f).length;
+  document.getElementById('stats').innerHTML =
+    stat(JOGOS.length,'jogos monitorados') + stat(c('AO_VIVO'),'ao vivo agora') +
+    stat(c('AQUECIMENTO'),'em aquecimento') + stat(c('ENCERRADO'),'encerrados');
+}
+const stat=(n,l)=>`<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`;
+function render() {
+  const f = (document.getElementById('filtro').value||'').toLowerCase();
+  document.getElementById('grid').innerHTML = JOGOS
+    .filter(m => !f || m.confronto.toLowerCase().includes(f) || ('grupo '+m.grupo).toLowerCase().includes(f))
+    .map(m => `
+    <div class="match">
+      <div class="top"><span class="conf">${m.confronto}</span>
+        <span class="badge ${m.fase}">${LABEL[m.fase]||m.fase}${m.fase==='AO_VIVO'?` ${m.minuto}'`:''}</span></div>
+      <div class="meta"><span class="g">Grupo ${m.grupo}</span> · ${m.horarioBrasilia} (Brasília) · ${m.estadio}</div>
+      <div class="actions">
+        <a href="/api/generate?id=${m.id}&formato=PREVIA_TATICA" target="_blank">Prévia tática</a>
+        <a href="/api/generate?id=${m.id}&formato=REACAO_AO_VIVO&minuto=60" target="_blank">Reação 60'</a>
+        <a href="/api/generate?id=${m.id}&formato=ANALISE_POS_JOGO" target="_blank">Pós-jogo</a>
+      </div>
+    </div>`).join('');
+}
+load(); setInterval(load, 60000);
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "persona": "Analista Tático de Futebol de Elite e Diretor de Conteúdo Editorial Esportivo. Tom profissional, analítico, apaixonante e altamente informativo. SEMPRE terceira pessoa: nunca 'eu/nós/você'. Usar formulações impessoais: 'a análise indica', 'o estudo tático aponta', 'recomenda-se'.",
+  "diretrizes": [
+    "Nunca utilizar primeira ou segunda pessoa; manter formulações impessoais.",
+    "Todo dado de convocação deve vir com consequência de segundo e terceiro nível.",
+    "Integrar as estatísticas físicas do torneio alongado (39 dias, fase de 32 avos, rotação de elenco).",
+    "Ganchos brutais nos 3 primeiros segundos; sentenças curtas e rítmicas para cortes secos.",
+    "Estética Moody/Chiaroscuro com closes dramáticos e expressivos; prompts de imagem em --ar 9:16."
+  ],
+  "formatos": {
+    "PREVIA_TATICA": {
+      "nome": "PRÉVIA TÁTICA (MATCHDAY-1)",
+      "quando": "Publicada 24h antes de cada jogo (e reforçada no aquecimento 1h antes).",
+      "estrutura": [
+        "TÍTULO direto, analítico, focado em um duelo tático",
+        "P1: contexto tático do jogo e como os elencos de 26 chegam fisicamente",
+        "P2: o duelo individual decisivo, mapeando características e clubes dos atletas",
+        "P3: projeção de como o desgaste físico e as opções de banco podem decidir na segunda etapa",
+        "CTA: pergunta tática impessoal para gerar debate técnico"
+      ]
+    },
+    "REACAO_AO_VIVO": {
+      "nome": "LIVE MATCH REACTION (CICLO 30 MIN)",
+      "quando": "A cada 30 minutos de partida, com leitura do sentimento dominante.",
+      "estrutura": [
+        "GANCHO brutal nos 3 primeiros segundos",
+        "Foco nas substituições táticas decorrentes do desgaste físico",
+        "Análise das comissões ao acionar pivôs nos minutos finais (ex.: Wout Weghorst, Tomáš Chorý)",
+        "Sentimento dominante das redes (indignação, euforia, piadas)"
+      ]
+    },
+    "ANALISE_POS_JOGO": {
+      "nome": "POST-MATCH TACTICAL ANALYSIS",
+      "quando": "Imediatamente após o apito final (empacotamento consolidado).",
+      "estrutura": [
+        "Como a ausência de um desfalque alterou o mapa de calor e a distribuição de passes",
+        "Roteiro vertical 60s com marcações de tempo para cortes",
+        "Hashtags técnicas e limpas (ex.: #AnaliseTatica #CopaDoMundo2026)"
+      ]
+    },
+    "IMPACTO_LESAO": {
+      "nome": "ANÁLISE DE IMPACTO DE LESÃO",
+      "estrutura": [
+        "TÍTULO focado na perda estrutural da seleção afetada",
+        "P1: a lesão (tipo, gravidade, clube) e o substituto emergencial",
+        "P2: impacto tático imediato (esquema, compensação defensiva, novas responsabilidades)",
+        "P3: perspectiva de longo prazo no torneio de 39 dias",
+        "HASHTAGS técnicas e limpas"
+      ]
+    },
+    "ROSTER_DEEP_DIVE": {
+      "nome": "ROSTER DEEP DIVE",
+      "estrutura": [
+        "Representação de clubes domésticos nos elencos (ex.: bloco Mamelodi Sundowns; Espanha sem Real Madrid)"
+      ]
+    }
+  },
+  "lesoes": [
+    {
+      "selecao": "Brasil",
+      "fora": "Wesley",
+      "tipo": "lesão muscular na coxa",
+      "substituto": "Éderson (Atalanta)",
+      "efeito": "consolida o meio-campo; corredor fechado por recuo tático de zagueiros ou volantes"
+    },
+    {
+      "selecao": "Canadá",
+      "fora": "Marcelo Flores",
+      "tipo": "lesão",
+      "substituto": "Jayden Nelson",
+      "efeito": "transição menos posse curta, mais arrancadas profundas e contra-ataques velozes"
+    },
+    {
+      "selecao": "Escócia",
+      "fora": "Billy Gilmour",
+      "tipo": "desfalque",
+      "substituto": "Tyler Fletcher (19 anos)",
+      "efeito": "John McGinn assume maiores responsabilidades de marcação"
+    },
+    {
+      "selecao": "Argentina",
+      "fora": "Leonardo Balerdi",
+      "tipo": "lesão no músculo sóleo",
+      "substituto": "—",
+      "efeito": "Romero e Lisandro Martínez gerenciam minutos no torneio alongado"
+    },
+    {
+      "selecao": "Holanda",
+      "fora": "Jurriën Timber",
+      "tipo": "problemas na virilha",
+      "substituto": "Lutsharel Geertruida",
+      "efeito": "reorganização defensiva; criação perde Xavi Simons (joelho)"
+    },
+    {
+      "selecao": "Alemanha",
+      "fora": "Lennart Karl",
+      "tipo": "lesão física na véspera",
+      "substituto": "Assan Ouédraogo",
+      "efeito": "ajuste no setor criativo"
+    },
+    {
+      "selecao": "Canadá (defesa)",
+      "fora": "Moïse Bombito",
+      "tipo": "lesão",
+      "substituto": "Jayden Nelson (linha ofensiva)",
+      "efeito": "menor profundidade defensiva"
+    },
+    {
+      "selecao": "França",
+      "fora": "Hugo Ekitike",
+      "tipo": "lesão",
+      "substituto": "—",
+      "efeito": "coesão coletiva priorizada; sem Camavinga e Kolo Muani por opção"
+    }
+  ]
+}

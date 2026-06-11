@@ -1,0 +1,4214 @@
+{
+  "MEX": {
+    "selecao": "México",
+    "codigo": "MEX",
+    "jogadores": [
+      {
+        "nome": "Raúl Rangel",
+        "pos": "GK",
+        "clube": "Guadalajara (MEX)",
+        "nota": "Jovem arqueiro de grande elasticidade sob as traves."
+      },
+      {
+        "nome": "Carlos Acevedo",
+        "pos": "GK",
+        "clube": "Santos Laguna (MEX)",
+        "nota": "Excelente tempo de reação e cobertura de meta."
+      },
+      {
+        "nome": "Guillermo Ochoa",
+        "pos": "GK",
+        "clube": "AEL Limassol (CYP)",
+        "nota": "Lendária presença em sua quinta Copa do Mundo."
+      },
+      {
+        "nome": "Jorge Sánchez",
+        "pos": "DF",
+        "clube": "PAOK (GRE)",
+        "nota": "Lateral de forte apoio e velocidade pelo flanco direito."
+      },
+      {
+        "nome": "César Montes",
+        "pos": "DF",
+        "clube": "Lokomotiv Moscow (RUS)",
+        "nota": "Defensor de imponente jogo aéreo e vigor físico."
+      },
+      {
+        "nome": "Edson Álvarez",
+        "pos": "DF",
+        "clube": "Fenerbahçe (TUR)",
+        "nota": "Capitão e pilar de sustentação da marcação intermediária."
+      },
+      {
+        "nome": "Johan Vásquez",
+        "pos": "DF",
+        "clube": "Genoa (ITA)",
+        "nota": "Sólido zagueiro central com excelente escola italiana."
+      },
+      {
+        "nome": "Israel Reyes",
+        "pos": "DF",
+        "clube": "América (MEX)",
+        "nota": "Versatilidade para atuar na zaga ou na contenção."
+      },
+      {
+        "nome": "Mateo Chávez",
+        "pos": "DF",
+        "clube": "AZ Alkmaar (NED)",
+        "nota": "Jovem lateral de refinado apoio e drible curto."
+      },
+      {
+        "nome": "Jesús Gallardo",
+        "pos": "DF",
+        "clube": "Toluca (MEX)",
+        "nota": "Experiente ala com grande capacidade de transição."
+      },
+      {
+        "nome": "Érik Lira",
+        "pos": "MC",
+        "clube": "Cruz Azul (MEX)",
+        "nota": "Volante de forte combate e contenção territorial."
+      },
+      {
+        "nome": "Luis Romo",
+        "pos": "MC",
+        "clube": "Guadalajara (MEX)",
+        "nota": "Meia box-to-box com grande chegada na área adversária."
+      },
+      {
+        "nome": "Álvaro Fidalgo",
+        "pos": "MC",
+        "clube": "Real Betis (ESP)",
+        "nota": "Dinâmica criativa e excelente controle de posse de bola."
+      },
+      {
+        "nome": "Orbelín Pineda",
+        "pos": "MC",
+        "clube": "AEK Athens (GRE)",
+        "nota": "Dinamismo e capacidade de quebrar linhas em condução."
+      },
+      {
+        "nome": "Obed Vargas",
+        "pos": "MC",
+        "clube": "Atlético Madrid (ESP)",
+        "nota": "Jovem de alta intensidade física e marcação rígida."
+      },
+      {
+        "nome": "Gilberto Mora",
+        "pos": "MC",
+        "clube": "Tijuana (MEX)",
+        "nota": "Prodígio de apenas 17 anos com excelente visão de jogo."
+      },
+      {
+        "nome": "Luis Chávez",
+        "pos": "MC",
+        "clube": "Dynamo Moscow (RUS)",
+        "nota": "Especialista em finalizações de longa distância e bolas paradas."
+      },
+      {
+        "nome": "Brian Gutiérrez",
+        "pos": "MC",
+        "clube": "Guadalajara (MEX)",
+        "nota": "Oferece dinâmica técnica e passes verticais incisivos."
+      },
+      {
+        "nome": "Raúl Jiménez",
+        "pos": "AT",
+        "clube": "Fulham (ENG)",
+        "nota": "Experiente referência ofensiva de grande pivô."
+      },
+      {
+        "nome": "Alexis Vega",
+        "pos": "AT",
+        "clube": "Toluca (MEX)",
+        "nota": "Ponta imprevisível de excelente arremate colocado."
+      },
+      {
+        "nome": "Santiago Giménez",
+        "pos": "AT",
+        "clube": "Milan (ITA)",
+        "nota": "Principal esperança de gols mexicana no cenário europeu."
+      },
+      {
+        "nome": "Armando González",
+        "pos": "AT",
+        "clube": "Guadalajara (MEX)",
+        "nota": "Atacante de mobilidade e velocidade de infiltração."
+      },
+      {
+        "nome": "Julián Quiñones",
+        "pos": "AT",
+        "clube": "Al-Qadsiah (KSA)",
+        "nota": "Força física e velocidade devastadora nos contra-ataques."
+      },
+      {
+        "nome": "César Huerta",
+        "pos": "AT",
+        "clube": "Anderlecht (BEL)",
+        "nota": "Extremo ágil de excelente capacidade de drible individual."
+      },
+      {
+        "nome": "Guillermo Martínez",
+        "pos": "AT",
+        "clube": "Pumas (MEX)",
+        "nota": "Centroavante clássico de grande presença física de área."
+      },
+      {
+        "nome": "Roberto Alvarado",
+        "pos": "AT",
+        "clube": "Guadalajara (MEX)",
+        "nota": "Polivalência para atuar em qualquer setor ofensivo."
+      }
+    ]
+  },
+  "RSA": {
+    "selecao": "África do Sul",
+    "codigo": "RSA",
+    "jogadores": [
+      {
+        "nome": "Ronwen Williams",
+        "pos": "GR",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Capitão, excelente jogo com os pés e líder vocal da defesa."
+      },
+      {
+        "nome": "Ricardo Goss",
+        "pos": "GR",
+        "clube": "Siwelele (RSA)",
+        "nota": "Sólida opção de meta para cenários de emergência."
+      },
+      {
+        "nome": "Sipho Chaine",
+        "pos": "GR",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Goleiro ágil de grande destaque no cenário local."
+      },
+      {
+        "nome": "Khuliso Mudau",
+        "pos": "DF",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Lateral-direito de intensa projeção ofensiva e fôlego."
+      },
+      {
+        "nome": "Aubrey Modiba",
+        "pos": "DF",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Excelente cruzamento e qualidade na saída de bola."
+      },
+      {
+        "nome": "Khulumani Ndamane",
+        "pos": "DF",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Jovem defensor de ótimo senso de posicionamento."
+      },
+      {
+        "nome": "Olwethu Makhanya",
+        "pos": "DF",
+        "clube": "Philadelphia Union (USA)",
+        "nota": "Força física e impulsão atuando no futebol norte-americano."
+      },
+      {
+        "nome": "Bradley Cross",
+        "pos": "DF",
+        "clube": "Kaizer Chiefs (RSA)",
+        "nota": "Zagueiro técnico com bom tempo de desarme."
+      },
+      {
+        "nome": "Thabang Matuludi",
+        "pos": "DF",
+        "clube": "Polokwane City (RSA)",
+        "nota": "Defensor marcador de forte imposição física de área."
+      },
+      {
+        "nome": "Nkosinathi Sibisi",
+        "pos": "DF",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Firmeza nos duelos individuais e desarmes rasteiros."
+      },
+      {
+        "nome": "Kamogelo Sebelebele",
+        "pos": "DF",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Lateral polivalente que oferece consistência defensiva."
+      },
+      {
+        "nome": "Ime Okon",
+        "pos": "DF",
+        "clube": "Hannover 96 (GER)",
+        "nota": "Defensor físico moldado na intensidade do futebol alemão."
+      },
+      {
+        "nome": "Samukele Kabini",
+        "pos": "DF",
+        "clube": "Molde FK (NOR)",
+        "nota": "Zagueiro técnico de excelente adaptação europeia."
+      },
+      {
+        "nome": "Mbekezeli Mbokazi",
+        "pos": "DF",
+        "clube": "Chicago Fire (USA)",
+        "nota": "Jovem valor de boa velocidade de recuperação."
+      },
+      {
+        "nome": "Teboho Mokoena",
+        "pos": "MC",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "O cérebro do time, com grande visão de jogo e passe longo."
+      },
+      {
+        "nome": "Jayden Adams",
+        "pos": "MC",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Volante dinâmico de forte transição defensiva."
+      },
+      {
+        "nome": "Thalente Mbatha",
+        "pos": "MC",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Muita raça de contenção física na intermediária."
+      },
+      {
+        "nome": "Sphephelo Sithole",
+        "pos": "MC",
+        "clube": "Tondela (POR)",
+        "nota": "Traz valiosa experiência europeia de combate tático."
+      },
+      {
+        "nome": "Oswin Appollis",
+        "pos": "AT",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Velocidade e agilidade para quebrar defesas fechadas."
+      },
+      {
+        "nome": "Tshepang Moremi",
+        "pos": "AT",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Atacante de lado de campo de intensa movimentação."
+      },
+      {
+        "nome": "Evidence Makgopa",
+        "pos": "AT",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Centroavante de grande porte físico e jogo de costas."
+      },
+      {
+        "nome": "Relebohile Mofokeng",
+        "pos": "AT",
+        "clube": "Orlando Pirates (RSA)",
+        "nota": "Jovem revelação de excelente drible no um contra um."
+      },
+      {
+        "nome": "Lyle Foster",
+        "pos": "AT",
+        "clube": "Burnley (ENG)",
+        "nota": "Principal referência de ataque atuando na Premier League."
+      },
+      {
+        "nome": "Iqraam Rayners",
+        "pos": "AT",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Atacante móvel de grande intensidade de pressão sem bola."
+      },
+      {
+        "nome": "Themba Zwane",
+        "pos": "AT",
+        "clube": "Mamelodi Sundowns (RSA)",
+        "nota": "Veterano meia-atacante de refinada leitura de espaços."
+      },
+      {
+        "nome": "Thapelo Maseko",
+        "pos": "AT",
+        "clube": "AEL Limassol (CYP)",
+        "nota": "Agilidade e arrancada rápida para transições ofensivas."
+      }
+    ]
+  },
+  "CZE": {
+    "selecao": "República Tcheca",
+    "codigo": "CZE",
+    "jogadores": [
+      {
+        "nome": "Matěj Kovář",
+        "pos": "GR",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Jovem goleiro seguro que atua no futebol holandês."
+      },
+      {
+        "nome": "Jindřich Staněk",
+        "pos": "GR",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Sólida presença embaixo das traves locais."
+      },
+      {
+        "nome": "Lukáš Horníček",
+        "pos": "GR",
+        "clube": "Braga (POR)",
+        "nota": "Jovem arqueiro com boa formação em Portugal."
+      },
+      {
+        "nome": "David Zima",
+        "pos": "DF",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Defensor dinâmico com boa antecipação defensiva."
+      },
+      {
+        "nome": "Tomáš Holeš",
+        "pos": "DF",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Zagueiro versátil e muito físico na marcação de área."
+      },
+      {
+        "nome": "Robin Hranáč",
+        "pos": "DF",
+        "clube": "TSG Hoffenheim (GER)",
+        "nota": "Zagueiro técnico de excelente tempo de bola na Alemanha."
+      },
+      {
+        "nome": "Vladimír Coufal",
+        "pos": "DF",
+        "clube": "TSG Hoffenheim (GER)",
+        "nota": "Experiente e incansável lateral-direito de combate."
+      },
+      {
+        "nome": "Štěpán Chaloupek",
+        "pos": "DF",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Jovem promessa defensiva da liga local."
+      },
+      {
+        "nome": "Ladislav Krejčí",
+        "pos": "DF",
+        "clube": "Wolverhampton (ENG)",
+        "nota": "Capitão e líder de imensa força física e jogo aéreo."
+      },
+      {
+        "nome": "David Jurásek",
+        "pos": "DF",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Lateral-esquerdo agressivo e vertical nos apoios."
+      },
+      {
+        "nome": "Jaroslav Zelený",
+        "pos": "DF",
+        "clube": "Sparta Prague (CZE)",
+        "nota": "Polivalência para atuar como zagueiro ou lateral."
+      },
+      {
+        "nome": "David Douděra",
+        "pos": "DF",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Velocidade e vigor físico pelo flanco direito."
+      },
+      {
+        "nome": "Vladimír Darida",
+        "pos": "MC",
+        "clube": "Hradec Králové (CZE)",
+        "nota": ""
+      },
+      {
+        "nome": "Lukáš Červ",
+        "pos": "MC",
+        "clube": "Viktoria Plzeň (CZE)",
+        "nota": "Volante combativo de muita dedicação física."
+      },
+      {
+        "nome": "Lukáš Provod",
+        "pos": "MC",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Meia de transição de excelente passe e visão."
+      },
+      {
+        "nome": "Michal Sadílek",
+        "pos": "MC",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Excelente combatente de meio-campo e forte pegada."
+      },
+      {
+        "nome": "Tomáš Souček",
+        "pos": "MC",
+        "clube": "West Ham United (ENG)",
+        "nota": "Pilar do meio-campo e perigo constante no jogo aéreo."
+      },
+      {
+        "nome": "Alexandr Sojka",
+        "pos": "MC",
+        "clube": "Viktoria Plzeň (CZE)",
+        "nota": "Jovem de boa condução de bola na intermediária."
+      },
+      {
+        "nome": "Hugo Sochůrek",
+        "pos": "MC",
+        "clube": "Sparta Prague (CZE)",
+        "nota": "Promessa de apenas 18 anos integrada ao elenco principal."
+      },
+      {
+        "nome": "Adam Hložek",
+        "pos": "AT",
+        "clube": "TSG Hoffenheim (GER)",
+        "nota": "Atacante de mobilidade e bom arremate de meia distância."
+      },
+      {
+        "nome": "Patrik Schick",
+        "pos": "AT",
+        "clube": "Bayer Leverkusen (GER)",
+        "nota": "Principal estrela e grande esperança de gols do time."
+      },
+      {
+        "nome": "Jan Kuchta",
+        "pos": "AT",
+        "clube": "Sparta Prague (CZE)",
+        "nota": "Atacante de combate de imensa entrega física."
+      },
+      {
+        "nome": "Mojmír Chytil",
+        "pos": "AT",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Centroavante ágil de boa finalização de área."
+      },
+      {
+        "nome": "Pavel Šulc",
+        "pos": "AT",
+        "clube": "Lyon (FRA)",
+        "nota": "Meia-atacante criativo atuando na liga francesa."
+      },
+      {
+        "nome": "Tomáš Chorý",
+        "pos": "AT",
+        "clube": "Slavia Prague (CZE)",
+        "nota": "Centroavante de grande estatura física e cabeceio letal."
+      },
+      {
+        "nome": "Denis Višinský",
+        "pos": "AT",
+        "clube": "Viktoria Plzeň (CZE)",
+        "nota": "Atacante veloz de bom drible pelos flancos."
+      }
+    ]
+  },
+  "BIH": {
+    "selecao": "Bósnia e Herzegovina",
+    "codigo": "BIH",
+    "jogadores": [
+      {
+        "nome": "Nikola Vasilj",
+        "pos": "GR",
+        "clube": "FC St. Pauli (GER)",
+        "nota": "Sólido e seguro titular que atua na Bundesliga."
+      },
+      {
+        "nome": "Martin Zlomislić",
+        "pos": "GR",
+        "clube": "HNK Rijeka (CRO)",
+        "nota": "Opção muito regular e ágil na liga croata."
+      },
+      {
+        "nome": "Osman Hadžikić",
+        "pos": "GR",
+        "clube": "Slaven Belupo (CRO)",
+        "nota": "Fornece segurança física como goleiro reserva."
+      },
+      {
+        "nome": "Sead Kolašinac",
+        "pos": "DF",
+        "clube": "Atalanta BC (ITA)",
+        "nota": "Defensor de extrema força física de combate e raça."
+      },
+      {
+        "nome": "Amar Dedić",
+        "pos": "DF",
+        "clube": "SL Benfica (POR)",
+        "nota": "Lateral-direito moderno e dinâmico de muita velocidade."
+      },
+      {
+        "nome": "Nihad Mujakić",
+        "pos": "DF",
+        "clube": "Gaziantep FK (TUR)",
+        "nota": "Sólido defensor central de boa recuperação rápida."
+      },
+      {
+        "nome": "Nikola Katić",
+        "pos": "DF",
+        "clube": "Schalke 04 (GER)",
+        "nota": "Imponente jogo aéreo e excelente zaga física na Alemanha."
+      },
+      {
+        "nome": "Tarik Muharemović",
+        "pos": "DF",
+        "clube": "US Sassuolo (ITA)",
+        "nota": "Jovem zagueiro técnico de excelente projeção."
+      },
+      {
+        "nome": "Stjepan Radeljić",
+        "pos": "DF",
+        "clube": "HNK Rijeka (CRO)",
+        "nota": "Bom posicionamento defensivo e firmeza aérea."
+      },
+      {
+        "nome": "Dennis Hadžikadunić",
+        "pos": "DF",
+        "clube": "UC Sampdoria (ITA)",
+        "nota": "Experiência tática nos combates do Calcio."
+      },
+      {
+        "nome": "Nidal Čelik",
+        "pos": "DF",
+        "clube": "Lens (FRA)",
+        "nota": "Jovem defensor de bom futuro na liga francesa."
+      },
+      {
+        "nome": "Amir Hadžiahmetović",
+        "pos": "MC",
+        "clube": "Hull City (ENG)",
+        "nota": "Distribuição de passes e combate no meio-campo inglês."
+      },
+      {
+        "nome": "Ivan Šunjić",
+        "pos": "MC",
+        "clube": "Pafos FC (CYP)",
+        "nota": "Volante marcador de imensa entrega defensiva."
+      },
+      {
+        "nome": "Ivan Bašić",
+        "pos": "MC",
+        "clube": "FC Astana (KAZ)",
+        "nota": "Meia dinâmico de boa batida e transições rápidas."
+      },
+      {
+        "nome": "Dženis Burnić",
+        "pos": "MC",
+        "clube": "Karlsruher SC (GER)",
+        "nota": "Fornece equilíbrio e combatividade no centro."
+      },
+      {
+        "nome": "Ermin Mahmić",
+        "pos": "MC",
+        "clube": "Slovan Liberec (CZE)",
+        "nota": "Meia de transição de excelente entrega tática."
+      },
+      {
+        "nome": "Benjamin Tahirović",
+        "pos": "MC",
+        "clube": "Bröndby IF (DEN)",
+        "nota": "Meia de boa qualidade de passe no futebol dinamarquês."
+      },
+      {
+        "nome": "Amar Memić",
+        "pos": "MC",
+        "clube": "Viktoria Plzeň (CZE)",
+        "nota": "Oferece dinâmica e intensidade pelo corredor lateral."
+      },
+      {
+        "nome": "Armin Gigović",
+        "pos": "MC",
+        "clube": "BSC Young Boys (SUI)",
+        "nota": "Vigor físico de combate no meio-campo suíço."
+      },
+      {
+        "nome": "Kerim Alajbegović",
+        "pos": "AT",
+        "clube": "RB Salzburg (AUT)",
+        "nota": "Jovem de altíssimo refino técnico na Áustria."
+      },
+      {
+        "nome": "Esmir Bajraktarević",
+        "pos": "AT",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Habilidade individual e excelente aceleração nas pontas."
+      },
+      {
+        "nome": "Ermedin Demirović",
+        "pos": "AT",
+        "clube": "VfB Stuttgart (GER)",
+        "nota": "Centroavante em grande fase goleadora de Bundesliga."
+      },
+      {
+        "nome": "Jovo Lukić",
+        "pos": "AT",
+        "clube": "Universitatea Cluj (ROU)",
+        "nota": "Atacante de área com bom poder de cabeceio."
+      },
+      {
+        "nome": "Samed Baždar",
+        "pos": "AT",
+        "clube": "Jagiellonia (POL)",
+        "nota": "Jovem atacante móvel de grande mobilidade ofensiva."
+      },
+      {
+        "nome": "Haris Tabaković",
+        "pos": "AT",
+        "clube": "B. Mönchengladbach (GER)",
+        "nota": "Presença física imponente na área de gol."
+      },
+      {
+        "nome": "Edin Džeko",
+        "pos": "AT",
+        "clube": "Schalke 04 (GER)",
+        "nota": "Lendário capitão e maior goleador da história bósnia."
+      }
+    ]
+  },
+  "SUI": {
+    "selecao": "Suíça",
+    "codigo": "SUI",
+    "jogadores": [
+      {
+        "nome": "Marvin Keller",
+        "pos": "GR",
+        "clube": "BSC Young Boys (SUI)",
+        "nota": "Jovem valor de meta segura na liga suíça."
+      },
+      {
+        "nome": "Gregor Kobel",
+        "pos": "GR",
+        "clube": "Borussia Dortmund (GER)",
+        "nota": "Um dos goleiros de elite do futebol mundial europeu."
+      },
+      {
+        "nome": "Yvon Mvogo",
+        "pos": "GR",
+        "clube": "Lorient (FRA)",
+        "nota": "Excelente experiência e agilidade como reserva imediato."
+      },
+      {
+        "nome": "Manuel Akanji",
+        "pos": "DF",
+        "clube": "Internazionale (ITA)",
+        "nota": "Líder absoluto da zaga central de elite mundial."
+      },
+      {
+        "nome": "Aurèle Amenda",
+        "pos": "DF",
+        "clube": "Eintracht Frankfurt (GER)",
+        "nota": "Zagueiro central muito físico e vigoroso na Bundesliga."
+      },
+      {
+        "nome": "Eray Cömert",
+        "pos": "DF",
+        "clube": "Valencia (ESP)",
+        "nota": "Experiência internacional de combate na La Liga."
+      },
+      {
+        "nome": "Nico Elvedi",
+        "pos": "DF",
+        "clube": "B. Mönchengladbach (GER)",
+        "nota": "Zagueiro de excelente qualidade de passe na saída."
+      },
+      {
+        "nome": "Luca Jaquez",
+        "pos": "DF",
+        "clube": "VfB Stuttgart (GER)",
+        "nota": "Jovem defensor técnico em franca evolução na Alemanha."
+      },
+      {
+        "nome": "Miro Muheim",
+        "pos": "DF",
+        "clube": "Hamburger SV (GER)",
+        "nota": "Lateral-esquerdo de excelente apoio e velocidade."
+      },
+      {
+        "nome": "Ricardo Rodríguez",
+        "pos": "DF",
+        "clube": "Real Betis (ESP)",
+        "nota": "Veterano líder de zaga de excelente bola parada."
+      },
+      {
+        "nome": "Silvan Widmer",
+        "pos": "DF",
+        "clube": "Mainz 05 (GER)",
+        "nota": "Lateral-direito marcador e de muita dedicação física."
+      },
+      {
+        "nome": "Michel Aebischer",
+        "pos": "MC",
+        "clube": "Pisa (ITA)",
+        "nota": "Meia dinâmico de excelente inteligência tática."
+      },
+      {
+        "nome": "Remo Freuler",
+        "pos": "MC",
+        "clube": "Bologna (ITA)",
+        "nota": "Pilar estratégico e motor tático do meio-campo suíço."
+      },
+      {
+        "nome": "Ardon Jashari",
+        "pos": "MC",
+        "clube": "AC Milan (ITA)",
+        "nota": "Jovem de extraordinária qualidade no passe longo no Calcio."
+      },
+      {
+        "nome": "Fabian Rieder",
+        "pos": "MC",
+        "clube": "Augsburg (GER)",
+        "nota": "Meia-ofensivo com excelente finalização de fora."
+      },
+      {
+        "nome": "Djibril Sow",
+        "pos": "MC",
+        "clube": "Sevilla (ESP)",
+        "nota": "Dinâmica e qualidade de transição no meio espanhol."
+      },
+      {
+        "nome": "Granit Xhaka",
+        "pos": "MC",
+        "clube": "Sunderland (ENG)",
+        "nota": "Capitão, líder espiritual e maestro do meio-campo."
+      },
+      {
+        "nome": "Denis Zakaria",
+        "pos": "MC",
+        "clube": "Monaco (FRA)",
+        "nota": "Volante de passadas largas e extrema força física."
+      },
+      {
+        "nome": "Christian Fassnacht",
+        "pos": "MC",
+        "clube": "BSC Young Boys (SUI)",
+        "nota": "Meia-atacante com boa chegada de área e gols."
+      },
+      {
+        "nome": "Zeki Amdouni",
+        "pos": "AT",
+        "clube": "Burnley (ENG)",
+        "nota": "Atacante técnico de excelente velocidade vertical."
+      },
+      {
+        "nome": "Breel Embolo",
+        "pos": "AT",
+        "clube": "Stade Rennais (FRA)",
+        "nota": "Referência de área muito forte fisicamente e gols."
+      },
+      {
+        "nome": "Dan Ndoye",
+        "pos": "AT",
+        "clube": "Nottingham Forest (ENG)",
+        "nota": "Extremo veloz de boa qualidade técnica e drible."
+      },
+      {
+        "nome": "Noah Okafor",
+        "pos": "AT",
+        "clube": "Leeds United (ENG)",
+        "nota": "Explosão e arrancadas agressivas no contra-ataque."
+      },
+      {
+        "nome": "Rubén Vargas",
+        "pos": "AT",
+        "clube": "Sevilla (ESP)",
+        "nota": "Ponta canhoto incisivo de bom drible e passes."
+      },
+      {
+        "nome": "Cedric Itten",
+        "pos": "AT",
+        "clube": "Fortuna Düsseldorf (GER)",
+        "nota": "Centroavante clássico de cabeceio de área letal."
+      },
+      {
+        "nome": "Johan Manzambi",
+        "pos": "AT",
+        "clube": "SC Freiburg (GER)",
+        "nota": "Jovem promessa ofensiva na Bundesliga alemã."
+      }
+    ]
+  },
+  "BRA": {
+    "selecao": "Brasil",
+    "codigo": "BRA",
+    "jogadores": [
+      {
+        "nome": "Alisson",
+        "pos": "GR",
+        "clube": "Liverpool (ENG)",
+        "nota": "Goleiro titular consolidado de elite mundial."
+      },
+      {
+        "nome": "Ederson",
+        "pos": "GR",
+        "clube": "Fenerbahçe (TUR)",
+        "nota": "Arqueiro seguro de excelente saída de bola longa."
+      },
+      {
+        "nome": "Weverton",
+        "pos": "GR",
+        "clube": "Grêmio (BRA)",
+        "nota": "Experiência de metas de grande importância de vestiário."
+      },
+      {
+        "nome": "Alex Sandro",
+        "pos": "DF",
+        "clube": "Flamengo (BRA)",
+        "nota": "Fornece experiência técnica e cobertura na lateral."
+      },
+      {
+        "nome": "Bremer",
+        "pos": "DF",
+        "clube": "Juventus (ITA)",
+        "nota": "Zagueiro de excelente força de combate no futebol italiano."
+      },
+      {
+        "nome": "Danilo",
+        "pos": "DF",
+        "clube": "Flamengo (BRA)",
+        "nota": "Líder defensivo de excelente regularidade de zaga."
+      },
+      {
+        "nome": "Douglas Santos",
+        "pos": "DF",
+        "clube": "Zenit (RUS)",
+        "nota": "Lateral defensivo de bom controle de passe."
+      },
+      {
+        "nome": "Gabriel Magalhães",
+        "pos": "DF",
+        "clube": "Arsenal (ENG)",
+        "nota": "Pilar central da defesa inglesa de excelente jogo aéreo."
+      },
+      {
+        "nome": "Ibañez",
+        "pos": "DF",
+        "clube": "Al-Ahli (KSA)",
+        "nota": "Zagueiro veloz de excelente recuperação física."
+      },
+      {
+        "nome": "Léo Pereira",
+        "pos": "DF",
+        "clube": "Flamengo (BRA)",
+        "nota": "Defensor técnico com boa saída curta de posse."
+      },
+      {
+        "nome": "Marquinhos",
+        "pos": "DF",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Líder espiritual e pilar absoluto de posicionamento."
+      },
+      {
+        "nome": "Bruno Guimarães",
+        "pos": "MC",
+        "clube": "Newcastle (ENG)",
+        "nota": "Cérebro técnico de distribuição de bola da equipe."
+      },
+      {
+        "nome": "Casemiro",
+        "pos": "MC",
+        "clube": "Manchester United (ENG)",
+        "nota": "Experiência e marcação firme na intermediária de combate."
+      },
+      {
+        "nome": "Danilo",
+        "pos": "MC",
+        "clube": "Botafogo (BRA)",
+        "nota": "Jovem revelação de imensa marcação física no Brasil."
+      },
+      {
+        "nome": "Fabinho",
+        "pos": "MC",
+        "clube": "Al-Ittihad (KSA)",
+        "nota": "Volante de prevenção de ótima cobertura defensiva."
+      },
+      {
+        "nome": "Lucas Paquetá",
+        "pos": "MC",
+        "clube": "Flamengo (BRA)",
+        "nota": "Meia criativo dinâmico que pode jogar recuado ou avançado."
+      },
+      {
+        "nome": "Éderson",
+        "pos": "MC",
+        "clube": "Atalanta (ITA)",
+        "nota": "Convocado às pressas para substituir o lesionado Wesley."
+      },
+      {
+        "nome": "Endrick",
+        "pos": "AT",
+        "clube": "Lyon (BRA)",
+        "nota": "Jovem estrela velocíssima e de ótimo arremate."
+      },
+      {
+        "nome": "Gabriel Martinelli",
+        "pos": "AT",
+        "clube": "Arsenal (ENG)",
+        "nota": "Ponta espetacular de drible vertical de alta velocidade."
+      },
+      {
+        "nome": "Igor Thiago",
+        "pos": "AT",
+        "clube": "Brentford (ENG)",
+        "nota": "Fornece presença física de pivô clássico de área."
+      },
+      {
+        "nome": "Luiz Henrique",
+        "pos": "AT",
+        "clube": "Zenit (RUS)",
+        "nota": "Ponta físico de arrancadas potentes e drible largo."
+      },
+      {
+        "nome": "Matheus Cunha",
+        "pos": "AT",
+        "clube": "Manchester United (ENG)",
+        "nota": "Mobilidade ofensiva de forte pressão sem bola."
+      },
+      {
+        "nome": "Neymar",
+        "pos": "AT",
+        "clube": "Santos (BRA)",
+        "nota": "Astro principal em sua quarta Copa gerenciando dores na panturrilha."
+      },
+      {
+        "nome": "Raphinha",
+        "pos": "AT",
+        "clube": "Barcelona (ESP)",
+        "nota": "Excelente fase técnica de drible e cruzamentos precisos."
+      },
+      {
+        "nome": "Rayan",
+        "pos": "AT",
+        "clube": "Bournemouth (ENG)",
+        "nota": "Jovem promessa física atuando na Premier League."
+      },
+      {
+        "nome": "Vinicius Junior",
+        "pos": "AT",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Principal atacante de drible devastador do futebol mundial."
+      }
+    ]
+  },
+  "MAR": {
+    "selecao": "Marrocos",
+    "codigo": "MAR",
+    "jogadores": [
+      {
+        "nome": "Yassine Bounou",
+        "pos": "GR",
+        "clube": "Al-Hilal (KSA)",
+        "nota": "Símbolo e paredão sob as traves nos pênaltis."
+      },
+      {
+        "nome": "Munir",
+        "pos": "GR",
+        "clube": "RS Berkane (MAR)",
+        "nota": "Experiente arqueiro reserva de grande tranquilidade."
+      },
+      {
+        "nome": "Ahmed Reda Tagnaouti",
+        "pos": "GR",
+        "clube": "AS FAR (MAR)",
+        "nota": "Sólido goleiro do futebol marroquino local."
+      },
+      {
+        "nome": "Achraf Hakimi",
+        "pos": "DF",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Lateral-direito ofensivo de elite técnica mundial."
+      },
+      {
+        "nome": "Nayef Aguerd",
+        "pos": "DF",
+        "clube": "Marseille (FRA)",
+        "nota": "Zagueiro central técnico de excelente cabeceio."
+      },
+      {
+        "nome": "Noussair Mazraoui",
+        "pos": "DF",
+        "clube": "Manchester United (ENG)",
+        "nota": "Lateral de grande polivalência e refino tático."
+      },
+      {
+        "nome": "Youssef Belammari",
+        "pos": "DF",
+        "clube": "Al Ahly (EGY)",
+        "nota": "Consistente defensor atuando no Egito."
+      },
+      {
+        "nome": "Anass Salah-Eddine",
+        "pos": "DF",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Jovem lateral-esquerdo de refinado passe e apoio."
+      },
+      {
+        "nome": "Chadi Riad",
+        "pos": "DF",
+        "clube": "Crystal Palace (ENG)",
+        "nota": "Defensor de ótima estatura e firmeza de área."
+      },
+      {
+        "nome": "Issa Diop",
+        "pos": "DF",
+        "clube": "Fulham (ENG)",
+        "nota": "Experiência de zaga física no cenário inglês."
+      },
+      {
+        "nome": "Zakaria El Ouahdi",
+        "pos": "DF",
+        "clube": "Genk (BEL)",
+        "nota": "Lateral dinâmico de muita velocidade e desarmes."
+      },
+      {
+        "nome": "Redouane Halhal",
+        "pos": "DF",
+        "clube": "Mechelen (BEL)",
+        "nota": "Zagueiro de ótima impulsão no futebol belga."
+      },
+      {
+        "nome": "Sofyan Amrabat",
+        "pos": "MC",
+        "clube": "Real Betis (ESP)",
+        "nota": "Pilar de sustentação defensiva e raça no meio-campo."
+      },
+      {
+        "nome": "Azzedine Ounahi",
+        "pos": "MC",
+        "clube": "Girona (ESP)",
+        "nota": "Excelente controle de bola e drible curto entrelinhas."
+      },
+      {
+        "nome": "Bilal El Khannouss",
+        "pos": "MC",
+        "clube": "Leicester (ENG)",
+        "nota": "Meia-ofensivo ágil de passes refinados de área."
+      },
+      {
+        "nome": "Neil El Aynaoui",
+        "pos": "MC",
+        "clube": "Roma (ITA)",
+        "nota": "Volante dinâmico adaptando-se à marcação da Itália."
+      },
+      {
+        "nome": "Samir El Mourabet",
+        "pos": "MC",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Jovem de muito vigor de combate intermediário."
+      },
+      {
+        "nome": "Ayyoub Bouaddi",
+        "pos": "MC",
+        "clube": "Lille (FRA)",
+        "nota": "Promessa de excelente distribuição tática na França."
+      },
+      {
+        "nome": "Ayoub El Kaabi",
+        "pos": "AT",
+        "clube": "Olympiacos (GRE)",
+        "nota": "Centroavante técnico de excelente cabeceio e faro."
+      },
+      {
+        "nome": "Abde Ezzalzouli",
+        "pos": "AT",
+        "clube": "Real Betis (ESP)",
+        "nota": "Extremo habilidoso de drible vertical agressivo."
+      },
+      {
+        "nome": "Soufiane Rahimi",
+        "pos": "AT",
+        "clube": "Al Ain (UAE)",
+        "nota": "Atacante rápido que vive excelente momento técnico."
+      },
+      {
+        "nome": "Brahim Díaz",
+        "pos": "AT",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Grande estrela criativa do ataque de drible curto."
+      },
+      {
+        "nome": "Chemsdine Talbi",
+        "pos": "AT",
+        "clube": "Sunderland (ENG)",
+        "nota": "Velocidade e imprevisibilidade de corredor lateral."
+      },
+      {
+        "nome": "Gessime Yassine",
+        "pos": "AT",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Oferece dinâmica técnica pelos lados do ataque."
+      },
+      {
+        "nome": "Ayoube Amaimouni",
+        "pos": "AT",
+        "clube": "Eintracht Frankfurt (GER)",
+        "nota": "Atacante dinâmico e de excelente força física."
+      }
+    ]
+  },
+  "HAI": {
+    "selecao": "Haiti",
+    "codigo": "HAI",
+    "jogadores": [
+      {
+        "nome": "Johnny Placide",
+        "pos": "GR",
+        "clube": "Bastia (FRA)",
+        "nota": "Capitão histórico e alma sob as traves."
+      },
+      {
+        "nome": "Alexandre Pierre",
+        "pos": "GR",
+        "clube": "Sochaux (FRA)",
+        "nota": "Opção segura e de boa estatura de meta."
+      },
+      {
+        "nome": "Josué Duverger",
+        "pos": "GR",
+        "clube": "Cosmos Koblenz (GER)",
+        "nota": ""
+      },
+      {
+        "nome": "Ricardo Adé",
+        "pos": "DF",
+        "clube": "LDU Quito (ECU)",
+        "nota": "Defensor de imensa força física e impulsão em altitude."
+      },
+      {
+        "nome": "Carlens Arcus",
+        "pos": "DF",
+        "clube": "Angers (FRA)",
+        "nota": "Lateral experiente de grande vigor físico de marcação."
+      },
+      {
+        "nome": "Martin Experience",
+        "pos": "DF",
+        "clube": "Nancy (FRA)",
+        "nota": "Sólido lateral de corredor na liga francesa."
+      },
+      {
+        "nome": "Jean-Kevin Duverne",
+        "pos": "DF",
+        "clube": "Gent (BEL)",
+        "nota": "Zagueiro central de elite na primeira divisão belga."
+      },
+      {
+        "nome": "Duke Lacroix",
+        "pos": "DF",
+        "clube": "Colorado Springs (USA)",
+        "nota": "Força e velocidade nas coberturas defensivas rápidas."
+      },
+      {
+        "nome": "Wilguens Paugain",
+        "pos": "DF",
+        "clube": "Zulte Waregem (BEL)",
+        "nota": "Defensor firme de boa marcação aérea."
+      },
+      {
+        "nome": "Hannes Delcroix",
+        "pos": "DF",
+        "clube": "Lugano (SUI)",
+        "nota": "Excelente escola tática de zaga no futebol suíço."
+      },
+      {
+        "nome": "Keeto Thermoncy",
+        "pos": "DF",
+        "clube": "Young Boys (SUI)",
+        "nota": "Zagueiro de ótima estatura física e combate."
+      },
+      {
+        "nome": "Leverton Pierre",
+        "pos": "MC",
+        "clube": "Vizela (POR)",
+        "nota": "Meia dinâmico de muita marcação na intermediária."
+      },
+      {
+        "nome": "Danley Jean Jacques",
+        "pos": "MC",
+        "clube": "Philadelphia Union (USA)",
+        "nota": "Volante técnico que atua com destaque na MLS."
+      },
+      {
+        "nome": "Carl Sainté",
+        "pos": "MC",
+        "clube": "El Paso Locomotive (USA)",
+        "nota": "Combate físico intenso na linha de marcação."
+      },
+      {
+        "nome": "Jean-Ricner Bellegarde",
+        "pos": "MC",
+        "clube": "Wolves (ENG)",
+        "nota": "Meia criativo e principal construtor tático do time."
+      },
+      {
+        "nome": "Woodensky Pierre",
+        "pos": "MC",
+        "clube": "Violette (HAI)",
+        "nota": "Habilidoso jogador do futebol doméstico haitiano."
+      },
+      {
+        "nome": "Dominique Simon",
+        "pos": "MC",
+        "clube": "Tatran Presov (SVK)",
+        "nota": "Meia marcador de boa solidez de passes defensivos."
+      },
+      {
+        "nome": "Duckens Nazon",
+        "pos": "AT",
+        "clube": "Esteghlal (IRN)",
+        "nota": "Centroavante de grande força e finalização de área."
+      },
+      {
+        "nome": "Frantzy Perrot",
+        "pos": "AT",
+        "clube": "Çaykur Rizespor (TUR)",
+        "nota": "Goleador físico na primeira divisão do futebol turco."
+      },
+      {
+        "nome": "Derrick Etienne Jr.",
+        "pos": "AT",
+        "clube": "Toronto FC (CAN)",
+        "nota": "Extremo habilidoso de drible e cruzamentos."
+      },
+      {
+        "nome": "Louicius Deedson",
+        "pos": "AT",
+        "clube": "FC Dallas (USA)",
+        "nota": "Velocidade e quebra de linhas defensivas."
+      },
+      {
+        "nome": "Ruben Providence",
+        "pos": "AT",
+        "clube": "Almere City (NED)",
+        "nota": "Ponta veloz de bom um contra um no futebol holandês."
+      },
+      {
+        "nome": "Josué Casimir",
+        "pos": "AT",
+        "clube": "Auxerre (FRA)",
+        "nota": "Ponta de excelente velocidade vertical de ataque."
+      },
+      {
+        "nome": "Yassin Fortuné",
+        "pos": "AT",
+        "clube": "Vizela (POR)",
+        "nota": "Atacante móvel com excelente senso de área em Portugal."
+      },
+      {
+        "nome": "Wilson Isidor",
+        "pos": "AT",
+        "clube": "Sunderland (ENG)",
+        "nota": "Atacante dinâmico e veloz atuando na Inglaterra."
+      },
+      {
+        "nome": "Lenny Joseph",
+        "pos": "AT",
+        "clube": "Ferencváros (HUN)",
+        "nota": "Ponta agressivo de grande fôlego nos minutos finais."
+      }
+    ]
+  },
+  "SCO": {
+    "selecao": "Escócia",
+    "codigo": "SCO",
+    "jogadores": [
+      {
+        "nome": "Craig Gordon",
+        "pos": "GR",
+        "clube": "Hearts (SCO)",
+        "nota": "Lendário arqueiro de enorme bagagem sob as traves."
+      },
+      {
+        "nome": "Angus Gunn",
+        "pos": "GR",
+        "clube": "Nottingham Forest (ENG)",
+        "nota": "Titular frequente de excelente impulsão sob pressão."
+      },
+      {
+        "nome": "Liam Kelly",
+        "pos": "GR",
+        "clube": "Rangers (SCO)",
+        "nota": "Goleiro reserva de meta muito seguro e regular."
+      },
+      {
+        "nome": "Grant Hanley",
+        "pos": "DF",
+        "clube": "Hibernian (SCO)",
+        "nota": "Experiente zagueiro central de forte presença de área."
+      },
+      {
+        "nome": "Jack Hendry",
+        "pos": "DF",
+        "clube": "Al-Ettifaq (KSA)",
+        "nota": "Sólido zagueiro central com boa saída tática."
+      },
+      {
+        "nome": "Aaron Hickey",
+        "pos": "DF",
+        "clube": "Brentford (ENG)",
+        "nota": "Lateral de enorme polivalência, atuando em ambos os lados."
+      },
+      {
+        "nome": "Dom Hyam",
+        "pos": "DF",
+        "clube": "Wrexham (WAL)",
+        "nota": "Defensor de ótima estatura e firmeza em combates aéreos."
+      },
+      {
+        "nome": "Scott McKenna",
+        "pos": "DF",
+        "clube": "Dinamo Zagreb (CRO)",
+        "nota": "Vigor físico de zaga e desarmes em competições europeias."
+      },
+      {
+        "nome": "Nathan Patterson",
+        "pos": "DF",
+        "clube": "Everton (ENG)",
+        "nota": "Lateral-direito rápido de boa chegada de fundo de área."
+      },
+      {
+        "nome": "Anthony Ralston",
+        "pos": "DF",
+        "clube": "Celtic (SCO)",
+        "nota": "Lateral de boa pegada defensiva e regularidade."
+      },
+      {
+        "nome": "Andy Robertson",
+        "pos": "DF",
+        "clube": "Liverpool (ENG)",
+        "nota": "Capitão incontestável e um dos alas mais dinâmicos."
+      },
+      {
+        "nome": "John Souttar",
+        "pos": "DF",
+        "clube": "Rangers (SCO)",
+        "nota": "Defensor de excelente técnica de passes verticais curtos."
+      },
+      {
+        "nome": "Kieran Tierney",
+        "pos": "DF",
+        "clube": "Celtic (SCO)",
+        "nota": "Pilar defensivo de extraordinária marcação rápida."
+      },
+      {
+        "nome": "Ryan Christie",
+        "pos": "MC",
+        "clube": "Bournemouth (ENG)",
+        "nota": "Meia de transição rápida e excelente finalização."
+      },
+      {
+        "nome": "Findlay Curtis",
+        "pos": "MC",
+        "clube": "Rangers (SCO)",
+        "nota": "Jovem de enorme promessa técnica e drible."
+      },
+      {
+        "nome": "Lewis Ferguson",
+        "pos": "MC",
+        "clube": "Bologna (ITA)",
+        "nota": "Cérebro tático com excelente leitura no futebol italiano."
+      },
+      {
+        "nome": "Ben Gannon-Doak",
+        "pos": "MC",
+        "clube": "Bournemouth (ENG)",
+        "nota": "Oferece dinâmica de apoio e transição rápida ao meio."
+      },
+      {
+        "nome": "John McGinn",
+        "pos": "MC",
+        "clube": "Aston Villa (ENG)",
+        "nota": "Motor da equipe de extrema raça e poder ofensivo."
+      },
+      {
+        "nome": "Kenny McLean",
+        "pos": "MC",
+        "clube": "Norwich City (ENG)",
+        "nota": "Meia experiente com boa consistência tática."
+      },
+      {
+        "nome": "Scott McTominay",
+        "pos": "MC",
+        "clube": "Napoli (ITA)",
+        "nota": "Meia físico de forte chegada na área e gols cruciais."
+      },
+      {
+        "nome": "Tyler Fletcher",
+        "pos": "MC",
+        "clube": "Manchester United (ENG)",
+        "nota": "Promessa acionada emergencialmente para a vaga de Gilmour."
+      },
+      {
+        "nome": "Che Adams",
+        "pos": "AT",
+        "clube": "Torino (ITA)",
+        "nota": "Atacante de excelente mobilidade e gols importantes."
+      },
+      {
+        "nome": "Lyndon Dykes",
+        "pos": "AT",
+        "clube": "Charlton Athletic (ENG)",
+        "nota": "Centroavante de área de grande estatura física."
+      },
+      {
+        "nome": "George Hirst",
+        "pos": "AT",
+        "clube": "Ipswich Town (ENG)",
+        "nota": "Centroavante físico de bom cabeceio de área."
+      },
+      {
+        "nome": "Lawrence Shankland",
+        "pos": "AT",
+        "clube": "Hearts (SCO)",
+        "nota": "Atacante de excelente drible e finalização curta."
+      },
+      {
+        "nome": "Ross Stewart",
+        "pos": "AT",
+        "clube": "Southampton (ENG)",
+        "nota": "Rapidez e agressividade para saídas verticais rápidas."
+      }
+    ]
+  },
+  "USA": {
+    "selecao": "Estados Unidos",
+    "codigo": "USA",
+    "jogadores": [
+      {
+        "nome": "Chris Brady",
+        "pos": "GR",
+        "clube": "Chicago Fire (USA)",
+        "nota": "Jovem goleiro seguro de meta de alta projeção."
+      },
+      {
+        "nome": "Matt Freese",
+        "pos": "GR",
+        "clube": "New York City FC (USA)",
+        "nota": "Opção ágil de excelente tempo de reação."
+      },
+      {
+        "nome": "Matt Turner",
+        "pos": "GR",
+        "clube": "New England (USA)",
+        "nota": "Titular experiente com grande frieza sob pressão."
+      },
+      {
+        "nome": "Max Arfsten",
+        "pos": "DF",
+        "clube": "Columbus Crew (USA)",
+        "nota": "Defensor polivalente com bom posicionamento e fôlego."
+      },
+      {
+        "nome": "Sergiño Dest",
+        "pos": "DF",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Lateral de grande recurso técnico e drible curto."
+      },
+      {
+        "nome": "Alex Freeman",
+        "pos": "DF",
+        "clube": "Villarreal (ESP)",
+        "nota": "Lateral veloz com boa adaptação ao futebol espanhol."
+      },
+      {
+        "nome": "Mark McKenzie",
+        "pos": "DF",
+        "clube": "Toulouse (FRA)",
+        "nota": "Zagueiro central de boa recuperação física."
+      },
+      {
+        "nome": "Tim Ream",
+        "pos": "DF",
+        "clube": "Charlotte FC (USA)",
+        "nota": "Veterano líder e esteio intelectual da zaga americana."
+      },
+      {
+        "nome": "Chris Richards",
+        "pos": "DF",
+        "clube": "Crystal Palace (ENG)",
+        "nota": "Zagueiro central de excelente antecipação aérea."
+      },
+      {
+        "nome": "Antonee Robinson",
+        "pos": "DF",
+        "clube": "Fulham (ENG)",
+        "nota": "Lateral de extrema velocidade e intensidade."
+      },
+      {
+        "nome": "Miles Robinson",
+        "pos": "DF",
+        "clube": "FC Cincinnati (USA)",
+        "nota": "Excelente imposição física nos desarmes aéreos."
+      },
+      {
+        "nome": "Joe Scally",
+        "pos": "DF",
+        "clube": "B. Mönchengladbach (GER)",
+        "nota": "Lateral confiável de grande consistência de marcação."
+      },
+      {
+        "nome": "Auston Trusty",
+        "pos": "DF",
+        "clube": "Celtic (SCO)",
+        "nota": "Defensor de ótima estatura e firmeza física."
+      },
+      {
+        "nome": "Tyler Adams",
+        "pos": "MC",
+        "clube": "Bournemouth (ENG)",
+        "nota": "Capitão tático silencioso e volante recuperador de bolas."
+      },
+      {
+        "nome": "Sebastian Berhalter",
+        "pos": "MC",
+        "clube": "Vancouver Whitecaps (CAN)",
+        "nota": "Meia dinâmico de excelente distribuição de jogo."
+      },
+      {
+        "nome": "Weston McKennie",
+        "pos": "MC",
+        "clube": "Juventus (ITA)",
+        "nota": "Motor do meio de campo de excelente força de área."
+      },
+      {
+        "nome": "Cristian Roldan",
+        "pos": "MC",
+        "clube": "Seattle Sounders (USA)",
+        "nota": "Volante experiente de muito combate e fôlego."
+      },
+      {
+        "nome": "Gio Reyna",
+        "pos": "MC",
+        "clube": "B. Mönchengladbach (GER)",
+        "nota": "Talentoso meia-armador de excelente passe entrelinhas."
+      },
+      {
+        "nome": "Folarin Balogun",
+        "pos": "AT",
+        "clube": "AS Monaco (FRA)",
+        "nota": "Atacante móvel e finalizador rápido de área."
+      },
+      {
+        "nome": "Ricardo Pepi",
+        "pos": "AT",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": ""
+      },
+      {
+        "nome": "Haji Wright",
+        "pos": "AT",
+        "clube": "Coventry City (ENG)",
+        "nota": "Velocidade e excelente envergadura de flanco ofensivo."
+      },
+      {
+        "nome": "Brenden Aaronson",
+        "pos": "AT",
+        "clube": "Leeds United (ENG)",
+        "nota": "Muita mobilidade e intensa pressão defensiva sem bola."
+      },
+      {
+        "nome": "Christian Pulisic",
+        "pos": "AT",
+        "clube": "Milan (ITA)",
+        "nota": "Estrela técnica máxima e comandante criativo do time."
+      },
+      {
+        "nome": "Malik Tillman",
+        "pos": "AT",
+        "clube": "Bayer Leverkusen (GER)",
+        "nota": "Meia-ofensivo versátil de excelente finta curta."
+      },
+      {
+        "nome": "Tim Weah",
+        "pos": "AT",
+        "clube": "Marseille (FRA)",
+        "nota": "Arrancadas explosivas fundamentais para saídas rápidas."
+      },
+      {
+        "nome": "Alejandro Zendejas",
+        "pos": "AT",
+        "clube": "Club América (MEX)",
+        "nota": ""
+      }
+    ]
+  },
+  "PAR": {
+    "selecao": "Paraguai",
+    "codigo": "PAR",
+    "jogadores": [
+      {
+        "nome": "Gatito Fernández",
+        "pos": "GR",
+        "clube": "Cerro Porteño (PAR)",
+        "nota": "Veterano arqueiro seguro de liderança incontestável."
+      },
+      {
+        "nome": "Orlando Gill",
+        "pos": "GR",
+        "clube": "San Lorenzo (ARG)",
+        "nota": "Sólido goleiro reserva de meta de boa agilidade."
+      },
+      {
+        "nome": "Gastón Olveira",
+        "pos": "GR",
+        "clube": "Olimpia (PAR)",
+        "nota": "Excelente momento técnico e reflexos apurados."
+      },
+      {
+        "nome": "Gustavo Velázquez",
+        "pos": "DF",
+        "clube": "Cerro Porteño (PAR)",
+        "nota": "Defensor marcador de extrema pegada física."
+      },
+      {
+        "nome": "Omar Alderete",
+        "pos": "DF",
+        "clube": "Sunderland (ENG)",
+        "nota": "Defensor imponente fisicamente com forte jogo na Inglaterra."
+      },
+      {
+        "nome": "Juan José Cáceres",
+        "pos": "DF",
+        "clube": "Dynamo Moscow (RUS)",
+        "nota": "Lateral-direito com foco em marcação tática rígida."
+      },
+      {
+        "nome": "Fabián Balbuena",
+        "pos": "DF",
+        "clube": "Grêmio (BRA)",
+        "nota": "Experiente zagueiro central de forte presença de área."
+      },
+      {
+        "nome": "Júnior Alonso",
+        "pos": "DF",
+        "clube": "Atlético Mineiro (BRA)",
+        "nota": "Oferece consistência e boa saída pelo corredor esquerdo."
+      },
+      {
+        "nome": "José Canale",
+        "pos": "DF",
+        "clube": "Lanús (ARG)",
+        "nota": "Defensor de ótima estatura e firmeza aérea."
+      },
+      {
+        "nome": "Gustavo Gómez",
+        "pos": "DF",
+        "clube": "Palmeiras (BRA)",
+        "nota": "Capitão incontestável e pilar espiritual do miolo de zaga."
+      },
+      {
+        "nome": "Alexandro Maidana",
+        "pos": "DF",
+        "clube": "Talleres (ARG)",
+        "nota": "Jovem defensor técnico de grande futuro tático."
+      },
+      {
+        "nome": "Ramón Sosa",
+        "pos": "MC",
+        "clube": "Palmeiras (BRA)",
+        "nota": "Velocidade absurda e capacidade de quebrar linhas em drible."
+      },
+      {
+        "nome": "Diego Gómez",
+        "pos": "MC",
+        "clube": "Brighton (ENG)",
+        "nota": "Volante técnico de excelente chegada de área na Premier."
+      },
+      {
+        "nome": "Miguel Almirón",
+        "pos": "MC",
+        "clube": "Atlanta United (USA)",
+        "nota": "Velocidade de arranque e transição rápida entrelinhas."
+      },
+      {
+        "nome": "Maurício",
+        "pos": "MC",
+        "clube": "Palmeiras (BRA)",
+        "nota": "Meia canhoto de passe requintado e drible curto."
+      },
+      {
+        "nome": "Andrés Cubas",
+        "pos": "MC",
+        "clube": "Vancouver Whitecaps (CAN)",
+        "nota": "Volante recuperador incansável de imensa marcação."
+      },
+      {
+        "nome": "Damián Bobadilla",
+        "pos": "MC",
+        "clube": "São Paulo (BRA)",
+        "nota": "Meia dinâmico de excelente chegada defensiva de área."
+      },
+      {
+        "nome": "Braian Ojeda",
+        "pos": "MC",
+        "clube": "Orlando City (USA)",
+        "nota": "Organização de ritmo e controle tático no centro."
+      },
+      {
+        "nome": "Matías Galarza",
+        "pos": "MC",
+        "clube": "Atlanta United (USA)",
+        "nota": "Volante de forte entrega sem bola e desarmes."
+      },
+      {
+        "nome": "Gustavo Caballero",
+        "pos": "MC",
+        "clube": "Portsmouth (ENG)",
+        "nota": "Oferece drible e profundidade de corredor lateral."
+      },
+      {
+        "nome": "Antonio Sanabria",
+        "pos": "AT",
+        "clube": "Cremonese (ITA)",
+        "nota": "Atacante experiente com grande faro e finalização."
+      },
+      {
+        "nome": "Kaku",
+        "pos": "AT",
+        "clube": "Al-Ain (UAE)",
+        "nota": "Cérebro criativo com excelente passe final de gol."
+      },
+      {
+        "nome": "Alex Arce",
+        "pos": "AT",
+        "clube": "I. Rivadavia (ARG)",
+        "nota": "Centroavante em grande momento goleador na área."
+      },
+      {
+        "nome": "Julio César Enciso",
+        "pos": "AT",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Extrema habilidade e principal esperança criativa ofensiva."
+      },
+      {
+        "nome": "Isidro Pitta",
+        "pos": "AT",
+        "clube": "Red Bull Bragantino (BRA)",
+        "nota": "Atacante físico de pivô de área e retenção de zaga."
+      }
+    ]
+  },
+  "AUS": {
+    "selecao": "Austrália",
+    "codigo": "AUS",
+    "jogadores": [
+      {
+        "nome": "Mathew Ryan",
+        "pos": "GR",
+        "clube": "Levante (ESP)",
+        "nota": "Capitão experiente de meta de liderança incontestável."
+      },
+      {
+        "nome": "Paul Izzo",
+        "pos": "GR",
+        "clube": "Randers (DEN)",
+        "nota": "Arqueiro de excelente impulsão sob pressão aérea."
+      },
+      {
+        "nome": "Beach",
+        "pos": "GR",
+        "clube": "Melbourne City (AUS)",
+        "nota": "Jovem de bom porte físico e reflexos locais."
+      },
+      {
+        "nome": "Aziz Behich",
+        "pos": "DF",
+        "clube": "Melbourne City (AUS)",
+        "nota": "Veterano de muita marcação física pelo corredor esquerdo."
+      },
+      {
+        "nome": "Jordan Bos",
+        "pos": "DF",
+        "clube": "Feyenoord (NED)",
+        "nota": "Lateral moderno de excelente drible e apoio na Holanda."
+      },
+      {
+        "nome": "Burgess",
+        "pos": "DF",
+        "clube": "Swansea City (WAL)",
+        "nota": "Defensor de ótima estatura e firmeza aérea de área."
+      },
+      {
+        "nome": "Alessandro Circati",
+        "pos": "DF",
+        "clube": "Parma (ITA)",
+        "nota": "Jovem defensor central técnico com boa leitura no Calcio."
+      },
+      {
+        "nome": "Milos Degenek",
+        "pos": "DF",
+        "clube": "APOEL (CYP)",
+        "nota": "Sólido e polivalente defensor de cobertura."
+      },
+      {
+        "nome": "Jason Geria",
+        "pos": "DF",
+        "clube": "Albirex Niigata (JPN)",
+        "nota": "Defensor de ótima marcação rasteira no Japão."
+      },
+      {
+        "nome": "Herrington",
+        "pos": "DF",
+        "clube": "Colorado Rapids (USA)",
+        "nota": "Lateral físico de boa recomposição defensiva."
+      },
+      {
+        "nome": "Italiano",
+        "pos": "DF",
+        "clube": "Grazer (AUT)",
+        "nota": "Jovem de boa estatura física na zaga austríaca."
+      },
+      {
+        "nome": "Harry Souttar",
+        "pos": "DF",
+        "clube": "Leicester City (ENG)",
+        "nota": "Pilar central da zaga de 2 metros imbatível no jogo aéreo."
+      },
+      {
+        "nome": "Trewin",
+        "pos": "DF",
+        "clube": "New York City (USA)",
+        "nota": "Defensor de ótima leitura e cobertura rápida."
+      },
+      {
+        "nome": "Cam Devlin",
+        "pos": "MC",
+        "clube": "Heart of Midlothian (SCO)",
+        "nota": "Volante combativo de muita pegada no meio-campo escocês."
+      },
+      {
+        "nome": "Ajdin Hrustic",
+        "pos": "MC",
+        "clube": "Heracles Almelo (NED)",
+        "nota": "Técnica refinada e ótima batida na bola de fora."
+      },
+      {
+        "nome": "Jackson Irvine",
+        "pos": "MC",
+        "clube": "St. Pauli (GER)",
+        "nota": "Líder tático e motor dinâmico do meio-campo alemão."
+      },
+      {
+        "nome": "Connor Metcalfe",
+        "pos": "MC",
+        "clube": "St. Pauli (GER)",
+        "nota": "Meia dinâmico de forte chegada ofensiva de área."
+      },
+      {
+        "nome": "Okon-Englster",
+        "pos": "MC",
+        "clube": "Sydney FC (AUS)",
+        "nota": "Jovem revelação de excelente refino tático."
+      },
+      {
+        "nome": "O'Neill",
+        "pos": "MC",
+        "clube": "New York City (USA)",
+        "nota": "Marcação intermediária firme e passe de transição."
+      },
+      {
+        "nome": "Nestory Irankunda",
+        "pos": "AT",
+        "clube": "Watford (ENG)",
+        "nota": "Jovem de aceleração e força de arrancada avassaladoras."
+      },
+      {
+        "nome": "Mathew Leckie",
+        "pos": "AT",
+        "clube": "Melbourne City (AUS)",
+        "nota": "Veterano ponta de extrema utilidade tática."
+      },
+      {
+        "nome": "Awer Mabil",
+        "pos": "AT",
+        "clube": "Castellón (ESP)",
+        "nota": "Agilidade e drible vertical pelo flanco de ataque."
+      },
+      {
+        "nome": "Toure",
+        "pos": "AT",
+        "clube": "Norwich City (ENG)",
+        "nota": "Atacante de velocidade de corredor na Inglaterra."
+      },
+      {
+        "nome": "Velupilly",
+        "pos": "AT",
+        "clube": "Melbourne City (AUS)",
+        "nota": "Extremo habilidoso de drible curto muito veloz."
+      },
+      {
+        "nome": "Cristian Volpato",
+        "pos": "AT",
+        "clube": "Sassuolo (ITA)",
+        "nota": "Meia-ofensivo talentoso com ótima formação no Calcio."
+      },
+      {
+        "nome": "Yengi",
+        "pos": "AT",
+        "clube": "Machida Zelvia (JPN)",
+        "nota": "Força física de pivô clássico no futebol japonês."
+      }
+    ]
+  },
+  "GER": {
+    "selecao": "Alemanha",
+    "codigo": "GER",
+    "jogadores": [
+      {
+        "nome": "Oliver Baumann",
+        "pos": "GR",
+        "clube": "Hoffenheim (GER)",
+        "nota": "Perdeu a vaga de titular após a surpreendente volta de Neuer."
+      },
+      {
+        "nome": "Manuel Neuer",
+        "pos": "GR",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Retorna ao gol alemão como titular absoluto aos 40 anos."
+      },
+      {
+        "nome": "Alexander Nübel",
+        "pos": "GR",
+        "clube": "Stuttgart (GER)",
+        "nota": "Sólida segurança técnica no banco de reservas."
+      },
+      {
+        "nome": "Waldemar Anton",
+        "pos": "DF",
+        "clube": "B. Dortmund (GER)",
+        "nota": "Zagueiro central dinâmico de excelente posicionamento."
+      },
+      {
+        "nome": "Nathaniel Brown",
+        "pos": "DF",
+        "clube": "Eintracht Frankfurt (GER)",
+        "nota": "Jovem ala esquerdo de muita marcação e velocidade."
+      },
+      {
+        "nome": "Joshua Kimmich",
+        "pos": "DF",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Capitão, líder estratégico e polivalente para o meio ou lateral."
+      },
+      {
+        "nome": "David Raum",
+        "pos": "DF",
+        "clube": "RB Leipzig (GER)",
+        "nota": "Lateral de extrema velocidade e cruzamento impecável."
+      },
+      {
+        "nome": "Antonio Rüdiger",
+        "pos": "DF",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Líder central da defesa de extrema força física de combate."
+      },
+      {
+        "nome": "Nico Schlotterbeck",
+        "pos": "DF",
+        "clube": "B. Dortmund (GER)",
+        "nota": "Defensor técnico de refinada saída de bola curta."
+      },
+      {
+        "nome": "Jonathan Tah",
+        "pos": "DF",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Imponente jogo aéreo de excelente combatividade física."
+      },
+      {
+        "nome": "Malick Thiaw",
+        "pos": "DF",
+        "clube": "Newcastle United (ENG)",
+        "nota": "Fornece zaga firme no cenário físico inglês."
+      },
+      {
+        "nome": "Nadiem Amiri",
+        "pos": "MC",
+        "clube": "Mainz 05 (GER)",
+        "nota": "Meia dinâmico com refinada qualidade de passes curtos."
+      },
+      {
+        "nome": "Leon Goretzka",
+        "pos": "MC",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Meia físico box-to-box com grande volume defensivo."
+      },
+      {
+        "nome": "Pascal Gross",
+        "pos": "MC",
+        "clube": "Brighton (ENG)",
+        "nota": "Organização tática de ritmo na intermediária."
+      },
+      {
+        "nome": "Jamie Leweling",
+        "pos": "MC",
+        "clube": "Stuttgart (GER)",
+        "nota": "Velocidade e arrancada forte no suporte ofensivo."
+      },
+      {
+        "nome": "Jamal Musiala",
+        "pos": "MC",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Genialidade pura em drible curto entrelinhas de ataque."
+      },
+      {
+        "nome": "Felix Nmecha",
+        "pos": "MC",
+        "clube": "B. Dortmund (GER)",
+        "nota": "Volante técnico de passadas longas e transição rápida."
+      },
+      {
+        "nome": "Aleksandar Pavlovic",
+        "pos": "MC",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Um dos melhores volantes jovens do futebol europeu."
+      },
+      {
+        "nome": "Leroy Sane",
+        "pos": "MC",
+        "clube": "Galatasaray (TUR)",
+        "nota": "Ponta velocíssimo com bom poder de drible na Turquia."
+      },
+      {
+        "nome": "Angelo Stiller",
+        "pos": "MC",
+        "clube": "Stuttgart (GER)",
+        "nota": "Excelente visão de jogo e passe qualificado no meio."
+      },
+      {
+        "nome": "Florian Wirtz",
+        "pos": "MC",
+        "clube": "Liverpool (ENG)",
+        "nota": "Meia brilhante de extraordinário poder ofensivo e gols."
+      },
+      {
+        "nome": "Assan Ouédraogo",
+        "pos": "MC",
+        "clube": "RB Leipzig (GER)",
+        "nota": "Convocado emergencialmente na vaga do lesionado Karl."
+      },
+      {
+        "nome": "Maximilian Beier",
+        "pos": "AT",
+        "clube": "B. Dortmund (GER)",
+        "nota": "Atacante de mobilidade e muita velocidade vertical."
+      },
+      {
+        "nome": "Kai Havertz",
+        "pos": "AT",
+        "clube": "Arsenal (ENG)",
+        "nota": "Atacante de excelente movimentação de pivô e gols."
+      },
+      {
+        "nome": "Deniz Undav",
+        "pos": "AT",
+        "clube": "Stuttgart (GER)",
+        "nota": "Finalizador de área rápido de excelente poder de cabeceio."
+      },
+      {
+        "nome": "Nick Woltemade",
+        "pos": "AT",
+        "clube": "Newcastle United (ENG)",
+        "nota": "Atacante de grande porte físico de área."
+      }
+    ]
+  },
+  "CUW": {
+    "selecao": "Curaçao",
+    "codigo": "CUW",
+    "jogadores": [
+      {
+        "nome": "Tyrick Bodak",
+        "pos": "GR",
+        "clube": "Cambuur (NED)",
+        "nota": "Jovem goleiro ágil do futebol holandês."
+      },
+      {
+        "nome": "Trevor Doornbusch",
+        "pos": "GR",
+        "clube": "Dordrecht (NED)",
+        "nota": "Sólido arqueiro reserva de bom posicionamento."
+      },
+      {
+        "nome": "Eloy Room",
+        "pos": "GR",
+        "clube": "Vitesse (NED)",
+        "nota": "Líder histórico sob as traves de excelente impulsão."
+      },
+      {
+        "nome": "Riechedly Bazoer",
+        "pos": "DF",
+        "clube": "AZ Alkmaar (NED)",
+        "nota": "Defensor técnico de excelente qualidade de saída curta."
+      },
+      {
+        "nome": "Joshua Brenet",
+        "pos": "DF",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Lateral experiente de grande agressividade ofensiva."
+      },
+      {
+        "nome": "Roshon van Eijma",
+        "pos": "DF",
+        "clube": "Roda JC (NED)",
+        "nota": "Zagueiro central muito físico e firme aérea de área."
+      },
+      {
+        "nome": "Sherel Floranus",
+        "pos": "DF",
+        "clube": "Almere City (NED)",
+        "nota": "Lateral de grande senso de marcação tática."
+      },
+      {
+        "nome": "Deveron Fonville",
+        "pos": "DF",
+        "clube": "Utrecht (NED)",
+        "nota": "Jovem defensor de bom tempo de desarme rápido."
+      },
+      {
+        "nome": "Jurien Gaari",
+        "pos": "DF",
+        "clube": "RKC Waalwijk (NED)",
+        "nota": "Oferece marcação tática firme no futebol holandês."
+      },
+      {
+        "nome": "Armando Obispo",
+        "pos": "DF",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Zagueiro central muito imponente e de bom passe."
+      },
+      {
+        "nome": "Shurandy Sambo",
+        "pos": "DF",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Lateral-direito veloz de ótima dinâmica de corredor."
+      },
+      {
+        "nome": "Juninho Bacuna",
+        "pos": "MC",
+        "clube": "Birmingham City (ENG)",
+        "nota": "Meia marcador de passe refinado e visão tática."
+      },
+      {
+        "nome": "Leandro Bacuna",
+        "pos": "MC",
+        "clube": "FC Groningen (NED)",
+        "nota": "Capitão e líder espiritual do meio de campo."
+      },
+      {
+        "nome": "Livano Comenencia",
+        "pos": "MC",
+        "clube": "Juventus (ITA)",
+        "nota": "Jovem de enorme futuro de infiltração na grande área."
+      },
+      {
+        "nome": "Kevin Felida",
+        "pos": "MC",
+        "clube": "RKC Waalwijk (NED)",
+        "nota": "Volante cão de guarda focado em desarmes."
+      },
+      {
+        "nome": "Ar'jany Martha",
+        "pos": "MC",
+        "clube": "Ajax (NED)",
+        "nota": "Meia polivalente ágil de transições muito rápidas."
+      },
+      {
+        "nome": "Tyrese Noslin",
+        "pos": "MC",
+        "clube": "Hellas Verona (ITA)",
+        "nota": "Velocidade e explosão física no futebol italiano."
+      },
+      {
+        "nome": "Godfried Roemeratoe",
+        "pos": "MC",
+        "clube": "RKC Waalwijk (NED)",
+        "nota": "Fornece equilíbrio e combate no centro."
+      },
+      {
+        "nome": "Jeremy Antonisse",
+        "pos": "AT",
+        "clube": "Moreirense (POR)",
+        "nota": "Ponta técnico que oferece velocidade de corredor."
+      },
+      {
+        "nome": "Tahith Chong",
+        "pos": "AT",
+        "clube": "Luton Town (ENG)",
+        "nota": "Principal recurso técnico de drible vertical do time."
+      },
+      {
+        "nome": "Kenji Gorre",
+        "pos": "AT",
+        "clube": "Boavista (POR)",
+        "nota": "Ponta experiente de drible curto muito rápido."
+      },
+      {
+        "nome": "Sontje Hansen",
+        "pos": "AT",
+        "clube": "NEC Nijmegen (NED)",
+        "nota": "Agilidade pelas pontas ofensivas."
+      },
+      {
+        "nome": "Gervane Kastaneer",
+        "pos": "AT",
+        "clube": "PEC Zwolle (NED)",
+        "nota": "Velocidade e agressividade em saídas rápidas."
+      },
+      {
+        "nome": "Brandley Kuwas",
+        "pos": "AT",
+        "clube": "Maccabi Tel Aviv (ISR)",
+        "nota": "Ponta de excelente arremate forte de média distância."
+      },
+      {
+        "nome": "Jurgen Locadia",
+        "pos": "AT",
+        "clube": "Amorebieta (ESP)",
+        "nota": "Atacante de área experiente de grande pivô."
+      },
+      {
+        "nome": "Jearl Margaritha",
+        "pos": "AT",
+        "clube": "Phoenix Rising (USA)",
+        "nota": "Força e velocidade para quebrar linhas táticas."
+      }
+    ]
+  },
+  "ECU": {
+    "selecao": "Equador",
+    "codigo": "ECU",
+    "jogadores": [
+      {
+        "nome": "Moisés Caicedo",
+        "pos": "MC",
+        "clube": "Chelsea (ENG)",
+        "nota": "Motor absoluto da equipe de imensa força física."
+      },
+      {
+        "nome": "Willian Pacho",
+        "pos": "DF",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Defensor de ótima estatura e firmeza aérea de área."
+      },
+      {
+        "nome": "Piero Hincapié",
+        "pos": "DF",
+        "clube": "Bayer Leverkusen (GER)",
+        "nota": "Zagueiro técnico com bom posicionamento e passes."
+      },
+      {
+        "nome": "Pervis Estupiñán",
+        "pos": "DF",
+        "clube": "Brighton (ENG)",
+        "nota": "Lateral de extrema velocidade e apoio ofensivo."
+      },
+      {
+        "nome": "Kendry Páez",
+        "pos": "MC",
+        "clube": "Chelsea (ENG)",
+        "nota": "Prodígio criativo entrelinhas de ótimo drible curto."
+      },
+      {
+        "nome": "Enner Valencia",
+        "pos": "AT",
+        "clube": "Internacional (BRA)",
+        "nota": "Capitão e líder goleador histórico do ataque."
+      }
+    ]
+  },
+  "BEL": {
+    "selecao": "Bélgica",
+    "codigo": "BEL",
+    "jogadores": [
+      {
+        "nome": "Thibaut Courtois",
+        "pos": "GR",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Um dos melhores do mundo de meta imponente."
+      },
+      {
+        "nome": "Senne Lammens",
+        "pos": "GR",
+        "clube": "Antwerp (BEL)",
+        "nota": "Sólida segurança para a meta local."
+      },
+      {
+        "nome": "Mike Penders",
+        "pos": "GR",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Goleiro promissor do futebol francês."
+      },
+      {
+        "nome": "Timothy Castagne",
+        "pos": "DF",
+        "clube": "Fulham (ENG)",
+        "nota": "Lateral de grande regularidade defensiva na liga inglesa."
+      },
+      {
+        "nome": "Zeno Debast",
+        "pos": "DF",
+        "clube": "Sporting CP (POR)",
+        "nota": "Zagueiro central dinâmico de excelente saída curta."
+      },
+      {
+        "nome": "Maxim De Cuyper",
+        "pos": "DF",
+        "clube": "Brighton (ENG)",
+        "nota": "Lateral ofensivo de grande cruzamento na área."
+      },
+      {
+        "nome": "Koni De Winter",
+        "pos": "DF",
+        "clube": "Milan (ITA)",
+        "nota": "Defensor de ótima estatura e firmeza no Calcio."
+      },
+      {
+        "nome": "Brandon Mechele",
+        "pos": "DF",
+        "clube": "Club Brugge (BEL)",
+        "nota": "Zagueiro experiente muito físico na marcação de área."
+      },
+      {
+        "nome": "Thomas Meunier",
+        "pos": "DF",
+        "clube": "Lille (FRA)",
+        "nota": "Experiente e regular lateral de corredor direito."
+      },
+      {
+        "nome": "Nathan Ngoy",
+        "pos": "DF",
+        "clube": "Lille (FRA)",
+        "nota": "Jovem defensor físico de excelente recuperação."
+      },
+      {
+        "nome": "Joaquin Seys",
+        "pos": "DF",
+        "clube": "Club Brugge (BEL)",
+        "nota": "Lateral de bom tempo de desarmes rasteiros."
+      },
+      {
+        "nome": "Arthur Theate",
+        "pos": "DF",
+        "clube": "Rennes (FRA)",
+        "nota": "Zagueiro canhoto firme e de bom passe longo."
+      },
+      {
+        "nome": "Kevin De Bruyne",
+        "pos": "MC",
+        "clube": "Napoli (ITA)",
+        "nota": "Cérebro criativo e comandante de passes verticais."
+      },
+      {
+        "nome": "Amadou Onana",
+        "pos": "MC",
+        "clube": "Aston Villa (ENG)",
+        "nota": "Volante imponente de extrema força física de combate."
+      },
+      {
+        "nome": "Nicolas Raskin",
+        "pos": "MC",
+        "clube": "Rangers (SCO)",
+        "nota": "Volante de pegada e excelente dinâmica tática."
+      },
+      {
+        "nome": "Youri Tielemans",
+        "pos": "MC",
+        "clube": "Aston Villa (ENG)",
+        "nota": "Capitão de meio de campo de excelente visão de jogo."
+      },
+      {
+        "nome": "Hans Vanaken",
+        "pos": "MC",
+        "clube": "Club Brugge (BEL)",
+        "nota": "Meia inteligente de passes requintados e alta estatura."
+      },
+      {
+        "nome": "Axel Witsel",
+        "pos": "MC",
+        "clube": "Girona (ESP)",
+        "nota": "Experiência de marcação intermediária e combate tático."
+      },
+      {
+        "nome": "Charles De Ketelaere",
+        "pos": "AT",
+        "clube": "Atalanta (ITA)",
+        "nota": "Meia-atacante dinâmico de excelente pivô e passe."
+      },
+      {
+        "nome": "Jeremy Doku",
+        "pos": "AT",
+        "clube": "Manchester City (ENG)",
+        "nota": "Extrema velocidade e drible curto imparável pelo flanco."
+      },
+      {
+        "nome": "Matias Fernandez-Pardo",
+        "pos": "AT",
+        "clube": "Lille (FRA)",
+        "nota": "Grande novidade ofensiva ágil de corredor."
+      },
+      {
+        "nome": "Romelu Lukaku",
+        "pos": "AT",
+        "clube": "Napoli (ITA)",
+        "nota": "Goleador implacável de imensa força física de área."
+      },
+      {
+        "nome": "Dodi Lukebakio",
+        "pos": "AT",
+        "clube": "Benfica (POR)",
+        "nota": "Atacante móvel de corredor direito de boa velocidade."
+      },
+      {
+        "nome": "Diego Moreira",
+        "pos": "AT",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Velocidade e drible individual vertical rápido."
+      },
+      {
+        "nome": "Alexis Saelemaekers",
+        "pos": "AT",
+        "clube": "Milan (ITA)",
+        "nota": "Polivalência para cobrir o corredor ofensivo."
+      },
+      {
+        "nome": "Leandro Trossard",
+        "pos": "AT",
+        "clube": "Arsenal (ENG)",
+        "nota": "Atacante técnico de refino e finalizações precisas."
+      }
+    ]
+  },
+  "ESP": {
+    "selecao": "Espanha",
+    "codigo": "ESP",
+    "jogadores": [
+      {
+        "nome": "Unai Simón",
+        "pos": "GR",
+        "clube": "Athletic Club (ESP)",
+        "nota": "Goleiro titular consistente de excelente tempo de meta."
+      },
+      {
+        "nome": "David Raya",
+        "pos": "GR",
+        "clube": "Arsenal (ENG)",
+        "nota": "Excelente controle de meta de passe de pés longos."
+      },
+      {
+        "nome": "Joan García",
+        "pos": "GR",
+        "clube": "Barcelona (ESP)",
+        "nota": "Jovem arqueiro ágil integrado ao gol espanhol."
+      },
+      {
+        "nome": "Marc Cucurella",
+        "pos": "DF",
+        "clube": "Chelsea (ENG)",
+        "nota": "Lateral de muita pegada e entrega sem bola de raça."
+      },
+      {
+        "nome": "Alejandro Grimaldo",
+        "pos": "DF",
+        "clube": "B. Leverkusen (GER)",
+        "nota": "Lateral de extraordinário apoio e bola de cruzamento."
+      },
+      {
+        "nome": "Pau Cubarsí",
+        "pos": "DF",
+        "clube": "Barcelona (ESP)",
+        "nota": "Jovem zagueiro de refinada saída técnica com pés."
+      },
+      {
+        "nome": "Eric García",
+        "pos": "DF",
+        "clube": "Barcelona (ESP)",
+        "nota": "Zagueiro inteligente de ótimo posicionamento."
+      },
+      {
+        "nome": "Aymeric Laporte",
+        "pos": "DF",
+        "clube": "Athletic Club (ESP)",
+        "nota": "Pilar defensivo de excelente imposição central de área."
+      },
+      {
+        "nome": "Marc Pubill",
+        "pos": "DF",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Jovem de muito fôlego e marcação tática na lateral."
+      },
+      {
+        "nome": "Marcos Llorente",
+        "pos": "DF",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Polivalência física extrema de corredor direito."
+      },
+      {
+        "nome": "Pedro Porro",
+        "pos": "DF",
+        "clube": "Tottenham (ENG)",
+        "nota": "Lateral agressivo de excelente apoio e velocidade."
+      },
+      {
+        "nome": "Mikel Merino",
+        "pos": "MC",
+        "clube": "Arsenal (ENG)",
+        "nota": "Força física de combate intermediário e jogo aéreo."
+      },
+      {
+        "nome": "Pedri",
+        "pos": "MC",
+        "clube": "Barcelona (ESP)",
+        "nota": "Maestro criativo entrelinhas de passe final genial."
+      },
+      {
+        "nome": "Fabián Ruiz",
+        "pos": "MC",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Dinâmica técnica e finalizações fortes de fora."
+      },
+      {
+        "nome": "Martín Zubimendi",
+        "pos": "MC",
+        "clube": "Arsenal (ENG)",
+        "nota": "Excelente posicionamento tático marcador de meio."
+      },
+      {
+        "nome": "Gavi",
+        "pos": "MC",
+        "clube": "Barcelona (ESP)",
+        "nota": "Vigor físico de combate extremo e raça sem bola."
+      },
+      {
+        "nome": "Rodri",
+        "pos": "MC",
+        "clube": "Manchester City (ENG)",
+        "nota": "Bola de Ouro e pilar absoluto de equilíbrio defensivo."
+      },
+      {
+        "nome": "Álex Baena",
+        "pos": "MC",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Meia dinâmico de excelente batida de bola parada."
+      },
+      {
+        "nome": "Mikel Oyarzabal",
+        "pos": "AT",
+        "clube": "Real Sociedad (ESP)",
+        "nota": "Atacante tático inteligente de excelente pivô."
+      },
+      {
+        "nome": "Dani Olmo",
+        "pos": "AT",
+        "clube": "Barcelona (ESP)",
+        "nota": "Criatividade e excelente finalização colocado técnica."
+      },
+      {
+        "nome": "Nico Williams",
+        "pos": "AT",
+        "clube": "Athletic Club (ESP)",
+        "nota": "Aceleração absurda de corredor esquerdo e drible."
+      },
+      {
+        "nome": "Yéremy Pino",
+        "pos": "AT",
+        "clube": "Crystal Palace (ENG)",
+        "nota": "Extremo ágil de bom um contra um de área."
+      },
+      {
+        "nome": "Ferran Torres",
+        "pos": "AT",
+        "clube": "Barcelona (ESP)",
+        "nota": "Atacante móvel com excelente senso de área."
+      },
+      {
+        "nome": "Borja Iglesias",
+        "pos": "AT",
+        "clube": "Celta Vigo (ESP)",
+        "nota": "Atacante de pivô de área de boa envergadura."
+      },
+      {
+        "nome": "Víctor Muñoz",
+        "pos": "AT",
+        "clube": "Osasuna (ESP)",
+        "nota": "Oferece velocidade pelos flancos de corredor."
+      },
+      {
+        "nome": "Lamine Yamal",
+        "pos": "AT",
+        "clube": "Barcelona (ESP)",
+        "nota": "Jovem estrela e grande comandante criativo do ataque."
+      }
+    ]
+  },
+  "FRA": {
+    "selecao": "França",
+    "codigo": "FRA",
+    "jogadores": [
+      {
+        "nome": "Mike Maignan",
+        "pos": "GR",
+        "clube": "Milan (ITA)",
+        "nota": "Goleiro titular de meta de reflexos espetaculares."
+      },
+      {
+        "nome": "Robin Risser",
+        "pos": "GR",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Jovem arqueiro ágil de grande futuro."
+      },
+      {
+        "nome": "Brice Samba",
+        "pos": "GR",
+        "clube": "Lens (FRA)",
+        "nota": "Sólida experiência e segurança embaixo das traves."
+      },
+      {
+        "nome": "Lucas Digne",
+        "pos": "DF",
+        "clube": "Aston Villa (ENG)",
+        "nota": "Lateral de grande qualidade técnica de cruzamentos."
+      },
+      {
+        "nome": "Malo Gusto",
+        "pos": "DF",
+        "clube": "Chelsea (ENG)",
+        "nota": "Lateral-direito dinâmico de muita velocidade."
+      },
+      {
+        "nome": "Lucas Hernandez",
+        "pos": "DF",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Campeão mundial de excelente imposição física."
+      },
+      {
+        "nome": "Theo Hernandez",
+        "pos": "DF",
+        "clube": "Milan (ITA)",
+        "nota": "Lateral muito rápido e agressivo no apoio ofensivo."
+      },
+      {
+        "nome": "Ibrahima Konaté",
+        "pos": "DF",
+        "clube": "Liverpool (ENG)",
+        "nota": "Defensor de imensa estatura e jogo aéreo soberano."
+      },
+      {
+        "nome": "Jules Koundé",
+        "pos": "DF",
+        "clube": "Barcelona (ESP)",
+        "nota": "Versatilidade para atuar como zagueiro ou lateral-direito."
+      },
+      {
+        "nome": "Maxence Lacroix",
+        "pos": "DF",
+        "clube": "Crystal Palace (ENG)",
+        "nota": "Zagueiro veloz de excelente recuperação física."
+      },
+      {
+        "nome": "William Saliba",
+        "pos": "DF",
+        "clube": "Arsenal (ENG)",
+        "nota": "Pilar central da zaga técnica de elite na Premier League."
+      },
+      {
+        "nome": "Dayot Upamecano",
+        "pos": "DF",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Defensor ágil com extraordinário vigor de marcação."
+      },
+      {
+        "nome": "N'Golo Kanté",
+        "pos": "MC",
+        "clube": "Al-Ittihad (KSA)",
+        "nota": "Campeão mundial com fôlego e desarmes incansáveis."
+      },
+      {
+        "nome": "Manu Koné",
+        "pos": "MC",
+        "clube": "Roma (ITA)",
+        "nota": "Volante dinâmico de excelente condução no Calcio."
+      },
+      {
+        "nome": "Adrien Rabiot",
+        "pos": "MC",
+        "clube": "Juventus (ITA)",
+        "nota": "Inteligência de posicionamento e passe tático intermediário."
+      },
+      {
+        "nome": "Aurélien Tchouaméni",
+        "pos": "MC",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Cérebro tático de meio de campo de excelente marcação."
+      },
+      {
+        "nome": "Warren Zaïre-Emery",
+        "pos": "MC",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Meia de extraordinário refino tático e visão de passe."
+      },
+      {
+        "nome": "Kylian Mbappé",
+        "pos": "AT",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Capitão, estrela mundial máxima e velocidade devastadora."
+      },
+      {
+        "nome": "Ousmane Dembélé",
+        "pos": "AT",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Extremo habilidoso de excelente drible com ambos os pés."
+      },
+      {
+        "nome": "Michael Olise",
+        "pos": "AT",
+        "clube": "Bayern Munich (GER)",
+        "nota": ""
+      },
+      {
+        "nome": "Marcus Thuram",
+        "pos": "AT",
+        "clube": "Inter Milan (ITA)",
+        "nota": "Atacante móvel com grande força de arranque e gols."
+      },
+      {
+        "nome": "Désiré Doué",
+        "pos": "AT",
+        "clube": "Paris Saint-Germain (FRA)",
+        "nota": "Jovem velocíssimo de grande futuro no ataque."
+      },
+      {
+        "nome": "Rayan Cherki",
+        "pos": "AT",
+        "clube": "Manchester City (ENG)",
+        "nota": "Meia-ofensivo habilidoso de excelente finta curta."
+      }
+    ]
+  },
+  "ARG": {
+    "selecao": "Argentina",
+    "codigo": "ARG",
+    "jogadores": [
+      {
+        "nome": "Emiliano Martínez",
+        "pos": "GR",
+        "clube": "Aston Villa (ENG)",
+        "nota": "Titular absoluto e comandante sob as traves."
+      },
+      {
+        "nome": "Gerónimo Rulli",
+        "pos": "GR",
+        "clube": "Marseille (FRA)",
+        "nota": "Ótima segurança e meta reserva muito regular."
+      },
+      {
+        "nome": "Juan Musso",
+        "pos": "GR",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Excelente goleiro para compor a meta argentina."
+      },
+      {
+        "nome": "Gonzalo Montiel",
+        "pos": "DF",
+        "clube": "River Plate (ARG)",
+        "nota": "Lateral marcador firme com excelente entrega de zaga."
+      },
+      {
+        "nome": "Nahuel Molina",
+        "pos": "DF",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Lateral-direito veloz com bom apoio de profundidade."
+      },
+      {
+        "nome": "Lisandro Martínez",
+        "pos": "DF",
+        "clube": "Manchester United (ENG)",
+        "nota": "Pilar central da zaga de grande vigor e combatividade."
+      },
+      {
+        "nome": "Nicolás Otamendi",
+        "pos": "DF",
+        "clube": "SL Benfica (POR)",
+        "nota": "Experiência de zaga monumental para o vestiário."
+      },
+      {
+        "nome": "Cristian Romero",
+        "pos": "DF",
+        "clube": "Tottenham (ENG)",
+        "nota": "Defensor de ótima imposição aérea e firme marcação."
+      },
+      {
+        "nome": "Facundo Medina",
+        "pos": "DF",
+        "clube": "Marseille (FRA)",
+        "nota": "Defensor ágil versátil para atuar na zaga ou lateral."
+      },
+      {
+        "nome": "Nicolás Tagliafico",
+        "pos": "DF",
+        "clube": "Lyon (FRA)",
+        "nota": "Lateral de grande senso de marcação posicional."
+      },
+      {
+        "nome": "Leandro Paredes",
+        "pos": "MC",
+        "clube": "Boca Juniors (ARG)",
+        "nota": "Volante experiente de forte combate e passes longos."
+      },
+      {
+        "nome": "Rodrigo De Paul",
+        "pos": "MC",
+        "clube": "Inter Miami (USA)",
+        "nota": "Motor e guerreiro tático focado na segurança de Messi."
+      },
+      {
+        "nome": "Exequiel Palacios",
+        "pos": "MC",
+        "clube": "Bayer Leverkusen (GER)",
+        "nota": "Meia dinâmico de excelente movimentação tática."
+      },
+      {
+        "nome": "Enzo Fernández",
+        "pos": "MC",
+        "clube": "Chelsea (ENG)",
+        "nota": "Excelente construtor técnico de passes intermediários."
+      },
+      {
+        "nome": "Alexis Mac Allister",
+        "pos": "MC",
+        "clube": "Liverpool (ENG)",
+        "nota": "Dinâmica tática refinada com grande fôlego e passes."
+      },
+      {
+        "nome": "Giovani Lo Celso",
+        "pos": "MC",
+        "clube": "Real Betis (ESP)",
+        "nota": "Criatividade tática de drible curto entrelinhas."
+      },
+      {
+        "nome": "Valentín Barco",
+        "pos": "MC",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Lateral/meia canhoto ágil de excelente apoio rápido."
+      },
+      {
+        "nome": "Nicolás Paz",
+        "pos": "MC",
+        "clube": "Como 1907 (ITA)",
+        "nota": "Jovem revelação de extraordinário refino no Calcio."
+      },
+      {
+        "nome": "Lionel Messi",
+        "pos": "AT",
+        "clube": "Inter Miami (USA)",
+        "nota": "Capitão e líder em sua sexta Copa do Mundo."
+      },
+      {
+        "nome": "Thiago Almada",
+        "pos": "AT",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Habilidade e velocidade nas dinâmicas de transição."
+      },
+      {
+        "nome": "Nicolás González",
+        "pos": "AT",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Extrema força tática pelos lados e forte apoio aéreo."
+      },
+      {
+        "nome": "Giuliano Simeone",
+        "pos": "AT",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Atacante de muita entrega de combate sem a bola."
+      },
+      {
+        "nome": "Lautaro Martínez",
+        "pos": "AT",
+        "clube": "Internazionale (ITA)",
+        "nota": "Atacante terminal de área de altíssima agressividade."
+      },
+      {
+        "nome": "José Manuel López",
+        "pos": "AT",
+        "clube": "Palmeiras (BRA)",
+        "nota": "Centroavante físico de excelente cabeceio de área."
+      },
+      {
+        "nome": "Julián Álvarez",
+        "pos": "AT",
+        "clube": "Atlético de Madrid (ESP)",
+        "nota": "Atacante dinâmico e excelente finalizador móvel."
+      }
+    ]
+  },
+  "AUT": {
+    "selecao": "Áustria",
+    "codigo": "AUT",
+    "jogadores": [
+      {
+        "nome": "Alexander Schlager",
+        "pos": "GR",
+        "clube": "LASK (AUT)",
+        "nota": "Goleiro titular seguro de excelente tempo de meta."
+      },
+      {
+        "nome": "Florian Wiegele",
+        "pos": "GR",
+        "clube": "GAK (AUT)",
+        "nota": "Opção ágil sob as traves reservas."
+      },
+      {
+        "nome": "Patrick Pentz",
+        "pos": "GR",
+        "clube": "Bröndby (DEN)",
+        "nota": "Sólida experiência no futebol escandinavo."
+      },
+      {
+        "nome": "David Affengruber",
+        "pos": "DF",
+        "clube": "Elche (ESP)",
+        "nota": "Jovem defensor central técnico na Espanha."
+      },
+      {
+        "nome": "Kevin Danso",
+        "pos": "DF",
+        "clube": "Lens (FRA)",
+        "nota": "Zagueiro central de imensa força física de combate."
+      },
+      {
+        "nome": "Stefan Posch",
+        "pos": "DF",
+        "clube": "Bologna (ITA)",
+        "nota": "Lateral-direito de ótima marcação posicional no Calcio."
+      },
+      {
+        "nome": "David Alaba",
+        "pos": "DF",
+        "clube": "Real Madrid (ESP)",
+        "nota": "Capitão histórico e líder tático indiscutível do time."
+      },
+      {
+        "nome": "Philipp Lienhart",
+        "pos": "DF",
+        "clube": "Freiburg (GER)",
+        "nota": "Sólido e consistente posicionamento de área."
+      },
+      {
+        "nome": "Philipp Mwene",
+        "pos": "DF",
+        "clube": "Mainz 05 (GER)",
+        "nota": "Lateral dinâmico de muita marcação e velocidade."
+      },
+      {
+        "nome": "Marco Friedl",
+        "pos": "DF",
+        "clube": "Werder Bremen (GER)",
+        "nota": "Oferece consistência pelo flanco esquerdo de corredor."
+      },
+      {
+        "nome": "Michael Svoboda",
+        "pos": "DF",
+        "clube": "Venezia (ITA)",
+        "nota": "Defensor de ótima estatura e firmeza de área."
+      },
+      {
+        "nome": "Xaver Schlager",
+        "pos": "MC",
+        "clube": "RB Leipzig (GER)",
+        "nota": "Volante marcador combativo de extrema força física."
+      },
+      {
+        "nome": "Nicolas Seiwald",
+        "pos": "MC",
+        "clube": "RB Leipzig (GER)",
+        "nota": "Equilíbrio e distribuição tática na intermediária."
+      },
+      {
+        "nome": "Marcel Sabitzer",
+        "pos": "MC",
+        "clube": "Borussia Dortmund (GER)",
+        "nota": "Motor dinâmico com excelente chute de média distância."
+      },
+      {
+        "nome": "Florian Grillitsch",
+        "pos": "MC",
+        "clube": "Hoffenheim (GER)",
+        "nota": "Volante experiente de boa saída curta de zaga."
+      },
+      {
+        "nome": "Carney Chukwuemeka",
+        "pos": "MC",
+        "clube": "Chelsea (ENG)",
+        "nota": "Jovem de excelente drible e condução física no meio."
+      },
+      {
+        "nome": "Romano Schmid",
+        "pos": "MC",
+        "clube": "Werder Bremen (GER)",
+        "nota": "Meia dinâmico de bom apoio e passes curtos."
+      },
+      {
+        "nome": "Christoph Baumgartner",
+        "pos": "MC",
+        "clube": "RB Leipzig (GER)",
+        "nota": "Jogador técnico que atua entrelinhas de ataque."
+      },
+      {
+        "nome": "Konrad Laimer",
+        "pos": "MC",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Volante marcador incansável de imensa marcação."
+      },
+      {
+        "nome": "Alexander Prass",
+        "pos": "MC",
+        "clube": "Sturm Graz (AUT)",
+        "nota": "Meia de corredor de ótima velocidade de apoio."
+      },
+      {
+        "nome": "Paul Wanner",
+        "pos": "MC",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Jovem revelação de extraordinária qualidade técnica."
+      },
+      {
+        "nome": "Alessandro Schöpf",
+        "pos": "MC",
+        "clube": "Vancouver (CAN)",
+        "nota": "Oferece dinâmica técnica de meio-campo americana."
+      },
+      {
+        "nome": "Marko Arnautović",
+        "pos": "AT",
+        "clube": "Inter Milan (ITA)",
+        "nota": "Capitão de ataque de pivô de área de muita envergadura."
+      },
+      {
+        "nome": "Michael Gregoritsch",
+        "pos": "AT",
+        "clube": "Freiburg (GER)",
+        "nota": "Centroavante físico forte nas disputas aéreas de gol."
+      },
+      {
+        "nome": "Saša Kalajdžić",
+        "pos": "AT",
+        "clube": "Eintracht Frankfurt (GER)",
+        "nota": "Centroavante gigante de grande poder aéreo de área."
+      },
+      {
+        "nome": "Patrick Wimmer",
+        "pos": "AT",
+        "clube": "Wolfsburg (GER)",
+        "nota": "Extremo ágil de excelente arrancada e cruzamento."
+      }
+    ]
+  },
+  "POR": {
+    "selecao": "Portugal",
+    "codigo": "POR",
+    "jogadores": [
+      {
+        "nome": "Diogo Costa",
+        "pos": "GR",
+        "clube": "Porto (POR)",
+        "nota": "Excelente arqueiro titular e especialista em pênaltis."
+      },
+      {
+        "nome": "Jose Sa",
+        "pos": "GR",
+        "clube": "Wolves (ENG)",
+        "nota": "Opção segura e de grande firmeza no gol reserva."
+      },
+      {
+        "nome": "Rui Silva",
+        "pos": "GR",
+        "clube": "Sporting CP (POR)",
+        "nota": "Sólida regularidade de metas atuando localmente."
+      },
+      {
+        "nome": "Ricardo Velho",
+        "pos": "GR",
+        "clube": "Gençlerbirliği (TUR)",
+        "nota": "Quarto goleiro integrado para suporte estrutural."
+      },
+      {
+        "nome": "Tomas Araujo",
+        "pos": "DF",
+        "clube": "Benfica (POR)",
+        "nota": "Jovem defensor de refinada qualidade técnica e calma."
+      },
+      {
+        "nome": "Joao Cancelo",
+        "pos": "DF",
+        "clube": "Barcelona (ESP)",
+        "nota": "Lateral polivalente de extraordinário recurso técnico."
+      },
+      {
+        "nome": "Diogo Dalot",
+        "pos": "DF",
+        "clube": "Manchester United (ENG)",
+        "nota": "Lateral de grande consistência física e marcação rígida."
+      },
+      {
+        "nome": "Ruben Dias",
+        "pos": "DF",
+        "clube": "Manchester City (ENG)",
+        "nota": "Líder absoluto do miolo de zaga central de elite mundial."
+      },
+      {
+        "nome": "Goncalo Inacio",
+        "pos": "DF",
+        "clube": "Sporting CP (POR)",
+        "nota": "Zagueiro canhoto de excelente precisão de saída de bola."
+      },
+      {
+        "nome": "Nuno Mendes",
+        "pos": "DF",
+        "clube": "PSG (FRA)",
+        "nota": "Lateral-esquerdo de aceleração explosiva espetacular."
+      },
+      {
+        "nome": "Matheus Nunes",
+        "pos": "DF",
+        "clube": "Manchester City (ENG)",
+        "nota": "Meia/lateral de arrancadas potentes pelo corredor."
+      },
+      {
+        "nome": "Nelson Semedo",
+        "pos": "DF",
+        "clube": "Fenerbahce (TUR)",
+        "nota": "Lateral marcador rápido com bom posicionamento defensivo."
+      },
+      {
+        "nome": "Renato Veiga",
+        "pos": "DF",
+        "clube": "Villarreal (ESP)",
+        "nota": "Defensor imponente fisicamente com bom passe."
+      },
+      {
+        "nome": "Samuel Costa",
+        "pos": "MC",
+        "clube": "Mallorca (ESP)",
+        "nota": "Volante combativo de muita dedicação física no meio."
+      },
+      {
+        "nome": "Bruno Fernandes",
+        "pos": "MC",
+        "clube": "Manchester United (ENG)",
+        "nota": "Meia-ofensivo de passes requintados e finalizações."
+      },
+      {
+        "nome": "Joao Neves",
+        "pos": "MC",
+        "clube": "PSG (FRA)",
+        "nota": "Volante refinado de dinâmica incansável na marcação."
+      },
+      {
+        "nome": "Ruben Neves",
+        "pos": "MC",
+        "clube": "Al Hilal (KSA)",
+        "nota": "Fornece experiência e excelente chute de longa distância."
+      },
+      {
+        "nome": "Bernardo Silva",
+        "pos": "MC",
+        "clube": "Manchester City (ENG)",
+        "nota": "Inteligência tática extrema e controle tático absoluto."
+      },
+      {
+        "nome": "Vitinha",
+        "pos": "MC",
+        "clube": "PSG (FRA)",
+        "nota": "Maestro criativo e organizador de ritmo no futebol europeu."
+      },
+      {
+        "nome": "Francisco Conceicao",
+        "pos": "AT",
+        "clube": "Juventus (ITA)",
+        "nota": "Ponta velocíssimo de drible curto muito agressivo."
+      },
+      {
+        "nome": "Joao Felix",
+        "pos": "AT",
+        "clube": "Al Nassr (KSA)",
+        "nota": "Atacante de excelente recurso técnico atuando entrelinhas."
+      },
+      {
+        "nome": "Goncalo Guedes",
+        "pos": "AT",
+        "clube": "Real Sociedad (ESP)",
+        "nota": "Finalizador de área veloz com boa entrega tática."
+      },
+      {
+        "nome": "Rafael Leao",
+        "pos": "AT",
+        "clube": "Milan (ITA)",
+        "nota": "Extrema potência física e arrancadas avassaladoras pelo lado."
+      },
+      {
+        "nome": "Pedro Neto",
+        "pos": "AT",
+        "clube": "Chelsea (ENG)",
+        "nota": "Velocidade e verticalidade contundente pelo flanco."
+      },
+      {
+        "nome": "Goncalo Ramos",
+        "pos": "AT",
+        "clube": "PSG (FRA)",
+        "nota": "Centroavante móvel de grande mobilidade ofensiva de área."
+      },
+      {
+        "nome": "Cristiano Ronaldo",
+        "pos": "AT",
+        "clube": "Al Nassr (KSA)",
+        "nota": "Capitão e lenda histórica em sua sexta Copa do Mundo."
+      },
+      {
+        "nome": "Francisco Trincao",
+        "pos": "AT",
+        "clube": "Sporting CP (POR)",
+        "nota": "Agilidade e drible técnico pelo flanco de ataque."
+      }
+    ]
+  },
+  "COL": {
+    "selecao": "Colômbia",
+    "codigo": "COL",
+    "jogadores": [
+      {
+        "nome": "Camilo Vargas",
+        "pos": "GR",
+        "clube": "Atlas (MEX)",
+        "nota": "Goleiro titular experiente de excelentes atuações."
+      },
+      {
+        "nome": "David Ospina",
+        "pos": "GR",
+        "clube": "Atlético Nacional (COL)",
+        "nota": "Lendária presença em Copas de enorme liderança de vestiário."
+      },
+      {
+        "nome": "Álvaro Montero",
+        "pos": "GR",
+        "clube": "Vélez Sarsfield (ARG)",
+        "nota": "Goleiro reserva de excelente estatura física de meta."
+      },
+      {
+        "nome": "Johan Mojica",
+        "pos": "DF",
+        "clube": "RCD Mallorca (ESP)",
+        "nota": "Lateral-esquerdo experiente e muito físico na Espanha."
+      },
+      {
+        "nome": "Déiver Machado",
+        "pos": "DF",
+        "clube": "Nantes (FRA)",
+        "nota": "Lateral marcador rápido com bom vigor tático defensivo."
+      },
+      {
+        "nome": "Daniel Muñoz",
+        "pos": "DF",
+        "clube": "Crystal Palace (ENG)",
+        "nota": "Lateral de grande consistência física e de corredor."
+      },
+      {
+        "nome": "Santiago Arias",
+        "pos": "DF",
+        "clube": "Bahia (BRA)",
+        "nota": "Experiente ala de boa dinâmica técnica de recomposição."
+      },
+      {
+        "nome": "Yerry Mina",
+        "pos": "DF",
+        "clube": "Cagliari (ITA)",
+        "nota": "Zagueiro central de imensa força física e jogo aéreo de área."
+      },
+      {
+        "nome": "Davinson Sánchez",
+        "pos": "DF",
+        "clube": "Galatasaray (TUR)",
+        "nota": "Força e velocidade na recuperação de zaga na Turquia."
+      },
+      {
+        "nome": "Jhon Lucumí",
+        "pos": "DF",
+        "clube": "Bologna (ITA)",
+        "nota": "Zagueiro técnico de excelente marcação tática no Calcio."
+      },
+      {
+        "nome": "Willer Ditta",
+        "pos": "DF",
+        "clube": "Cruz Azul (MEX)",
+        "nota": "Firmeza na zaga central de muita pegada no México."
+      },
+      {
+        "nome": "James Rodríguez",
+        "pos": "MC",
+        "clube": "Minnesota United (USA)",
+        "nota": "Capitão criativo de refinada batida de gol entrelinhas."
+      },
+      {
+        "nome": "Jefferson Lerma",
+        "pos": "MC",
+        "clube": "Crystal Palace (ENG)",
+        "nota": "Cão de guarda do meio de campo de forte descarte físico."
+      },
+      {
+        "nome": "Richard Ríos",
+        "pos": "MC",
+        "clube": "Benfica (POR)",
+        "nota": "Meia dinâmico de drible curto e excelente fôlego."
+      },
+      {
+        "nome": "Juan Fernando Quintero",
+        "pos": "MC",
+        "clube": "Racing Club (ARG)",
+        "nota": "Canhota de passes milimétricos verticais decisivos."
+      },
+      {
+        "nome": "Jorge Carrascal",
+        "pos": "MC",
+        "clube": "Dinamo Moscow (RUS)",
+        "nota": "Técnica individual e drible no meio-campo russo."
+      },
+      {
+        "nome": "Kevin Castaño",
+        "pos": "MC",
+        "clube": "Krasnodar (RUS)",
+        "nota": "Volante de boa distribuição tática e combatividade."
+      },
+      {
+        "nome": "Jaminton Campaz",
+        "pos": "MC",
+        "clube": "Rosario Central (ARG)",
+        "nota": "Velocidade e finta curta de corredor esquerdo."
+      },
+      {
+        "nome": "Juan Portilla",
+        "pos": "MC",
+        "clube": "Athletico Paranaense (BRA)",
+        "nota": "Combate tático intermediário firme na marcação."
+      },
+      {
+        "nome": "Gustavo Puerta",
+        "pos": "MC",
+        "clube": "Racing de Santander (ESP)",
+        "nota": "Jovem de bom passe e distribuição técnica na Espanha."
+      },
+      {
+        "nome": "Luis Díaz",
+        "pos": "AT",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Estrela técnica máxima e atacante de drible velocíssimo."
+      },
+      {
+        "nome": "Carlos Andrés Gómez",
+        "pos": "AT",
+        "clube": "Vasco da Gama (BRA)",
+        "nota": "Atacante móvel de corredor de excelente arranque rápido."
+      },
+      {
+        "nome": "Jhon Córdoba",
+        "pos": "AT",
+        "clube": "Krasnodar (RUS)",
+        "nota": "Centroavante de grande força e pivô de área na Rússia."
+      },
+      {
+        "nome": "Juan Camilo Hernández",
+        "pos": "AT",
+        "clube": "Columbus Crew (USA)",
+        "nota": "Grande mobilidade ofensiva de área na liga americana."
+      },
+      {
+        "nome": "Luis Suárez",
+        "pos": "AT",
+        "clube": "Sporting CP (POR)",
+        "nota": "Centroavante dinâmico focado em fustigar as defesas."
+      }
+    ]
+  },
+  "UZB": {
+    "selecao": "Uzbequistão",
+    "codigo": "UZB",
+    "jogadores": [
+      {
+        "nome": "Utkir Yusupov",
+        "pos": "GR",
+        "clube": "Navbahor Namangan (UZB)",
+        "nota": "Goleiro titular consolidado de grande regularidade."
+      },
+      {
+        "nome": "Botirali Ergashev",
+        "pos": "GR",
+        "clube": "FK Neftchi (UZB)",
+        "nota": "Arqueiro seguro de meta de excelente agilidade local."
+      },
+      {
+        "nome": "Abduvohid Nematov",
+        "pos": "GR",
+        "clube": "Nasaf Qarshi (UZB)",
+        "nota": "Sólido arqueiro reserva sob as traves."
+      },
+      {
+        "nome": "Abdukodir Khusanov",
+        "pos": "DF",
+        "clube": "Manchester City (ENG)",
+        "nota": "Pilar central da zaga técnica de elite com Guardiola."
+      },
+      {
+        "nome": "Rustam Ashurmatov",
+        "pos": "DF",
+        "clube": "Esteghlal Tehran (IRN)",
+        "nota": "Zagueiro central experiente de forte presença física."
+      },
+      {
+        "nome": "Umarbek Eshmuradov",
+        "pos": "DF",
+        "clube": "Nasaf Qarshi (UZB)",
+        "nota": "Firmeza na zaga central e forte nas jogadas aéreas."
+      },
+      {
+        "nome": "Farrukh Sayfiev",
+        "pos": "DF",
+        "clube": "FK Neftchi (UZB)",
+        "nota": "Experiente e combativo lateral marcador de corredor."
+      },
+      {
+        "nome": "Sherzod Nasrullaev",
+        "pos": "DF",
+        "clube": "Nasaf Qarshi (UZB)",
+        "nota": "Lateral-esquerdo com bom apoio tático ofensivo."
+      },
+      {
+        "nome": "Jakhongir Urozov",
+        "pos": "DF",
+        "clube": "Dinamo Samarkand (UZB)",
+        "nota": "Jovem de muita combatividade na marcação tática."
+      },
+      {
+        "nome": "Abdullah Abdullaev",
+        "pos": "DF",
+        "clube": "Dibba FC (UAE)",
+        "nota": "Consistência física de combate defensivo na liga árabe."
+      },
+      {
+        "nome": "Avazbek Ulmasaliev",
+        "pos": "DF",
+        "clube": "OKMK FK (UZB)",
+        "nota": "Sólida presença central de grande impulsão de área."
+      },
+      {
+        "nome": "Bekhruz Karimov",
+        "pos": "DF",
+        "clube": "Surkhon FK (UZB)",
+        "nota": "Defensor físico de grande combate e fôlego."
+      },
+      {
+        "nome": "Khojiakbar Alijonov",
+        "pos": "DF",
+        "clube": "Pakhtakor Tashkent (UZB)",
+        "nota": "Lateral-direito de ótima consistência defensiva."
+      },
+      {
+        "nome": "Otabek Shukurov",
+        "pos": "MC",
+        "clube": "Baniyas Club (UAE)",
+        "nota": "Meia dinâmico de excelente passe e visão de jogo."
+      },
+      {
+        "nome": "Odiljon Hamrobekov",
+        "pos": "MC",
+        "clube": "Tractor Sazi (IRN)",
+        "nota": "Organização de ritmo e controle tático defensivo."
+      },
+      {
+        "nome": "Azizjon Ganiev",
+        "pos": "MC",
+        "clube": "Al Bataeh Club (UAE)",
+        "nota": "Volante marcador cão de guarda de boa cobertura."
+      },
+      {
+        "nome": "Akmal Mozgovoy",
+        "pos": "MC",
+        "clube": "Pakhtakor Tashkent (UZB)",
+        "nota": "Volante de pegada e excelente dinâmica de desarmes."
+      },
+      {
+        "nome": "Sherzod Esanov",
+        "pos": "MC",
+        "clube": "FK Buxoro (UZB)",
+        "nota": "Meia de transição de excelente entrega de fôlego."
+      },
+      {
+        "nome": "Jamshid Iskanderov",
+        "pos": "MC",
+        "clube": "FK Neftchi (UZB)",
+        "nota": "Distribuição técnica de passes e bola de fora."
+      },
+      {
+        "nome": "Jaloliddin Masharipov",
+        "pos": "MC",
+        "clube": "Esteghlal Tehran (IRN)",
+        "nota": "Experiência de transição no meio-campo técnico."
+      },
+      {
+        "nome": "Abbosbek Fayzullaev",
+        "pos": "MC",
+        "clube": "Başakşehir (TUR)",
+        "nota": "Jovem criativo de extraordinária finta curta e passe."
+      },
+      {
+        "nome": "Eldor Shomurodov",
+        "pos": "AT",
+        "clube": "Başakşehir (TUR)",
+        "nota": "Capitão, principal estrela do ataque e artilheiro letal."
+      },
+      {
+        "nome": "Oston Urunov",
+        "pos": "AT",
+        "clube": "Persepolis FC (IRN)",
+        "nota": "Extremo habilidoso de drible vertical contundente."
+      },
+      {
+        "nome": "Igor Sergeev",
+        "pos": "AT",
+        "clube": "Persepolis FC (IRN)",
+        "nota": "Centroavante físico de bom cabeceio de área."
+      },
+      {
+        "nome": "Azizbek Amonov",
+        "pos": "AT",
+        "clube": "Dinamo Samarkand (UZB)",
+        "nota": "Atacante veloz de excelente arrancada de corredor."
+      },
+      {
+        "nome": "Dostonbek Khamdamov",
+        "pos": "AT",
+        "clube": "Pakhtakor Tashkent (UZB)",
+        "nota": "Polivalência ofensiva pelos flancos rápidos de gol."
+      }
+    ]
+  },
+  "COD": {
+    "selecao": "República Democrática do Congo",
+    "codigo": "COD",
+    "jogadores": [
+      {
+        "nome": "Lionel Mpasi",
+        "pos": "GR",
+        "clube": "Rodez (FRA)",
+        "nota": "Goleiro titular seguro e com grandes defesas de meta."
+      },
+      {
+        "nome": "Thimothy Fayulu",
+        "pos": "GR",
+        "clube": "Sion (SUI)",
+        "nota": "Arqueiro de excelente impulsão sob pressão aérea."
+      },
+      {
+        "nome": "Matthieu Epolo",
+        "pos": "GR",
+        "clube": "Standard Liège (BEL)",
+        "nota": "Jovem arqueiro ágil e de meta regular na Bélgica."
+      },
+      {
+        "nome": "Chancel Mbemba",
+        "pos": "DF",
+        "clube": "Lille (FRA)",
+        "nota": "Capitão e líder espiritual do miolo defensivo de área."
+      },
+      {
+        "nome": "Aaron Wan-Bissaka",
+        "pos": "DF",
+        "clube": "West Ham (ENG)",
+        "nota": "Excelente lateral-direito, desarmador letal de corredor."
+      },
+      {
+        "nome": "Alex Tuanzebe",
+        "pos": "DF",
+        "clube": "Burnley (ENG)",
+        "nota": "Defensor de imensa estatura e zaga física de combate."
+      },
+      {
+        "nome": "Arthur Masuaku",
+        "pos": "DF",
+        "clube": "Beşiktaş (TUR)",
+        "nota": "Lateral-esquerdo experiente de grande apoio e drible."
+      },
+      {
+        "nome": "Joris Kayembe",
+        "pos": "DF",
+        "clube": "Genk (BEL)",
+        "nota": "Consistência de marcação tática e fôlego de corredor."
+      },
+      {
+        "nome": "Steve Kapuadi",
+        "pos": "DF",
+        "clube": "Legia Varsóvia (POL)",
+        "nota": "Zagueiro central de bom posicionamento aéreo de área."
+      },
+      {
+        "nome": "Aaron Tshibola",
+        "pos": "DF",
+        "clube": "Hatta Club (UAE)",
+        "nota": "Volante combativo de muita dedicação física no centro."
+      },
+      {
+        "nome": "Dylan Batubinsika",
+        "pos": "DF",
+        "clube": "Saint-Étienne (FRA)",
+        "nota": "Defensor de ótima consistência e regularidade francesa."
+      },
+      {
+        "nome": "Gédéon Kalulu",
+        "pos": "DF",
+        "clube": "Lorient (FRA)",
+        "nota": "Lateral de grande velocidade e boa recomposição."
+      },
+      {
+        "nome": "Noah Sadiki",
+        "pos": "MC",
+        "clube": "Union Saint-Gilloise (BEL)",
+        "nota": "Jovem de refinada qualidade tática de passes."
+      },
+      {
+        "nome": "Samuel Moutoussamy",
+        "pos": "MC",
+        "clube": "Nantes (FRA)",
+        "nota": "Volante cão de guarda marcador na liga francesa."
+      },
+      {
+        "nome": "Edo Kayembe",
+        "pos": "MC",
+        "clube": "Watford (ENG)",
+        "nota": "Fornece equilíbrio e fôlego de combate na Inglaterra."
+      },
+      {
+        "nome": "Ngal'ayel Mukau",
+        "pos": "MC",
+        "clube": "Lille (FRA)",
+        "nota": "Jovem promessa de marcação e passes rápidos."
+      },
+      {
+        "nome": "Charles Pickel",
+        "pos": "MC",
+        "clube": "Cremonese (ITA)",
+        "nota": "Volante de forte pegada e marcação no futebol italiano."
+      },
+      {
+        "nome": "Nathanael Mbuku",
+        "pos": "MC",
+        "clube": "Augsburg (GER)",
+        "nota": "Meia dinâmico de excelente drible e velocidade."
+      },
+      {
+        "nome": "Brian Cipenga",
+        "pos": "MC",
+        "clube": "Hallescher FC (GER)",
+        "nota": "Fornece intensidade e combate tático intermediário."
+      },
+      {
+        "nome": "Meschack Elia",
+        "pos": "MC",
+        "clube": "Young Boys (SUI)",
+        "nota": "Extremo ágil de excelente velocidade e arrancada."
+      },
+      {
+        "nome": "Gaël Kakuta",
+        "pos": "MC",
+        "clube": "Amiens (FRA)",
+        "nota": "Meia-ofensivo criativo de passes verticais curtos."
+      },
+      {
+        "nome": "Théo Bongonda",
+        "pos": "AT",
+        "clube": "Spartak Moscow (RUS)",
+        "nota": "Extremo de excelente velocidade e drible na Rússia."
+      },
+      {
+        "nome": "Fiston Mayele",
+        "pos": "AT",
+        "clube": "Pyramids FC (EGY)",
+        "nota": "Atacante de área com grande mobilidade física."
+      },
+      {
+        "nome": "Cédric Bakambu",
+        "pos": "AT",
+        "clube": "Real Betis (ESP)",
+        "nota": "Atacante imensamente experiente e de boa definição."
+      },
+      {
+        "nome": "Simon Banza",
+        "pos": "AT",
+        "clube": "Braga (POR)",
+        "nota": "Atacante de área físico forte no futebol português."
+      },
+      {
+        "nome": "Yoane Wissa",
+        "pos": "AT",
+        "clube": "Newcastle (ENG)",
+        "nota": "Principal estrela de ataque de extraordinária arrancada."
+      }
+    ]
+  },
+  "CRO": {
+    "selecao": "Croácia",
+    "codigo": "CRO",
+    "jogadores": [
+      {
+        "nome": "Dominik Livaković",
+        "pos": "GR",
+        "clube": "Dinamo Zagreb (CRO)",
+        "nota": "Goleiro titular consolidado de reflexos espetaculares."
+      },
+      {
+        "nome": "Dominik Kotarski",
+        "pos": "GR",
+        "clube": "Copenhagen (DEN)",
+        "nota": "Opção ágil de excelente tempo de meta sob as traves."
+      },
+      {
+        "nome": "Ivor Pandur",
+        "pos": "GR",
+        "clube": "Hull City (ENG)",
+        "nota": "Sólido e seguro goleiro reserva de meta."
+      },
+      {
+        "nome": "Joško Gvardiol",
+        "pos": "DF",
+        "clube": "Manchester City (ENG)",
+        "nota": "Defensor canhoto de elite mundial de ótima saída."
+      },
+      {
+        "nome": "Duje Ćaleta-Car",
+        "pos": "DF",
+        "clube": "Real Sociedad (ESP)",
+        "nota": "Defensor de ótima estatura e firmeza de área."
+      },
+      {
+        "nome": "Josip Stanišić",
+        "pos": "DF",
+        "clube": "Bayern Munich (GER)",
+        "nota": "Lateral de grande consistência defensiva e cobertura."
+      },
+      {
+        "nome": "Martin Erlić",
+        "pos": "DF",
+        "clube": "Midtjylland (DEN)",
+        "nota": "Zagueiro central dinâmico de muita combatividade."
+      },
+      {
+        "nome": "Luka Vušković",
+        "pos": "DF",
+        "clube": "Hamburg (GER)",
+        "nota": "Jovem de extraordinária estatura física e futuro."
+      },
+      {
+        "nome": "Marin Pongračić",
+        "pos": "DF",
+        "clube": "Fiorentina (ITA)",
+        "nota": "Sólido zagueiro central marcador no Calcio italiano."
+      },
+      {
+        "nome": "Luka Modrić",
+        "pos": "MC",
+        "clube": "AC Milan (ITA)",
+        "nota": "Capitão e maestro de passes geniais em sua última Copa."
+      },
+      {
+        "nome": "Mario Pašalić",
+        "pos": "MC",
+        "clube": "Atalanta (ITA)",
+        "nota": "Meia dinâmico de excelente cabeceio e presença de área."
+      },
+      {
+        "nome": "Nikola Vlašić",
+        "pos": "MC",
+        "clube": "Torino (ITA)",
+        "nota": "Vigor físico e dinâmica entrelinhas na liga da Itália."
+      },
+      {
+        "nome": "Mateo Kovačić",
+        "pos": "MC",
+        "clube": "Manchester City (ENG)",
+        "nota": "Condução técnica espetacular de passes verticais."
+      },
+      {
+        "nome": "Luka Sučić",
+        "pos": "MC",
+        "clube": "Real Sociedad (ESP)",
+        "nota": "Meia canhoto ágil de excelente controle de bola longo."
+      },
+      {
+        "nome": "Martin Baturina",
+        "pos": "MC",
+        "clube": "Como (ITA)",
+        "nota": "Jovem de refinada qualidade criativa na intermediária."
+      },
+      {
+        "nome": "Petar Sučić",
+        "pos": "MC",
+        "clube": "Inter Milan (ITA)",
+        "nota": "Volante de boa distribuição técnica e desarmes."
+      },
+      {
+        "nome": "Nikola Moro",
+        "pos": "MC",
+        "clube": "Bologna (ITA)",
+        "nota": "Fornece combate intermediário firme e boa saída."
+      },
+      {
+        "nome": "Toni Fruk",
+        "pos": "MC",
+        "clube": "Rijeka (CRO)",
+        "nota": "Opção ofensiva móvel de corredor no meio local."
+      },
+      {
+        "nome": "Kristijan Jakić",
+        "pos": "MC",
+        "clube": "Augsburg (GER)",
+        "nota": "Volante marcador de imensa entrega na Bundesliga."
+      },
+      {
+        "nome": "Andrej Kramarić",
+        "pos": "AT",
+        "clube": "Hoffenheim (GER)",
+        "nota": "Centroavante de grande mobilidade e gols importantes."
+      },
+      {
+        "nome": "Ante Budimir",
+        "pos": "AT",
+        "clube": "Osasuna (ESP)",
+        "nota": "Centroavante de área imponente e perigo na bola aérea."
+      },
+      {
+        "nome": "Ivan Perišić",
+        "pos": "AT",
+        "clube": "PSV Eindhoven (NED)",
+        "nota": "Lendário ponta e maior goleador histórico croata."
+      },
+      {
+        "nome": "Igor Matanović",
+        "pos": "AT",
+        "clube": "Freiburg (GER)",
+        "nota": "Jovem de bom porte físico e pivô na grande área."
+      },
+      {
+        "nome": "Marco Pašalić",
+        "pos": "AT",
+        "clube": "Orlando City (USA)",
+        "nota": "Atacante veloz que atua no futebol norte-americano."
+      },
+      {
+        "nome": "Petar Musa",
+        "pos": "AT",
+        "clube": "FC Dallas (USA)",
+        "nota": "Atacante de área ágil com bom faro de gol em alta na MLS."
+      }
+    ]
+  },
+  "GHA": {
+    "selecao": "Gana",
+    "codigo": "GHA",
+    "jogadores": [
+      {
+        "nome": "Lawrence Ati Zigi",
+        "pos": "GR",
+        "clube": "St. Gallen (SUI)",
+        "nota": "Goleiro titular consistente de excelente impulsão."
+      },
+      {
+        "nome": "Joseph Anang",
+        "pos": "GR",
+        "clube": "St Patrick's (IRL)",
+        "nota": "Opção jovem segura sob as traves reservas."
+      },
+      {
+        "nome": "Benjamin Asare",
+        "pos": "GR",
+        "clube": "Great Olympics (GHA)",
+        "nota": "Goleiro de boa envergadura e destaque local."
+      },
+      {
+        "nome": "Alidu Seidu",
+        "pos": "DF",
+        "clube": "Rennes (FRA)",
+        "nota": "Lateral de extrema pegada física de marcação."
+      },
+      {
+        "nome": "Jonas Adjetey",
+        "pos": "DF",
+        "clube": "Basel (SUI)",
+        "nota": "Jovem defensor de bom tempo de desarmes rasteiros."
+      },
+      {
+        "nome": "Abdul Mumin",
+        "pos": "DF",
+        "clube": "Rayo Vallecano (ESP)",
+        "nota": "Consistência defensiva na zaga central na Espanha."
+      },
+      {
+        "nome": "Gideon Mensah",
+        "pos": "DF",
+        "clube": "Auxerre (FRA)",
+        "nota": "Lateral-esquerdo veloz de excelente marcação posicional."
+      },
+      {
+        "nome": "Baba Rahman",
+        "pos": "DF",
+        "clube": "PAOK (GRE)",
+        "nota": "Experiente e consistente lateral esquerdo de corredor."
+      },
+      {
+        "nome": "Jerome Opoku",
+        "pos": "DF",
+        "clube": "İstanbul Başakşehir (TUR)",
+        "nota": "Defensor central imponente fisicamente de área."
+      },
+      {
+        "nome": "Kojo Peprah Oppong",
+        "pos": "DF",
+        "clube": "Norrköping (SWE)",
+        "nota": "Jovem de boa impulsão e combate na Suécia."
+      },
+      {
+        "nome": "Derrick Luckassen",
+        "pos": "DF",
+        "clube": "Maccabi Tel Aviv (ISR)",
+        "nota": "Defensor de ótima estatura e firmeza de área."
+      },
+      {
+        "nome": "Marvin Senaya",
+        "pos": "DF",
+        "clube": "Strasbourg (FRA)",
+        "nota": "Lateral marcador de muita entrega física na França."
+      },
+      {
+        "nome": "Caleb Yirenkyi",
+        "pos": "MC",
+        "clube": "FC Nordsjælland (DEN)",
+        "nota": "Jovem meio-campista técnico de excelente passe."
+      },
+      {
+        "nome": "Thomas Partey",
+        "pos": "MC",
+        "clube": "Arsenal (ENG)",
+        "nota": "Capitão e cérebro tático de meio de campo de elite."
+      },
+      {
+        "nome": "Kwasi Sibo",
+        "pos": "MC",
+        "clube": "Amorebieta (ESP)",
+        "nota": "Volante combativo de muita pegada e desarmes."
+      },
+      {
+        "nome": "Antoine Semenyo",
+        "pos": "MC",
+        "clube": "Bournemouth (ENG)",
+        "nota": "Meia de transição de excelente chute de longa distância."
+      },
+      {
+        "nome": "Elisha Owusu",
+        "pos": "MC",
+        "clube": "Auxerre (FRA)",
+        "nota": "Meia marcador cão de guarda na intermediária."
+      },
+      {
+        "nome": "Augustine Boakye",
+        "pos": "MC",
+        "clube": "Wolfsberger AC (AUT)",
+        "nota": "Oferece dinâmica e passe final na Áustria."
+      },
+      {
+        "nome": "Abdul Fatawu",
+        "pos": "AT",
+        "clube": "Leicester City (ENG)",
+        "nota": "Velocidade e habilidade vertical no flanco direito."
+      },
+      {
+        "nome": "Jordan Ayew",
+        "pos": "AT",
+        "clube": "Leicester City (ENG)",
+        "nota": "Líder experiente de drible e chutes colocados."
+      },
+      {
+        "nome": "Brandon Thomas-Asante",
+        "pos": "AT",
+        "clube": "Coventry City (ENG)",
+        "nota": "Centroavante de grande mobilidade ofensiva de área."
+      },
+      {
+        "nome": "Christopher Bonsu Baah",
+        "pos": "AT",
+        "clube": "Genk (BEL)",
+        "nota": "Jovem ágil com drible de arranque rápido na Bélgica."
+      },
+      {
+        "nome": "Iñaki Williams",
+        "pos": "AT",
+        "clube": "Athletic Club (ESP)",
+        "nota": "Atacante velocíssimo de excelente diagonal e gols."
+      },
+      {
+        "nome": "Kamaldeen Sulemana",
+        "pos": "AT",
+        "clube": "Southampton (ENG)",
+        "nota": "Aceleração vertical rápida de contra-ataque."
+      },
+      {
+        "nome": "Ernest Nuamah",
+        "pos": "AT",
+        "clube": "Lyon (FRA)",
+        "nota": "Promessa canhota de drible curto muito agressivo."
+      },
+      {
+        "nome": "Prince Adu",
+        "pos": "AT",
+        "clube": "Kryvbas Kryvyi Rih (UKR)",
+        "nota": "Atacante rápido para os flancos ofensivos."
+      }
+    ]
+  },
+  "PAN": {
+    "selecao": "Panamá",
+    "codigo": "PAN",
+    "jogadores": [
+      {
+        "nome": "Luis Mejía",
+        "pos": "GR",
+        "clube": "Nacional (URU)",
+        "nota": "Goleiro titular experiente de extraordinária liderança."
+      },
+      {
+        "nome": "César Samudio",
+        "pos": "GR",
+        "clube": "Marathón (HON)",
+        "nota": "Opção muito ágil sob as traves reservas."
+      },
+      {
+        "nome": "Orlando Mosquera",
+        "pos": "GR",
+        "clube": "Maccabi Tel Aviv (ISR)",
+        "nota": "Sólida segurança técnica no gol reserva."
+      },
+      {
+        "nome": "César Blackman",
+        "pos": "DF",
+        "clube": "Slovan Bratislava (SVK)",
+        "nota": "Lateral de muita velocidade e consistência física."
+      },
+      {
+        "nome": "José Córdoba",
+        "pos": "DF",
+        "clube": "Alanyaspor (TUR)",
+        "nota": "Defensor central de ótima impulsão no futebol turco."
+      },
+      {
+        "nome": "Fidel Escobar",
+        "pos": "DF",
+        "clube": "Saprissa (CRC)",
+        "nota": "Pilar defensivo de excelente jogo aéreo de área."
+      },
+      {
+        "nome": "Edgardo Fariña",
+        "pos": "DF",
+        "clube": "Municipal (GUA)",
+        "nota": "Defensor de ótima estatura e firmeza de área."
+      },
+      {
+        "nome": "Jiovany Ramos",
+        "pos": "DF",
+        "clube": "Alianza Lima (PER)",
+        "nota": "Sólido defensor de boa marcação de área."
+      },
+      {
+        "nome": "Carlos Harvey",
+        "pos": "DF",
+        "clube": "Minnesota United (USA)",
+        "nota": "Lateral de imensa força física atuando nos EUA."
+      },
+      {
+        "nome": "Eric Davis",
+        "pos": "DF",
+        "clube": "Vila Nova (BRA)",
+        "nota": "Lateral experiente de grande consistência no Brasil."
+      },
+      {
+        "nome": "Andrés Andrade",
+        "pos": "DF",
+        "clube": "LASK (AUT)",
+        "nota": "Defensor de ótimo posicionamento na liga austríaca."
+      },
+      {
+        "nome": "Amir Murillo",
+        "pos": "DF",
+        "clube": "Marseille (FRA)",
+        "nota": "Lateral de grande qualidade técnica de passe na França."
+      },
+      {
+        "nome": "Roderick Miller",
+        "pos": "DF",
+        "clube": "Turan Tovuz (AZE)",
+        "nota": "Defensor físico forte na marcação no Azerbaijão."
+      },
+      {
+        "nome": "Jorge Gutiérrez",
+        "pos": "DF",
+        "clube": "San Francisco (PAN)",
+        "nota": "Lateral de bom fôlego de corredor no futebol local."
+      },
+      {
+        "nome": "Cristian Martínez",
+        "pos": "MC",
+        "clube": "Al-Jandal (KSA)",
+        "nota": "Volante combativo de muita pegada na intermediária."
+      },
+      {
+        "nome": "José Luis Rodríguez",
+        "pos": "MC",
+        "clube": "Famalicão (POR)",
+        "nota": "Meia de transição de excelente técnica em Portugal."
+      },
+      {
+        "nome": "Adalberto Carrasquilla",
+        "pos": "MC",
+        "clube": "Houston Dynamo (USA)",
+        "nota": "Principal cérebro criativo e distribuidor técnico do time."
+      },
+      {
+        "nome": "Ismael Díaz",
+        "pos": "MC",
+        "clube": "Universidad Católica (ECU)",
+        "nota": "Dinâmica criativa de velocidade e passe de corredor."
+      },
+      {
+        "nome": "Edgar Yoel Bárcenas",
+        "pos": "MC",
+        "clube": "Mazatlán (MEX)",
+        "nota": "Meia dinâmico muito físico de combate no México."
+      },
+      {
+        "nome": "Alberto Quintero",
+        "pos": "MC",
+        "clube": "Plaza Amador (PAN)",
+        "nota": "Experiência de transição para o meio-campo local."
+      },
+      {
+        "nome": "Aníbal Godoy",
+        "pos": "MC",
+        "clube": "Nashville SC (USA)",
+        "nota": "Volante experiente de excelente equilíbrio e passes."
+      },
+      {
+        "nome": "César Yanis",
+        "pos": "MC",
+        "clube": "San Carlos (CRC)",
+        "nota": "Agilidade de corredor rápido pelos flancos."
+      },
+      {
+        "nome": "Tomás Rodríguez",
+        "pos": "AT",
+        "clube": "Monagas (VEN)",
+        "nota": "Atacante de área com grande mobilidade física."
+      },
+      {
+        "nome": "José Fajardo",
+        "pos": "AT",
+        "clube": "Universidad Católica (ECU)",
+        "nota": "Atacante muito veloz de excelente finalização curta."
+      },
+      {
+        "nome": "Cecilio Waterman",
+        "pos": "AT",
+        "clube": "Alianza Lima (PER)",
+        "nota": "Força e agressividade em disputas físicas de área."
+      },
+      {
+        "nome": "Azarías Londoño",
+        "pos": "AT",
+        "clube": "Comunicaciones (GUA)",
+        "nota": "Opção rápida para quebrar defesas táticas."
+      }
+    ]
+  }
+}

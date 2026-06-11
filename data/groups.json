@@ -1,0 +1,134 @@
+{
+  "A": {
+    "letra": "A",
+    "titulo": "A Pressão do Anfitrião e a Coesão Doméstica",
+    "narrativa": "O Grupo A contrapõe a pressão do coanfitrião México à solidez estrutural de seleções que apostam na coesão de seus blocos domésticos e na liderança de jogadores consagrados no cenário internacional. O México chega sob imensa cobrança popular, confiando na experiência de Guillermo Ochoa. A Coreia do Sul apoia-se em Son Heung-min e Kim Min-jae, do Bayern de Munique. A África do Sul apresenta uma das maiores taxas de entrosamento do torneio, utilizando uma espinha dorsal amplamente baseada no clube Mamelodi Sundowns. Por sua vez, a República Tcheca confia no faro de gol de Patrik Schick.",
+    "times": [
+      "México",
+      "África do Sul",
+      "Coreia do Sul",
+      "Tchéquia"
+    ]
+  },
+  "B": {
+    "letra": "B",
+    "titulo": "A Transição Canadense e a Orquestra Suíça",
+    "narrativa": "No Grupo B, a atração tática centra-se na velocidade do coanfitrião Canadá e no rigor da Suíça. O Canadá conta com Alphonso Davies, embora tenha perdido Moïse Bombito por lesão, convocando Jayden Nelson. A Suíça, liderada por Granit Xhaka, foca na solidez de Gregor Kobel e Manuel Akanji. A Bósnia confia na experiência de Edin Džeko, enquanto o Catar tenta impor o entrosamento pelo ponta Akram Afif.",
+    "times": [
+      "Canadá",
+      "Bósnia e Herzegovina",
+      "Catar",
+      "Suíça"
+    ]
+  },
+  "C": {
+    "letra": "C",
+    "titulo": "O Ciclo de Transição do Pentacampeão",
+    "narrativa": "O Grupo C contrapõe o Brasil a adversários muito táticos e competitivos. O ciclo brasileiro foi complexo, culminando na chegada de Carlo Ancelotti, que enfrentou um revés pré-torneio ao perder o lateral Wesley por lesão muscular, convocando Éderson, da Atalanta. A grande atração é o retorno de Neymar aos 34 anos. O Marrocos chega sustentado pela força defensiva de Achraf Hakimi. A Escócia, desfalcada de Billy Gilmour, convocou o jovem de 19 anos Tyler Fletcher. O Haiti surge como o azarão de dotes atléticos imponentes.",
+    "times": [
+      "Brasil",
+      "Marrocos",
+      "Haiti",
+      "Escócia"
+    ]
+  },
+  "D": {
+    "letra": "D",
+    "titulo": "A \"Geração de Ouro\" Norte-Americana e a Muralha Guarani",
+    "narrativa": "O Grupo D apresenta o anfitrião Estados Unidos impulsionado por sua equipe mais promissora, sustentada por Christian Pulisic. Os americanos apostam em um jogo de extrema intensidade, que se contrapõe à marcação imposta pelo Paraguai de Gustavo Gómez. A Austrália confia no jogo aéreo proporcionado pelo defensor Harry Souttar, enquanto a Turquia apresenta um ataque tático refinado amparado por Arda Güler.",
+    "times": [
+      "Estados Unidos",
+      "Paraguai",
+      "Austrália",
+      "Turquia"
+    ]
+  },
+  "E": {
+    "letra": "E",
+    "titulo": "A Estrutura Germânica e a Cinderela Caribenha",
+    "narrativa": "O Grupo E destaca-se pela disparidade teórica de seus elencos. A tetracampeã Alemanha entra liderada por Jamal Musiala e Florian Wirtz, embora tenha perdido Lennart Karl por lesão física na véspera, convocando Assan Ouédraogo. A grande surpresa reside na histórica presença de Curaçao, a menor nação do torneio em população e área territorial, dirigida por Dick Advocaat. Curaçao montou uma equipe competitiva sustentada por Tahith Chong e os irmãos Bacuna. Equador e Costa do Marfim completam a chave.",
+    "times": [
+      "Alemanha",
+      "Curaçao",
+      "Costa do Marfim",
+      "Equador"
+    ]
+  },
+  "F": {
+    "letra": "F",
+    "titulo": "O Favoritismo Neerlandês e a Reorganização Defensiva",
+    "narrativa": "A seleção da Holanda surge como a favorita destacada do Grupo F. O técnico Ronald Koeman estruturou o time sob a liderança de Virgil van Dijk, tendo Memphis Depay, do Corinthians, recuperado de lesão muscular, como principal goleador. No entanto, a equipe sofreu um duro revés físico antes do torneio: o lateral Jurriën Timber foi vetado devido a problemas na virilha, obrigando o chamado emergencial de Lutsharel Geertruida. A lesão de joelho de Xavi Simons privou o setor de criação de seu elemento mais inventivo. Japão, Suécia e Tunísia completam a chave.",
+    "times": [
+      "Holanda",
+      "Japão",
+      "Suécia",
+      "Tunísia"
+    ]
+  },
+  "G": {
+    "letra": "G",
+    "titulo": "A Transição Belga e a Mentoria de Ouro",
+    "narrativa": "O Grupo G apresenta a Bélgica em um claro processo de renovação tática sob o técnico Rudi Garcia. Garcia manteve o pilar experiente de 2018 com o goleiro Thibaut Courtois, Kevin De Bruyne e Romelu Lukaku. A novidade da convocação belga foi a inclusão de Matías Fernández-Pardo, do Lille, indicando a aposta em alternativas ofensivas rápidas. Egito, Irã e Nova Zelândia completam a chave.",
+    "times": [
+      "Bélgica",
+      "Egito",
+      "Irã",
+      "Nova Zelândia"
+    ]
+  },
+  "H": {
+    "letra": "H",
+    "titulo": "Filosofias Opostas e a Ausência Madridista",
+    "narrativa": "O Grupo H contrapõe duas escolas táticas dominantes: a Espanha e a experiente seleção do Uruguai. A Espanha, sob Luis de la Fuente, gerou debate ao apresentar um elenco sem um único jogador do Real Madrid, apoiando-se em Lamine Yamal (Barcelona) e Nico Williams (Athletic Club). O Uruguai apresenta uma equipe vertical de transição rápida comandada por Federico Valverde e Darwin Núñez. Cabo Verde confia no central Logan Costa, do Villarreal, para ditar ritmos defensivos na chave.",
+    "times": [
+      "Espanha",
+      "Cabo Verde",
+      "Arábia Saudita",
+      "Uruguai"
+    ]
+  },
+  "I": {
+    "letra": "I",
+    "titulo": "O Vice-Campeão e a Filosofia Coletiva",
+    "narrativa": "No Grupo I, a atual vice-campeã mundial França desponta como uma das principais favoritas do torneio. O técnico Didier Deschamps surpreendeu ao priorizar a coesão coletiva em detrimento de individualidades consagradas, deixando fora da convocação Eduardo Camavinga e Kolo Muani, além de perder Hugo Ekitike por lesão. O ataque conta com Kylian Mbappé e Ousmane Dembélé. Senegal, Iraque e Noruega fecham o grupo.",
+    "times": [
+      "França",
+      "Senegal",
+      "Iraque",
+      "Noruega"
+    ]
+  },
+  "J": {
+    "letra": "J",
+    "titulo": "A Defesa do Título da Albiceleste",
+    "narrativa": "A campeã Argentina inicia a defesa de sua coroa no Grupo J contra Áustria, Argélia e Jordânia. O técnico Lionel Scaloni manteve a base que ergueu a taça em 2022 integrada por Lionel Messi em sua sexta Copa do Mundo. No entanto, a preparação argentina sofreu um golpe: o zagueiro Leonardo Balerdi lesionou o músculo sóleo nos treinamentos no Texas e precisou ser desconvocado. A equipe apoia-se em \"Dibu\" Martínez e na transição comandada por De Paul e Mac Allister, acionando a promessa Nico Paz.",
+    "times": [
+      "Argentina",
+      "Argélia",
+      "Áustria",
+      "Jordânia"
+    ]
+  },
+  "K": {
+    "letra": "K",
+    "titulo": "A Chave da Morte e a Geopolítica da Estreia",
+    "narrativa": "O Grupo K desponta como a chave mais forte do torneio, abrigando Portugal, Colômbia, a estreante seleção do Uzbequistão e a RD do Congo. Portugal apresenta uma de suas melhores gerações comandada por Roberto Martínez, conciliando Cristiano Ronaldo — em sua sexta Copa do Mundo aos 41 anos — e Bruno Fernandes. A Colômbia, de James Rodríguez e Luis Díaz, desafia o favoritismo. O Uzbequistão, dirigido por Fabio Cannavaro, confia no zagueiro Abdukodir Khusanov, do Manchester City.",
+    "times": [
+      "Portugal",
+      "RD do Congo",
+      "Uzbequistão",
+      "Colômbia"
+    ]
+  },
+  "L": {
+    "letra": "L",
+    "titulo": "O Rigor Britânico e o Cérebro Croata",
+    "narrativa": "A chave final contrapõe a milionária seleção da Inglaterra, dirigida por Thomas Tuchel, à experiência da Croácia, comandada pelo lendário Luka Modrić. Tuchel surpreendeu ao excluir Cole Palmer e Phil Foden de sua convocação final, apostando em Declan Rice e servindo ao capitão Harry Kane. A Croácia, de Modrić e Kovačić, apresenta extraordinário refino tático e posse de bola. Gana, de Antoine Semenyo e Iñaki Williams, traz agressividade física e o Panamá completa a chave de corredores velozes.",
+    "times": [
+      "Inglaterra",
+      "Croácia",
+      "Gana",
+      "Panamá"
+    ]
+  }
+}
