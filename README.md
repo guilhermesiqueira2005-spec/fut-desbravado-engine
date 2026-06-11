@@ -7,7 +7,7 @@ de convocados e do calendário da fase de grupos (72 partidas, horários de Bras
 ## Como funciona
 
 ```
-cron (Vercel */15min) ──► /api/cron/tick ──► engine avalia os 72 jogos
+GitHub Actions (*/15min) + cron Vercel (diário) ──► /api/cron/tick ──► engine avalia os 72 jogos
                                               ├─ 24h antes  → PRÉVIA TÁTICA (matchday-1) + IMPACTO DE LESÃO
                                               ├─ 1h antes   → AQUECIMENTO (roteiro vertical 60s)
                                               ├─ a cada 30' → REAÇÃO AO VIVO + varredura social (sentimento)
@@ -41,7 +41,10 @@ cron (Vercel */15min) ──► /api/cron/tick ──► engine avalia os 72 jog
 
 | Variável | Uso |
 |---|---|
-| `MAKE_WEBHOOK_URL` | Webhook do Make.com que recebe o JSON de cada tick (áudio ElevenLabs + render) |
+| `MAKE_WEBHOOK_URL` | Webhook do Make.com que recebe o JSON de cada tick (áudio ElevenLabs + render). Configurar em Vercel → Settings → Environment Variables quando o cenário do Make estiver criado. |
+
+**Heartbeat:** o workflow `.github/workflows/heartbeat.yml` dispara o tick a cada 15 minutos
+(o plano Hobby da Vercel limita crons nativos a 1x/dia — o cron diário fica como redundância).
 
 ## Desenvolvimento
 

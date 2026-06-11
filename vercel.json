@@ -1,6 +1,6 @@
 {
   "crons": [
-    { "path": "/api/cron/tick", "schedule": "*/15 * * * *" }
+    { "path": "/api/cron/tick", "schedule": "0 12 * * *" }
   ],
   "functions": {
     "api/**/*.js": { "maxDuration": 60 }

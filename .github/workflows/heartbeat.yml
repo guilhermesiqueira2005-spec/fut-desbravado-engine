@@ -1,0 +1,22 @@
+name: Heartbeat Orquestrador Copa 2026
+
+# Pulso de 15 minutos do ciclo de monitoramento (aquecimento 1h antes,
+# varredura social a cada 30min de jogo, empacotamento no apito final).
+# Complementa o cron diário da Vercel (plano Hobby limita crons a 1x/dia).
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Disparar /api/cron/tick
+        run: |
+          code=$(curl -fsS -o resposta.json -w "%{http_code}" \
+            "https://fut-desbravado-engine.vercel.app/api/cron/tick")
+          echo "HTTP $code"
+          cat resposta.json | head -c 2000
+          test "$code" = "200"
