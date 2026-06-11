@@ -28,7 +28,8 @@
   .sedes { margin-left:auto; display:flex; align-items:center; gap:14px; font-size:12px;
            font-weight:700; letter-spacing:1px; color:var(--dim); }
   .sedes .pais { display:flex; flex-direction:column; align-items:center; gap:3px; }
-  .sedes .bandeira { font-size:26px; line-height:1; }
+  .sedes .bandeira { width:38px; height:27px; border-radius:3px; object-fit:cover;
+                     box-shadow:0 0 0 1px var(--line2), 0 2px 6px rgba(0,0,0,.5); }
   .sub { color:var(--dim); margin-bottom:20px; max-width:1100px; }
   .sub b { color:var(--verde-claro); }
   .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:22px; }
@@ -82,9 +83,9 @@
     <h1><span class="fut">FUT </span><span class="des">DES</span><span class="bravado">BRAVADO</span><span class="resto"> · Engine Copa 2026</span></h1>
   </div>
   <div class="sedes">
-    <div class="pais"><span class="bandeira">🇨🇦</span>CANADÁ</div><span>•</span>
-    <div class="pais"><span class="bandeira">🇺🇸</span>EUA</div><span>•</span>
-    <div class="pais"><span class="bandeira">🇲🇽</span>MÉXICO</div>
+    <div class="pais"><img class="bandeira" src="https://flagcdn.com/w80/ca.png" alt="Canadá">CANADÁ</div><span>•</span>
+    <div class="pais"><img class="bandeira" src="https://flagcdn.com/w80/us.png" alt="EUA">EUA</div><span>•</span>
+    <div class="pais"><img class="bandeira" src="https://flagcdn.com/w80/mx.png" alt="México">MÉXICO</div>
   </div>
 </header>
 <div class="sub">Orquestrador Central de Automação, Design e Inteligência de Conteúdo — fase de grupos (<b>72 jogos</b> · horários de Brasília). <b>Aquecimento 1h antes</b> · <b>varredura social a cada 30min</b> · <b>empacotamento no apito final</b>.</div>
