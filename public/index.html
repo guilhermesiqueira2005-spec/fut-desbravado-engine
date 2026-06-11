@@ -5,57 +5,106 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fut Desbravado — Engine Copa 2026</title>
 <style>
-  :root { --bg:#0a0e14; --card:#121826; --line:#1f2937; --txt:#e5e7eb; --dim:#94a3b8;
-          --gold:#fbbf24; --green:#34d399; --red:#f87171; --blue:#60a5fa; }
+  :root {
+    --bg:#06130b; --bg2:#0a1f12; --card:#0b2014; --card2:#0e2718;
+    --line:#1f4d2e; --line2:#2c6b40;
+    --txt:#eef7f0; --dim:#9fc4ab;
+    --verde:#22c55e; --verde-claro:#4ade80; --vermelho:#ef4444; --amarelo:#fbbf24;
+  }
   * { box-sizing:border-box; margin:0; }
-  body { background:var(--bg); color:var(--txt); font:15px/1.5 'Segoe UI',system-ui,sans-serif; padding:24px; }
-  header { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px; }
-  h1 { font-size:26px; letter-spacing:.5px; }
-  h1 b { color:var(--gold); }
-  .sub { color:var(--dim); margin-bottom:20px; }
-  .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:24px; }
-  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 18px; }
-  .stat .n { font-size:22px; font-weight:700; color:var(--gold); }
-  .stat .l { font-size:12px; color:var(--dim); text-transform:uppercase; letter-spacing:1px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:12px; }
-  .match { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
-  .match .top { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
-  .match .conf { font-weight:600; font-size:16px; }
-  .badge { font-size:11px; padding:3px 9px; border-radius:99px; font-weight:700; letter-spacing:.5px; }
-  .AGENDADO,.AGUARDANDO_AQUECIMENTO { background:#1e293b; color:var(--dim); }
-  .PREVIA_24H { background:#172554; color:var(--blue); }
-  .AQUECIMENTO { background:#451a03; color:var(--gold); }
-  .AO_VIVO { background:#450a0a; color:var(--red); animation:pulse 1.2s infinite; }
-  .POS_JOGO { background:#052e16; color:var(--green); }
-  .ENCERRADO { background:#1e293b; color:#64748b; }
+  body {
+    background:radial-gradient(1200px 500px at 20% -10%, #0d2a18 0%, var(--bg) 60%);
+    color:var(--txt); font:15px/1.5 'Segoe UI',system-ui,sans-serif; padding:22px 26px;
+    min-height:100vh;
+  }
+  header { display:flex; align-items:center; gap:16px; flex-wrap:wrap; margin-bottom:8px; }
+  .logo { display:flex; align-items:center; gap:14px; }
+  .taca { font-size:44px; filter:drop-shadow(0 0 10px rgba(251,191,36,.45)); }
+  h1 { font-size:27px; letter-spacing:1px; font-weight:800; white-space:nowrap; }
+  h1 .fut { color:var(--txt); }
+  h1 .des { color:var(--verde-claro); }
+  h1 .bravado { color:var(--vermelho); }
+  h1 .resto { color:var(--txt); font-weight:600; }
+  .sedes { margin-left:auto; display:flex; align-items:center; gap:14px; font-size:12px;
+           font-weight:700; letter-spacing:1px; color:var(--dim); }
+  .sedes .pais { display:flex; flex-direction:column; align-items:center; gap:3px; }
+  .sedes .bandeira { font-size:26px; line-height:1; }
+  .sub { color:var(--dim); margin-bottom:20px; max-width:1100px; }
+  .sub b { color:var(--verde-claro); }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:22px; }
+  .stat { border-radius:10px; padding:12px 22px; min-width:150px; border:1px solid transparent; }
+  .stat .n { font-size:26px; font-weight:800; }
+  .stat .l { font-size:11px; text-transform:uppercase; letter-spacing:1.2px; font-weight:700; }
+  .stat.s-total { background:linear-gradient(135deg,#14532d,#166534); border-color:var(--line2); }
+  .stat.s-total .n, .stat.s-total .l { color:#dcfce7; }
+  .stat.s-vivo { background:#160b0b; border-color:#7f1d1d; }
+  .stat.s-vivo .n { color:var(--vermelho); } .stat.s-vivo .l { color:#fca5a5; }
+  .stat.s-aquece { background:linear-gradient(135deg,#7f1d1d,#991b1b); }
+  .stat.s-aquece .n, .stat.s-aquece .l { color:#fee2e2; }
+  .stat.s-fim { background:linear-gradient(135deg,#14532d,#15803d); border-color:var(--line2); }
+  .stat.s-fim .n, .stat.s-fim .l { color:#dcfce7; }
+  #filtro { background:var(--card); border:1px solid var(--line); color:var(--txt);
+            padding:9px 14px; border-radius:8px; margin-bottom:18px; width:320px; outline:none; }
+  #filtro:focus { border-color:var(--verde); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:13px; }
+  .match { background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid var(--line);
+           border-radius:11px; padding:14px 16px; transition:border-color .2s; }
+  .match:hover { border-color:var(--line2); }
+  .match .top { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:7px; }
+  .match .conf { font-weight:700; font-size:16px; }
+  .badge { font-size:11px; padding:3px 11px; border-radius:99px; font-weight:700; letter-spacing:.4px;
+           border:1px solid transparent; white-space:nowrap; }
+  .AGENDADO,.AGUARDANDO_AQUECIMENTO { background:#0c2e1a; color:var(--verde-claro); border-color:var(--line2); }
+  .PREVIA_24H { background:#1a2e0c; color:var(--amarelo); border-color:#854d0e; }
+  .AQUECIMENTO { background:#451a03; color:var(--amarelo); border-color:#92400e; }
+  .AO_VIVO { background:#450a0a; color:#fca5a5; border-color:#b91c1c; animation:pulse 1.2s infinite; }
+  .POS_JOGO { background:#052e16; color:var(--verde-claro); border-color:var(--line2); }
+  .ENCERRADO { background:#0c1f14; color:#5f8a6e; border-color:var(--line); }
   @keyframes pulse { 50% { opacity:.55; } }
   .meta { color:var(--dim); font-size:13px; }
-  .meta .g { color:var(--gold); font-weight:600; }
-  .actions { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
-  .actions a { font-size:12px; color:var(--blue); text-decoration:none; border:1px solid var(--line); padding:3px 9px; border-radius:6px; }
-  .actions a:hover { background:var(--line); }
-  #filtro { background:var(--card); border:1px solid var(--line); color:var(--txt); padding:8px 12px; border-radius:8px; margin-bottom:18px; width:300px; }
+  .meta .g { color:var(--amarelo); font-weight:700; }
+  .actions { margin-top:11px; display:flex; gap:8px; flex-wrap:wrap; }
+  .actions a { font-size:12px; font-weight:600; text-decoration:none; padding:4px 11px; border-radius:7px;
+               border:1px solid; transition:all .15s; }
+  .actions a.b-verde { color:var(--verde-claro); border-color:var(--line2); }
+  .actions a.b-verde:hover { background:#14532d; }
+  .actions a.b-vermelho { color:#fca5a5; border-color:#7f1d1d; }
+  .actions a.b-vermelho:hover { background:#450a0a; }
+  .actions a.b-misto { color:var(--amarelo); border-color:#854d0e; }
+  .actions a.b-misto:hover { background:#451a03; }
+  footer { margin-top:26px; font-size:12px; color:#4d7a5e; }
 </style>
 </head>
 <body>
-<header><h1>⚽ FUT <b>DESBRAVADO</b> · Engine Copa 2026</h1></header>
-<div class="sub">Orquestrador Central de Automação, Design e Inteligência de Conteúdo — fase de grupos (72 jogos · horários de Brasília). Aquecimento 1h antes · varredura social a cada 30min · empacotamento no apito final.</div>
+<header>
+  <div class="logo">
+    <span class="taca">🏆</span>
+    <h1><span class="fut">FUT </span><span class="des">DES</span><span class="bravado">BRAVADO</span><span class="resto"> · Engine Copa 2026</span></h1>
+  </div>
+  <div class="sedes">
+    <div class="pais"><span class="bandeira">🇨🇦</span>CANADÁ</div><span>•</span>
+    <div class="pais"><span class="bandeira">🇺🇸</span>EUA</div><span>•</span>
+    <div class="pais"><span class="bandeira">🇲🇽</span>MÉXICO</div>
+  </div>
+</header>
+<div class="sub">Orquestrador Central de Automação, Design e Inteligência de Conteúdo — fase de grupos (<b>72 jogos</b> · horários de Brasília). <b>Aquecimento 1h antes</b> · <b>varredura social a cada 30min</b> · <b>empacotamento no apito final</b>.</div>
 <div class="stats" id="stats"></div>
 <input id="filtro" placeholder="Filtrar por seleção ou grupo…" oninput="render()">
 <div class="grid" id="grid"></div>
+<footer>Fut Desbravado · Copa do Mundo FIFA 2026 · conteúdo gerado pela engine e despachado ao Make/ElevenLabs/Drive</footer>
 <script>
 let JOGOS = [];
-const LABEL = { AGENDADO:'Agendado', PREVIA_24H:'Prévia 24h', AGUARDANDO_AQUECIMENTO:'Aguardando',
+const LABEL = { AGENDADO:'Agendado', PREVIA_24H:'Prévia 24h', AGUARDANDO_AQUECIMENTO:'Agendado',
   AQUECIMENTO:'Aquecimento', AO_VIVO:'● AO VIVO', POS_JOGO:'Pós-jogo', ENCERRADO:'Encerrado' };
 async function load() {
   const r = await fetch('/api/state'); const j = await r.json();
   JOGOS = j.jogos; render();
   const c = f => JOGOS.filter(x=>x.fase===f).length;
   document.getElementById('stats').innerHTML =
-    stat(JOGOS.length,'jogos monitorados') + stat(c('AO_VIVO'),'ao vivo agora') +
-    stat(c('AQUECIMENTO'),'em aquecimento') + stat(c('ENCERRADO'),'encerrados');
+    stat(JOGOS.length,'jogos monitorados','s-total') + stat(c('AO_VIVO'),'ao vivo agora','s-vivo') +
+    stat(c('AQUECIMENTO'),'em aquecimento','s-aquece') + stat(c('ENCERRADO'),'encerrados','s-fim');
 }
-const stat=(n,l)=>`<div class="stat"><div class="n">${n}</div><div class="l">${l}</div></div>`;
+const stat=(n,l,k)=>`<div class="stat ${k}"><div class="n">${n}</div><div class="l">${l}</div></div>`;
 function render() {
   const f = (document.getElementById('filtro').value||'').toLowerCase();
   document.getElementById('grid').innerHTML = JOGOS
@@ -66,9 +115,9 @@ function render() {
         <span class="badge ${m.fase}">${LABEL[m.fase]||m.fase}${m.fase==='AO_VIVO'?` ${m.minuto}'`:''}</span></div>
       <div class="meta"><span class="g">Grupo ${m.grupo}</span> · ${m.horarioBrasilia} (Brasília) · ${m.estadio}</div>
       <div class="actions">
-        <a href="/api/generate?id=${m.id}&formato=PREVIA_TATICA" target="_blank">Prévia tática</a>
-        <a href="/api/generate?id=${m.id}&formato=REACAO_AO_VIVO&minuto=60" target="_blank">Reação 60'</a>
-        <a href="/api/generate?id=${m.id}&formato=ANALISE_POS_JOGO" target="_blank">Pós-jogo</a>
+        <a class="b-verde" href="/api/generate?id=${m.id}&formato=PREVIA_TATICA" target="_blank">Prévia tática</a>
+        <a class="b-vermelho" href="/api/generate?id=${m.id}&formato=REACAO_AO_VIVO&minuto=60" target="_blank">Reação 60'</a>
+        <a class="b-misto" href="/api/generate?id=${m.id}&formato=ANALISE_POS_JOGO" target="_blank">Pós-jogo</a>
       </div>
     </div>`).join('');
 }
