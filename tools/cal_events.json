@@ -1,0 +1,506 @@
+[
+ {
+  "id": 1,
+  "resumo": "⚽ J01 México x África do Sul — cobertura Fut Desbravado",
+  "ini": "2026-06-11T18:00:00.000Z",
+  "fim": "2026-06-11T21:15:00.000Z",
+  "desc": "Grupo A | Estadio Azteca, Cidade do México | bola 11/06 16:00 (Brasília)"
+ },
+ {
+  "id": 2,
+  "resumo": "⚽ J02 Coreia do Sul x Tchéquia — cobertura Fut Desbravado",
+  "ini": "2026-06-12T01:00:00.000Z",
+  "fim": "2026-06-12T04:15:00.000Z",
+  "desc": "Grupo A | Estadio Akron, Guadalajara | bola 11/06 23:00 (Brasília)"
+ },
+ {
+  "id": 3,
+  "resumo": "⚽ J03 Canadá x Bósnia e Herzegovina — cobertura Fut Desbravado",
+  "ini": "2026-06-12T18:00:00.000Z",
+  "fim": "2026-06-12T21:15:00.000Z",
+  "desc": "Grupo B | BMO Field, Toronto | bola 12/06 16:00 (Brasília)"
+ },
+ {
+  "id": 4,
+  "resumo": "⚽ J04 Estados Unidos x Paraguai — cobertura Fut Desbravado",
+  "ini": "2026-06-13T00:00:00.000Z",
+  "fim": "2026-06-13T03:15:00.000Z",
+  "desc": "Grupo D | SoFi Stadium, Los Angeles | bola 12/06 22:00 (Brasília)"
+ },
+ {
+  "id": 5,
+  "resumo": "⚽ J05 Catar x Suíça — cobertura Fut Desbravado",
+  "ini": "2026-06-13T18:00:00.000Z",
+  "fim": "2026-06-13T21:15:00.000Z",
+  "desc": "Grupo B | Levi's Stadium, São Francisco | bola 13/06 16:00 (Brasília)"
+ },
+ {
+  "id": 6,
+  "resumo": "⚽ J06 Brasil x Marrocos — cobertura Fut Desbravado",
+  "ini": "2026-06-13T21:00:00.000Z",
+  "fim": "2026-06-14T00:15:00.000Z",
+  "desc": "Grupo C | MetLife Stadium, Nova York/NJ | bola 13/06 19:00 (Brasília)"
+ },
+ {
+  "id": 7,
+  "resumo": "⚽ J07 Haiti x Escócia — cobertura Fut Desbravado",
+  "ini": "2026-06-14T00:00:00.000Z",
+  "fim": "2026-06-14T03:15:00.000Z",
+  "desc": "Grupo C | Gillette Stadium, Boston | bola 13/06 22:00 (Brasília)"
+ },
+ {
+  "id": 8,
+  "resumo": "⚽ J08 Austrália x Turquia — cobertura Fut Desbravado",
+  "ini": "2026-06-14T03:00:00.000Z",
+  "fim": "2026-06-14T06:15:00.000Z",
+  "desc": "Grupo D | BC Place, Vancouver | bola 14/06 01:00 (Brasília)"
+ },
+ {
+  "id": 9,
+  "resumo": "⚽ J09 Alemanha x Curaçao — cobertura Fut Desbravado",
+  "ini": "2026-06-14T16:00:00.000Z",
+  "fim": "2026-06-14T19:15:00.000Z",
+  "desc": "Grupo E | NRG Stadium, Houston | bola 14/06 14:00 (Brasília)"
+ },
+ {
+  "id": 10,
+  "resumo": "⚽ J10 Holanda x Japão — cobertura Fut Desbravado",
+  "ini": "2026-06-14T19:00:00.000Z",
+  "fim": "2026-06-14T22:15:00.000Z",
+  "desc": "Grupo F | AT&T Stadium, Dallas | bola 14/06 17:00 (Brasília)"
+ },
+ {
+  "id": 11,
+  "resumo": "⚽ J11 Costa do Marfim x Equador — cobertura Fut Desbravado",
+  "ini": "2026-06-14T22:00:00.000Z",
+  "fim": "2026-06-15T01:15:00.000Z",
+  "desc": "Grupo E | Lincoln Financial Field, Filadélfia | bola 14/06 20:00 (Brasília)"
+ },
+ {
+  "id": 12,
+  "resumo": "⚽ J12 Suécia x Tunísia — cobertura Fut Desbravado",
+  "ini": "2026-06-15T01:00:00.000Z",
+  "fim": "2026-06-15T04:15:00.000Z",
+  "desc": "Grupo F | Estadio BBVA, Monterrey | bola 14/06 23:00 (Brasília)"
+ },
+ {
+  "id": 13,
+  "resumo": "⚽ J13 Espanha x Cabo Verde — cobertura Fut Desbravado",
+  "ini": "2026-06-15T15:00:00.000Z",
+  "fim": "2026-06-15T18:15:00.000Z",
+  "desc": "Grupo H | Mercedes-Benz Stadium, Atlanta | bola 15/06 13:00 (Brasília)"
+ },
+ {
+  "id": 14,
+  "resumo": "⚽ J14 Bélgica x Egito — cobertura Fut Desbravado",
+  "ini": "2026-06-15T18:00:00.000Z",
+  "fim": "2026-06-15T21:15:00.000Z",
+  "desc": "Grupo G | Lumen Field, Seattle | bola 15/06 16:00 (Brasília)"
+ },
+ {
+  "id": 15,
+  "resumo": "⚽ J15 Arábia Saudita x Uruguai — cobertura Fut Desbravado",
+  "ini": "2026-06-15T21:00:00.000Z",
+  "fim": "2026-06-16T00:15:00.000Z",
+  "desc": "Grupo H | Hard Rock Stadium, Miami | bola 15/06 19:00 (Brasília)"
+ },
+ {
+  "id": 16,
+  "resumo": "⚽ J16 Irã x Nova Zelândia — cobertura Fut Desbravado",
+  "ini": "2026-06-16T00:00:00.000Z",
+  "fim": "2026-06-16T03:15:00.000Z",
+  "desc": "Grupo G | SoFi Stadium, Los Angeles | bola 15/06 22:00 (Brasília)"
+ },
+ {
+  "id": 17,
+  "resumo": "⚽ J17 França x Senegal — cobertura Fut Desbravado",
+  "ini": "2026-06-16T18:00:00.000Z",
+  "fim": "2026-06-16T21:15:00.000Z",
+  "desc": "Grupo I | MetLife Stadium, Nova York/NJ | bola 16/06 16:00 (Brasília)"
+ },
+ {
+  "id": 18,
+  "resumo": "⚽ J18 Iraque x Noruega — cobertura Fut Desbravado",
+  "ini": "2026-06-16T21:00:00.000Z",
+  "fim": "2026-06-17T00:15:00.000Z",
+  "desc": "Grupo I | Gillette Stadium, Boston | bola 16/06 19:00 (Brasília)"
+ },
+ {
+  "id": 19,
+  "resumo": "⚽ J19 Argentina x Argélia — cobertura Fut Desbravado",
+  "ini": "2026-06-17T00:00:00.000Z",
+  "fim": "2026-06-17T03:15:00.000Z",
+  "desc": "Grupo J | Arrowhead Stadium, Kansas City | bola 16/06 22:00 (Brasília)"
+ },
+ {
+  "id": 20,
+  "resumo": "⚽ J20 Áustria x Jordânia — cobertura Fut Desbravado",
+  "ini": "2026-06-17T03:00:00.000Z",
+  "fim": "2026-06-17T06:15:00.000Z",
+  "desc": "Grupo J | Levi's Stadium, São Francisco | bola 17/06 01:00 (Brasília)"
+ },
+ {
+  "id": 21,
+  "resumo": "⚽ J21 Portugal x RD do Congo — cobertura Fut Desbravado",
+  "ini": "2026-06-17T16:00:00.000Z",
+  "fim": "2026-06-17T19:15:00.000Z",
+  "desc": "Grupo K | NRG Stadium, Houston | bola 17/06 14:00 (Brasília)"
+ },
+ {
+  "id": 22,
+  "resumo": "⚽ J22 Inglaterra x Croácia — cobertura Fut Desbravado",
+  "ini": "2026-06-17T19:00:00.000Z",
+  "fim": "2026-06-17T22:15:00.000Z",
+  "desc": "Grupo L | BMO Field, Toronto | bola 17/06 17:00 (Brasília)"
+ },
+ {
+  "id": 23,
+  "resumo": "⚽ J23 Gana x Panamá — cobertura Fut Desbravado",
+  "ini": "2026-06-17T22:00:00.000Z",
+  "fim": "2026-06-18T01:15:00.000Z",
+  "desc": "Grupo L | AT&T Stadium, Dallas | bola 17/06 20:00 (Brasília)"
+ },
+ {
+  "id": 24,
+  "resumo": "⚽ J24 Uzbequistão x Colômbia — cobertura Fut Desbravado",
+  "ini": "2026-06-18T01:00:00.000Z",
+  "fim": "2026-06-18T04:15:00.000Z",
+  "desc": "Grupo K | Estadio Azteca, Cidade do México | bola 17/06 23:00 (Brasília)"
+ },
+ {
+  "id": 25,
+  "resumo": "⚽ J25 Tchéquia x África do Sul — cobertura Fut Desbravado",
+  "ini": "2026-06-18T15:00:00.000Z",
+  "fim": "2026-06-18T18:15:00.000Z",
+  "desc": "Grupo A | Mercedes-Benz Stadium, Atlanta | bola 18/06 13:00 (Brasília)"
+ },
+ {
+  "id": 26,
+  "resumo": "⚽ J26 Suíça x Bósnia e Herzegovina — cobertura Fut Desbravado",
+  "ini": "2026-06-18T18:00:00.000Z",
+  "fim": "2026-06-18T21:15:00.000Z",
+  "desc": "Grupo B | SoFi Stadium, Los Angeles | bola 18/06 16:00 (Brasília)"
+ },
+ {
+  "id": 27,
+  "resumo": "⚽ J27 Canadá x Catar — cobertura Fut Desbravado",
+  "ini": "2026-06-18T21:00:00.000Z",
+  "fim": "2026-06-19T00:15:00.000Z",
+  "desc": "Grupo B | BC Place, Vancouver | bola 18/06 19:00 (Brasília)"
+ },
+ {
+  "id": 28,
+  "resumo": "⚽ J28 México x Coreia do Sul — cobertura Fut Desbravado",
+  "ini": "2026-06-19T00:00:00.000Z",
+  "fim": "2026-06-19T03:15:00.000Z",
+  "desc": "Grupo A | Estadio Akron, Guadalajara | bola 18/06 22:00 (Brasília)"
+ },
+ {
+  "id": 29,
+  "resumo": "⚽ J29 Estados Unidos x Austrália — cobertura Fut Desbravado",
+  "ini": "2026-06-19T18:00:00.000Z",
+  "fim": "2026-06-19T21:15:00.000Z",
+  "desc": "Grupo D | Lumen Field, Seattle | bola 19/06 16:00 (Brasília)"
+ },
+ {
+  "id": 30,
+  "resumo": "⚽ J30 Escócia x Marrocos — cobertura Fut Desbravado",
+  "ini": "2026-06-19T21:00:00.000Z",
+  "fim": "2026-06-20T00:15:00.000Z",
+  "desc": "Grupo C | Gillette Stadium, Boston | bola 19/06 19:00 (Brasília)"
+ },
+ {
+  "id": 31,
+  "resumo": "⚽ J31 Brasil x Haiti — cobertura Fut Desbravado",
+  "ini": "2026-06-19T23:30:00.000Z",
+  "fim": "2026-06-20T02:45:00.000Z",
+  "desc": "Grupo C | Lincoln Financial Field, Filadélfia | bola 19/06 21:30 (Brasília)"
+ },
+ {
+  "id": 32,
+  "resumo": "⚽ J32 Turquia x Paraguai — cobertura Fut Desbravado",
+  "ini": "2026-06-20T02:30:00.000Z",
+  "fim": "2026-06-20T05:45:00.000Z",
+  "desc": "Grupo D | Levi's Stadium, São Francisco | bola 20/06 00:30 (Brasília)"
+ },
+ {
+  "id": 33,
+  "resumo": "⚽ J33 Holanda x Suécia — cobertura Fut Desbravado",
+  "ini": "2026-06-20T16:00:00.000Z",
+  "fim": "2026-06-20T19:15:00.000Z",
+  "desc": "Grupo F | NRG Stadium, Houston | bola 20/06 14:00 (Brasília)"
+ },
+ {
+  "id": 34,
+  "resumo": "⚽ J34 Alemanha x Costa do Marfim — cobertura Fut Desbravado",
+  "ini": "2026-06-20T19:00:00.000Z",
+  "fim": "2026-06-20T22:15:00.000Z",
+  "desc": "Grupo E | BMO Field, Toronto | bola 20/06 17:00 (Brasília)"
+ },
+ {
+  "id": 35,
+  "resumo": "⚽ J35 Equador x Curaçao — cobertura Fut Desbravado",
+  "ini": "2026-06-20T23:00:00.000Z",
+  "fim": "2026-06-21T02:15:00.000Z",
+  "desc": "Grupo E | Arrowhead Stadium, Kansas City | bola 20/06 21:00 (Brasília)"
+ },
+ {
+  "id": 36,
+  "resumo": "⚽ J36 Tunísia x Japão — cobertura Fut Desbravado",
+  "ini": "2026-06-21T03:00:00.000Z",
+  "fim": "2026-06-21T06:15:00.000Z",
+  "desc": "Grupo F | Estadio BBVA, Monterrey | bola 21/06 01:00 (Brasília)"
+ },
+ {
+  "id": 37,
+  "resumo": "⚽ J37 Espanha x Arábia Saudita — cobertura Fut Desbravado",
+  "ini": "2026-06-21T15:00:00.000Z",
+  "fim": "2026-06-21T18:15:00.000Z",
+  "desc": "Grupo H | Mercedes-Benz Stadium, Atlanta | bola 21/06 13:00 (Brasília)"
+ },
+ {
+  "id": 38,
+  "resumo": "⚽ J38 Bélgica x Irã — cobertura Fut Desbravado",
+  "ini": "2026-06-21T18:00:00.000Z",
+  "fim": "2026-06-21T21:15:00.000Z",
+  "desc": "Grupo G | SoFi Stadium, Los Angeles | bola 21/06 16:00 (Brasília)"
+ },
+ {
+  "id": 39,
+  "resumo": "⚽ J39 Uruguai x Cabo Verde — cobertura Fut Desbravado",
+  "ini": "2026-06-21T21:00:00.000Z",
+  "fim": "2026-06-22T00:15:00.000Z",
+  "desc": "Grupo H | Hard Rock Stadium, Miami | bola 21/06 19:00 (Brasília)"
+ },
+ {
+  "id": 40,
+  "resumo": "⚽ J40 Nova Zelândia x Egito — cobertura Fut Desbravado",
+  "ini": "2026-06-22T00:00:00.000Z",
+  "fim": "2026-06-22T03:15:00.000Z",
+  "desc": "Grupo G | BC Place, Vancouver | bola 21/06 22:00 (Brasília)"
+ },
+ {
+  "id": 41,
+  "resumo": "⚽ J41 Argentina x Áustria — cobertura Fut Desbravado",
+  "ini": "2026-06-22T16:00:00.000Z",
+  "fim": "2026-06-22T19:15:00.000Z",
+  "desc": "Grupo J | AT&T Stadium, Dallas | bola 22/06 14:00 (Brasília)"
+ },
+ {
+  "id": 42,
+  "resumo": "⚽ J42 França x Iraque — cobertura Fut Desbravado",
+  "ini": "2026-06-22T20:00:00.000Z",
+  "fim": "2026-06-22T23:15:00.000Z",
+  "desc": "Grupo I | Lincoln Financial Field, Filadélfia | bola 22/06 18:00 (Brasília)"
+ },
+ {
+  "id": 43,
+  "resumo": "⚽ J43 Noruega x Senegal — cobertura Fut Desbravado",
+  "ini": "2026-06-22T23:00:00.000Z",
+  "fim": "2026-06-23T02:15:00.000Z",
+  "desc": "Grupo I | MetLife Stadium, Nova York/NJ | bola 22/06 21:00 (Brasília)"
+ },
+ {
+  "id": 44,
+  "resumo": "⚽ J44 Jordânia x Argélia — cobertura Fut Desbravado",
+  "ini": "2026-06-23T02:00:00.000Z",
+  "fim": "2026-06-23T05:15:00.000Z",
+  "desc": "Grupo J | Levi's Stadium, São Francisco | bola 23/06 00:00 (Brasília)"
+ },
+ {
+  "id": 45,
+  "resumo": "⚽ J45 Portugal x Uzbequistão — cobertura Fut Desbravado",
+  "ini": "2026-06-23T16:00:00.000Z",
+  "fim": "2026-06-23T19:15:00.000Z",
+  "desc": "Grupo K | NRG Stadium, Houston | bola 23/06 14:00 (Brasília)"
+ },
+ {
+  "id": 46,
+  "resumo": "⚽ J46 Inglaterra x Gana — cobertura Fut Desbravado",
+  "ini": "2026-06-23T19:00:00.000Z",
+  "fim": "2026-06-23T22:15:00.000Z",
+  "desc": "Grupo L | BMO Field, Toronto | bola 23/06 17:00 (Brasília)"
+ },
+ {
+  "id": 47,
+  "resumo": "⚽ J47 Panamá x Croácia — cobertura Fut Desbravado",
+  "ini": "2026-06-23T22:00:00.000Z",
+  "fim": "2026-06-24T01:15:00.000Z",
+  "desc": "Grupo L | BMO Field, Toronto | bola 23/06 20:00 (Brasília)"
+ },
+ {
+  "id": 48,
+  "resumo": "⚽ J48 Colômbia x RD do Congo — cobertura Fut Desbravado",
+  "ini": "2026-06-24T01:00:00.000Z",
+  "fim": "2026-06-24T04:15:00.000Z",
+  "desc": "Grupo K | Estadio Akron, Guadalajara | bola 23/06 23:00 (Brasília)"
+ },
+ {
+  "id": 49,
+  "resumo": "⚽ J49 Suíça x Canadá — cobertura Fut Desbravado",
+  "ini": "2026-06-24T18:00:00.000Z",
+  "fim": "2026-06-24T21:15:00.000Z",
+  "desc": "Grupo B | BC Place, Vancouver | bola 24/06 16:00 (Brasília)"
+ },
+ {
+  "id": 50,
+  "resumo": "⚽ J50 Bósnia e Herzegovina x Catar — cobertura Fut Desbravado",
+  "ini": "2026-06-24T18:00:00.000Z",
+  "fim": "2026-06-24T21:15:00.000Z",
+  "desc": "Grupo B | Lumen Field, Seattle | bola 24/06 16:00 (Brasília)"
+ },
+ {
+  "id": 51,
+  "resumo": "⚽ J51 Escócia x Brasil — cobertura Fut Desbravado",
+  "ini": "2026-06-24T21:00:00.000Z",
+  "fim": "2026-06-25T00:15:00.000Z",
+  "desc": "Grupo C | Hard Rock Stadium, Miami | bola 24/06 19:00 (Brasília)"
+ },
+ {
+  "id": 52,
+  "resumo": "⚽ J52 Marrocos x Haiti — cobertura Fut Desbravado",
+  "ini": "2026-06-24T21:00:00.000Z",
+  "fim": "2026-06-25T00:15:00.000Z",
+  "desc": "Grupo C | Mercedes-Benz Stadium, Atlanta | bola 24/06 19:00 (Brasília)"
+ },
+ {
+  "id": 53,
+  "resumo": "⚽ J53 Tchéquia x México — cobertura Fut Desbravado",
+  "ini": "2026-06-25T00:00:00.000Z",
+  "fim": "2026-06-25T03:15:00.000Z",
+  "desc": "Grupo A | Estadio Azteca, Cidade do México | bola 24/06 22:00 (Brasília)"
+ },
+ {
+  "id": 54,
+  "resumo": "⚽ J54 África do Sul x Coreia do Sul — cobertura Fut Desbravado",
+  "ini": "2026-06-25T00:00:00.000Z",
+  "fim": "2026-06-25T03:15:00.000Z",
+  "desc": "Grupo A | Estadio BBVA, Monterrey | bola 24/06 22:00 (Brasília)"
+ },
+ {
+  "id": 55,
+  "resumo": "⚽ J55 Equador x Alemanha — cobertura Fut Desbravado",
+  "ini": "2026-06-25T19:00:00.000Z",
+  "fim": "2026-06-25T22:15:00.000Z",
+  "desc": "Grupo E | MetLife Stadium, Nova York/NJ | bola 25/06 17:00 (Brasília)"
+ },
+ {
+  "id": 56,
+  "resumo": "⚽ J56 Curaçao x Costa do Marfim — cobertura Fut Desbravado",
+  "ini": "2026-06-25T19:00:00.000Z",
+  "fim": "2026-06-25T22:15:00.000Z",
+  "desc": "Grupo E | Lincoln Financial Field, Filadélfia | bola 25/06 17:00 (Brasília)"
+ },
+ {
+  "id": 57,
+  "resumo": "⚽ J57 Japão x Suécia — cobertura Fut Desbravado",
+  "ini": "2026-06-25T22:00:00.000Z",
+  "fim": "2026-06-26T01:15:00.000Z",
+  "desc": "Grupo F | AT&T Stadium, Dallas | bola 25/06 20:00 (Brasília)"
+ },
+ {
+  "id": 58,
+  "resumo": "⚽ J58 Tunísia x Holanda — cobertura Fut Desbravado",
+  "ini": "2026-06-25T22:00:00.000Z",
+  "fim": "2026-06-26T01:15:00.000Z",
+  "desc": "Grupo F | Arrowhead Stadium, Kansas City | bola 25/06 20:00 (Brasília)"
+ },
+ {
+  "id": 59,
+  "resumo": "⚽ J59 Turquia x Estados Unidos — cobertura Fut Desbravado",
+  "ini": "2026-06-26T01:00:00.000Z",
+  "fim": "2026-06-26T04:15:00.000Z",
+  "desc": "Grupo D | SoFi Stadium, Los Angeles | bola 25/06 23:00 (Brasília)"
+ },
+ {
+  "id": 60,
+  "resumo": "⚽ J60 Paraguai x Austrália — cobertura Fut Desbravado",
+  "ini": "2026-06-26T01:00:00.000Z",
+  "fim": "2026-06-26T04:15:00.000Z",
+  "desc": "Grupo D | Levi's Stadium, São Francisco | bola 25/06 23:00 (Brasília)"
+ },
+ {
+  "id": 61,
+  "resumo": "⚽ J61 Noruega x França — cobertura Fut Desbravado",
+  "ini": "2026-06-26T18:00:00.000Z",
+  "fim": "2026-06-26T21:15:00.000Z",
+  "desc": "Grupo I | Gillette Stadium, Boston | bola 26/06 16:00 (Brasília)"
+ },
+ {
+  "id": 62,
+  "resumo": "⚽ J62 Senegal x Iraque — cobertura Fut Desbravado",
+  "ini": "2026-06-26T18:00:00.000Z",
+  "fim": "2026-06-26T21:15:00.000Z",
+  "desc": "Grupo I | BMO Field, Toronto | bola 26/06 16:00 (Brasília)"
+ },
+ {
+  "id": 63,
+  "resumo": "⚽ J63 Cabo Verde x Arábia Saudita — cobertura Fut Desbravado",
+  "ini": "2026-06-26T23:00:00.000Z",
+  "fim": "2026-06-27T02:15:00.000Z",
+  "desc": "Grupo H | NRG Stadium, Houston | bola 26/06 21:00 (Brasília)"
+ },
+ {
+  "id": 64,
+  "resumo": "⚽ J64 Uruguai x Espanha — cobertura Fut Desbravado",
+  "ini": "2026-06-26T23:00:00.000Z",
+  "fim": "2026-06-27T02:15:00.000Z",
+  "desc": "Grupo H | Estadio Akron, Guadalajara | bola 26/06 21:00 (Brasília)"
+ },
+ {
+  "id": 65,
+  "resumo": "⚽ J65 Egito x Irã — cobertura Fut Desbravado",
+  "ini": "2026-06-27T02:00:00.000Z",
+  "fim": "2026-06-27T05:15:00.000Z",
+  "desc": "Grupo G | Lumen Field, Seattle | bola 27/06 00:00 (Brasília)"
+ },
+ {
+  "id": 66,
+  "resumo": "⚽ J66 Nova Zelândia x Bélgica — cobertura Fut Desbravado",
+  "ini": "2026-06-27T02:00:00.000Z",
+  "fim": "2026-06-27T05:15:00.000Z",
+  "desc": "Grupo G | BC Place, Vancouver | bola 27/06 00:00 (Brasília)"
+ },
+ {
+  "id": 67,
+  "resumo": "⚽ J67 Panamá x Inglaterra — cobertura Fut Desbravado",
+  "ini": "2026-06-27T20:00:00.000Z",
+  "fim": "2026-06-27T23:15:00.000Z",
+  "desc": "Grupo L | MetLife Stadium, Nova York/NJ | bola 27/06 18:00 (Brasília)"
+ },
+ {
+  "id": 68,
+  "resumo": "⚽ J68 Croácia x Gana — cobertura Fut Desbravado",
+  "ini": "2026-06-27T20:00:00.000Z",
+  "fim": "2026-06-27T23:15:00.000Z",
+  "desc": "Grupo L | Lincoln Financial Field, Filadélfia | bola 27/06 18:00 (Brasília)"
+ },
+ {
+  "id": 69,
+  "resumo": "⚽ J69 Colômbia x Portugal — cobertura Fut Desbravado",
+  "ini": "2026-06-27T22:30:00.000Z",
+  "fim": "2026-06-28T01:45:00.000Z",
+  "desc": "Grupo K | Hard Rock Stadium, Miami | bola 27/06 20:30 (Brasília)"
+ },
+ {
+  "id": 70,
+  "resumo": "⚽ J70 RD do Congo x Uzbequistão — cobertura Fut Desbravado",
+  "ini": "2026-06-27T22:30:00.000Z",
+  "fim": "2026-06-28T01:45:00.000Z",
+  "desc": "Grupo K | Mercedes-Benz Stadium, Atlanta | bola 27/06 20:30 (Brasília)"
+ },
+ {
+  "id": 71,
+  "resumo": "⚽ J71 Argélia x Áustria — cobertura Fut Desbravado",
+  "ini": "2026-06-28T01:00:00.000Z",
+  "fim": "2026-06-28T04:15:00.000Z",
+  "desc": "Grupo J | Arrowhead Stadium, Kansas City | bola 27/06 23:00 (Brasília)"
+ },
+ {
+  "id": 72,
+  "resumo": "⚽ J72 Jordânia x Argentina — cobertura Fut Desbravado",
+  "ini": "2026-06-28T01:00:00.000Z",
+  "fim": "2026-06-28T04:15:00.000Z",
+  "desc": "Grupo J | AT&T Stadium, Dallas | bola 27/06 23:00 (Brasília)"
+ }
+]

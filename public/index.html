@@ -82,6 +82,7 @@
     <span class="taca">🏆</span>
     <h1><span class="fut">FUT </span><span class="des">DES</span><span class="bravado">BRAVADO</span><span class="resto"> · Engine Copa 2026</span></h1>
   </div>
+  <a href="/youtube.html" style="margin-left:18px;color:#fca5a5;text-decoration:none;font-size:13px;font-weight:700;border:1px solid #7f1d1d;padding:6px 14px;border-radius:8px;background:#160b0b">▶ Canal no YouTube</a>
   <div class="sedes">
     <div class="pais"><img class="bandeira" src="https://flagcdn.com/w80/ca.png" alt="Canadá">CANADÁ</div><span>•</span>
     <div class="pais"><img class="bandeira" src="https://flagcdn.com/w80/us.png" alt="EUA">EUA</div><span>•</span>
@@ -116,9 +117,9 @@ function render() {
         <span class="badge ${m.fase}">${LABEL[m.fase]||m.fase}${m.fase==='AO_VIVO'?` ${m.minuto}'`:''}</span></div>
       <div class="meta"><span class="g">Grupo ${m.grupo}</span> · ${m.horarioBrasilia} (Brasília) · ${m.estadio}</div>
       <div class="actions">
-        <a class="b-verde" href="/api/generate?id=${m.id}&formato=PREVIA_TATICA" target="_blank">Prévia tática</a>
-        <a class="b-vermelho" href="/api/generate?id=${m.id}&formato=REACAO_AO_VIVO&minuto=60" target="_blank">Reação 60'</a>
-        <a class="b-misto" href="/api/generate?id=${m.id}&formato=ANALISE_POS_JOGO" target="_blank">Pós-jogo</a>
+        <a class="b-verde" href="/roteiro.html?id=${m.id}&formato=PREVIA_TATICA" target="_blank">Prévia tática</a>
+        <a class="b-vermelho" href="/roteiro.html?id=${m.id}&formato=REACAO_AO_VIVO&minuto=60" target="_blank">Reação 60'</a>
+        <a class="b-misto" href="/roteiro.html?id=${m.id}&formato=ANALISE_POS_JOGO" target="_blank">Pós-jogo</a>
       </div>
     </div>`).join('');
 }

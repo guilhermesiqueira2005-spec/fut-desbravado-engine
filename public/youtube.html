@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canal — Fut Desbravado · Engine Copa 2026</title>
+<style>
+  :root {
+    --bg:#06130b; --card:#0b2014; --card2:#0e2718; --line:#1f4d2e; --line2:#2c6b40;
+    --txt:#eef7f0; --dim:#9fc4ab; --verde:#22c55e; --verde-claro:#4ade80;
+    --vermelho:#ef4444; --amarelo:#fbbf24; --yt:#ff0033;
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:radial-gradient(1200px 500px at 20% -10%, #0d2a18 0%, var(--bg) 60%);
+         color:var(--txt); font:15px/1.5 'Segoe UI',system-ui,sans-serif; padding:22px 26px; min-height:100vh; }
+  header { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:6px; }
+  .taca { font-size:38px; filter:drop-shadow(0 0 10px rgba(251,191,36,.45)); }
+  h1 { font-size:24px; font-weight:800; }
+  h1 .des { color:var(--verde-claro); } h1 .bravado { color:var(--vermelho); }
+  .ytbadge { background:var(--yt); color:#fff; font-size:12px; font-weight:800; padding:4px 12px;
+             border-radius:99px; letter-spacing:.5px; }
+  nav { margin-left:auto; display:flex; gap:10px; }
+  nav a { color:var(--verde-claro); text-decoration:none; font-size:13px; font-weight:600;
+          border:1px solid var(--line2); padding:6px 14px; border-radius:8px; }
+  nav a:hover { background:#14532d; }
+  .canal { display:flex; align-items:center; gap:14px; margin:16px 0 20px; }
+  .canal .avatar { width:54px; height:54px; border-radius:50%; background:linear-gradient(135deg,#14532d,#166534);
+                   display:flex; align-items:center; justify-content:center; font-size:26px;
+                   box-shadow:0 0 0 2px var(--line2); }
+  .canal .nome { font-size:19px; font-weight:800; }
+  .canal .meta { color:var(--dim); font-size:13px; }
+  .canal a { color:var(--verde-claro); }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:22px; }
+  .stat { background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid var(--line);
+          border-radius:10px; padding:14px 22px; min-width:170px; }
+  .stat .n { font-size:26px; font-weight:800; color:var(--verde-claro); }
+  .stat.vermelho .n { color:var(--vermelho); }
+  .stat.amarelo .n { color:var(--amarelo); }
+  .stat .l { font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:1.2px; font-weight:700; }
+  .stat .d { font-size:12px; color:var(--dim); margin-top:2px; }
+  h2 { font-size:15px; text-transform:uppercase; letter-spacing:1.5px; color:var(--dim); margin:26px 0 12px; }
+  .comp { background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid var(--line);
+          border-radius:11px; padding:18px; }
+  .barra { display:grid; grid-template-columns:minmax(180px,320px) 1fr 90px; gap:12px; align-items:center;
+           padding:7px 0; border-bottom:1px solid #11301d; }
+  .barra:last-child { border-bottom:none; }
+  .barra .t { font-size:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .barra .t a { color:var(--txt); text-decoration:none; } .barra .t a:hover { color:var(--verde-claro); }
+  .trilho { background:#0a1a10; border-radius:99px; height:14px; overflow:hidden; }
+  .preench { height:100%; border-radius:99px; background:linear-gradient(90deg,#166534,var(--verde));
+             box-shadow:0 0 10px rgba(34,197,94,.35); }
+  .preench.q { background:linear-gradient(90deg,#7f1d1d,var(--vermelho)); box-shadow:0 0 10px rgba(239,68,68,.3); }
+  .barra .v { font-size:13px; font-weight:700; color:var(--verde-claro); text-align:right; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:13px; }
+  .video { background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid var(--line);
+           border-radius:11px; overflow:hidden; transition:border-color .2s; }
+  .video:hover { border-color:var(--line2); }
+  .video img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; background:#0a1a10; }
+  .video .corpo { padding:11px 13px 13px; }
+  .video .t { font-size:13.5px; font-weight:600; line-height:1.35; height:2.7em; overflow:hidden; }
+  .video .t a { color:var(--txt); text-decoration:none; } .video .t a:hover { color:var(--verde-claro); }
+  .video .m { display:flex; gap:10px; margin-top:8px; color:var(--dim); font-size:12.5px; flex-wrap:wrap; }
+  .video .m b { color:var(--verde-claro); }
+  .video .novo { display:inline-block; background:#450a0a; color:#fca5a5; border:1px solid #b91c1c;
+                 font-size:10px; font-weight:800; padding:1px 8px; border-radius:99px; margin-left:6px; }
+  .aviso { background:#1a2e0c; border:1px solid #854d0e; color:var(--amarelo); padding:10px 16px;
+           border-radius:9px; font-size:13px; margin-bottom:18px; display:none; }
+  footer { margin-top:26px; font-size:12px; color:#4d7a5e; }
+</style>
+</head>
+<body>
+<header>
+  <span class="taca">🏆</span>
+  <h1>FUT <span class="des">DES</span><span class="bravado">BRAVADO</span> · Canal</h1>
+  <span class="ytbadge">▶ YOUTUBE</span>
+  <nav><a href="/">⚽ Jogos</a><a href="https://studio.youtube.com" target="_blank">Abrir YouTube Studio ↗</a></nav>
+</header>
+<div class="canal">
+  <div class="avatar">⚽</div>
+  <div>
+    <div class="nome" id="c-nome">Fut Desbravado</div>
+    <div class="meta"><a href="https://www.youtube.com/@Futdesbravadooficial" target="_blank">@Futdesbravadooficial</a> · <span id="c-subs">—</span> · <span id="c-modo"></span></div>
+  </div>
+</div>
+<div class="aviso" id="aviso">Modo público ativo: views e títulos são reais (dados públicos do canal). Para métricas oficiais completas (likes, comentários, totais do canal), configure <b>YOUTUBE_API_KEY</b> na Vercel.</div>
+<div class="stats" id="stats"></div>
+<h2>📊 Comparação · vídeos mais recentes</h2>
+<div class="comp" id="comparacao">Carregando…</div>
+<h2>🎬 Publicações do canal</h2>
+<div class="grid" id="videos"></div>
+<footer>Dados reais do canal no YouTube · atualização automática a cada 10 minutos · <span id="atualizado"></span></footer>
+<script>
+const fmt = n => n==null ? '—' : n>=1e6 ? (n/1e6).toFixed(1).replace('.',',')+' mi' : n>=1e3 ? (n/1e3).toFixed(1).replace('.',',')+' mil' : String(n);
+const tempoRel = iso => { if(!iso) return ''; const h=(Date.now()-new Date(iso))/36e5;
+  return h<1?'há '+Math.max(1,Math.round(h*60))+' min': h<24?'há '+Math.round(h)+' h': 'há '+Math.round(h/24)+' dias'; };
+const stat=(n,l,d,k='')=>`<div class="stat ${k}"><div class="n">${n}</div><div class="l">${l}</div>${d?`<div class="d">${d}</div>`:''}</div>`;
+
+async function load() {
+  const r = await fetch('/api/youtube'); const j = await r.json();
+  if (j.erro) { document.getElementById('comparacao').textContent = 'Erro: ' + j.erro; return; }
+  const vs = (j.videos||[]).map(v => ({...v, views: v.views ?? v.viewsAprox ?? 0}));
+  document.getElementById('c-subs').textContent = j.canal.inscritosTexto || '—';
+  document.getElementById('c-modo').textContent = j.modo === 'api' ? 'Data API oficial' : 'dados públicos';
+  document.getElementById('aviso').style.display = j.modo === 'api' ? 'none' : 'block';
+  document.getElementById('atualizado').textContent = 'atualizado ' + new Date(j.atualizadoEm).toLocaleTimeString('pt-BR');
+
+  const total = vs.reduce((s,v)=>s+v.views,0);
+  const h24 = vs.filter(v => v.publicadoEm && Date.now()-new Date(v.publicadoEm) < 864e5);
+  const v24 = h24.reduce((s,v)=>s+v.views,0);
+  const media = vs.length ? Math.round(total/vs.length) : 0;
+  const top = vs.slice().sort((a,b)=>b.views-a.views)[0];
+  document.getElementById('stats').innerHTML =
+    stat(fmt(j.canal.totalViews ?? total), 'views' + (j.canal.totalViews?' do canal':' (recentes)')) +
+    stat(j.canal.totalVideos ?? vs.length, 'vídeos' + (j.canal.totalVideos?'':' listados')) +
+    stat(h24.length, 'publicados em 24h', h24.length?fmt(v24)+' views':'', 'vermelho') +
+    stat(fmt(media), 'média de views/vídeo', top?('top: '+fmt(top.views)):'', 'amarelo');
+
+  const max = Math.max(...vs.slice(0,10).map(v=>v.views), 1);
+  document.getElementById('comparacao').innerHTML = vs.slice(0,10).map((v,i)=>`
+    <div class="barra">
+      <div class="t"><a href="${v.url}" target="_blank">${i+1}. ${v.titulo}</a></div>
+      <div class="trilho"><div class="preench ${i<2?'q':''}" style="width:${Math.max(3,100*v.views/max)}%"></div></div>
+      <div class="v">${fmt(v.views)}</div>
+    </div>`).join('') || 'Nenhum vídeo encontrado.';
+
+  document.getElementById('videos').innerHTML = vs.map(v=>`
+    <div class="video">
+      <a href="${v.url}" target="_blank"><img src="${v.thumb}" alt="" loading="lazy"
+        onerror="this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'"></a>
+      <div class="corpo">
+        <div class="t"><a href="${v.url}" target="_blank">${v.titulo}</a>${v.publicadoEm && Date.now()-new Date(v.publicadoEm)<864e5?'<span class="novo">NOVO 24H</span>':''}</div>
+        <div class="m"><span><b>${fmt(v.views)}</b> views</span>
+          ${v.likes!=null?`<span><b>${fmt(v.likes)}</b> likes</span>`:''}
+          ${v.comentarios!=null?`<span><b>${fmt(v.comentarios)}</b> coment.</span>`:''}
+          ${v.publicadoEm?`<span>${tempoRel(v.publicadoEm)}</span>`:''}</div>
+      </div>
+    </div>`).join('');
+}
+load(); setInterval(load, 600000);
+</script>
+</body>
+</html>

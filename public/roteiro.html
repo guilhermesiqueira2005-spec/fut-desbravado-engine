@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roteiro — Fut Desbravado · Engine Copa 2026</title>
+<style>
+  :root {
+    --bg:#06130b; --card:#0b2014; --card2:#0e2718; --line:#1f4d2e; --line2:#2c6b40;
+    --txt:#eef7f0; --dim:#9fc4ab; --verde:#22c55e; --verde-claro:#4ade80;
+    --vermelho:#ef4444; --amarelo:#fbbf24;
+  }
+  * { box-sizing:border-box; margin:0; }
+  body { background:radial-gradient(1200px 500px at 20% -10%, #0d2a18 0%, var(--bg) 60%);
+         color:var(--txt); font:15px/1.55 'Segoe UI',system-ui,sans-serif; padding:22px 26px; min-height:100vh; }
+  .topo { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; }
+  .topo a.voltar { color:var(--verde-claro); text-decoration:none; font-weight:600; font-size:13px;
+                   border:1px solid var(--line2); padding:6px 14px; border-radius:8px; }
+  .topo a.voltar:hover { background:#14532d; }
+  .badge { font-size:11px; padding:4px 12px; border-radius:99px; font-weight:800; letter-spacing:.6px;
+           background:#0c2e1a; color:var(--verde-claro); border:1px solid var(--line2); }
+  .badge.f-REACAO_AO_VIVO { background:#450a0a; color:#fca5a5; border-color:#b91c1c; }
+  .badge.f-ANALISE_POS_JOGO { background:#1a2e0c; color:var(--amarelo); border-color:#854d0e; }
+  h1 { font-size:24px; font-weight:800; margin:8px 0 4px; max-width:980px; }
+  .sub { color:var(--dim); margin-bottom:22px; }
+  .sub b { color:var(--amarelo); }
+  .blocos { display:grid; grid-template-columns:minmax(340px,1.6fr) minmax(300px,1fr); gap:16px; max-width:1280px; }
+  @media (max-width:900px){ .blocos { grid-template-columns:1fr; } }
+  .painel { background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid var(--line);
+            border-radius:12px; padding:18px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:1.6px; color:var(--dim); margin-bottom:14px; }
+  .cena { display:grid; grid-template-columns:92px 1fr; gap:14px; padding:13px 0; border-bottom:1px solid #11301d; }
+  .cena:last-child { border-bottom:none; }
+  .tempo { color:var(--amarelo); font-weight:800; font-size:13px; font-variant-numeric:tabular-nums; }
+  .tempo .corte { display:block; color:#5f8a6e; font-weight:600; font-size:11px; margin-top:4px; }
+  .fala { font-size:15.5px; }
+  .fonetica { color:var(--verde-claro); font-size:13px; margin-top:6px; }
+  .fonetica b { color:var(--dim); font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:1px; }
+  .prompt { background:#0a1a10; border:1px dashed var(--line); border-radius:8px; color:#86b794;
+            font-size:12.5px; padding:8px 11px; margin-top:8px; font-family:Consolas,monospace; }
+  .narr { white-space:pre-wrap; font-size:14.5px; color:var(--txt); }
+  .kv { display:flex; justify-content:space-between; gap:10px; padding:7px 0; border-bottom:1px solid #11301d; font-size:13.5px; }
+  .kv:last-child { border-bottom:none; }
+  .kv .k { color:var(--dim); } .kv .v { font-weight:700; color:var(--verde-claro); text-align:right; }
+  .tags { display:flex; gap:8px; flex-wrap:wrap; margin-top:6px; }
+  .tag { background:#0c2e1a; border:1px solid var(--line2); color:var(--verde-claro); font-size:12px;
+         font-weight:700; padding:3px 11px; border-radius:99px; }
+  .acoes { margin-top:16px; display:flex; gap:10px; flex-wrap:wrap; }
+  .acoes a, .acoes button { font-size:13px; font-weight:700; text-decoration:none; padding:8px 16px; border-radius:8px;
+              border:1px solid var(--line2); color:var(--verde-claro); background:transparent; cursor:pointer; }
+  .acoes a:hover, .acoes button:hover { background:#14532d; }
+  .erro { background:#450a0a; border:1px solid #b91c1c; color:#fca5a5; padding:14px 18px; border-radius:10px; max-width:700px; }
+  #carregando { color:var(--dim); }
+</style>
+</head>
+<body>
+<div class="topo">
+  <a class="voltar" href="/">← Painel de jogos</a>
+  <span class="badge" id="b-formato">…</span>
+  <span class="badge" id="b-grupo">…</span>
+</div>
+<div id="carregando">Gerando roteiro…</div>
+<div id="conteudo" style="display:none">
+  <h1 id="titulo"></h1>
+  <div class="sub" id="subinfo"></div>
+  <div class="blocos">
+    <div class="painel">
+      <h2>🎬 Roteiro vertical 60s · cortes e cenas</h2>
+      <div id="cenas"></div>
+    </div>
+    <div>
+      <div class="painel" style="margin-bottom:16px">
+        <h2>🎙 Narração ElevenLabs (fonética aplicada)</h2>
+        <div class="narr" id="narracao"></div>
+        <div class="acoes"><button onclick="copiar('narracao')">Copiar narração</button></div>
+      </div>
+      <div class="painel">
+        <h2>📦 Metadados de produção</h2>
+        <div id="meta"></div>
+        <div class="tags" id="tags"></div>
+        <div class="acoes">
+          <a id="l-drive" href="#" target="_blank">📁 Pasta no Drive</a>
+          <a id="l-json" href="#" target="_blank">{ } JSON bruto (Make)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const q = new URLSearchParams(location.search);
+const id = q.get('id'), formato = q.get('formato') || 'PREVIA_TATICA', minuto = q.get('minuto') || '60';
+const apiUrl = `/api/generate?id=${id}&formato=${formato}&minuto=${minuto}`;
+function copiar(elId){ navigator.clipboard.writeText(document.getElementById(elId).innerText); }
+(async () => {
+  const r = await fetch(apiUrl); const d = await r.json();
+  const c = document.getElementById('carregando');
+  if (d.erro) { c.outerHTML = `<div class="erro"><b>Não foi possível gerar:</b> ${d.erro}</div>`; return; }
+  c.style.display='none'; document.getElementById('conteudo').style.display='block';
+  document.getElementById('b-formato').textContent = d.formatoNome;
+  document.getElementById('b-formato').className = 'badge f-' + d.formato;
+  document.getElementById('b-grupo').textContent = 'Grupo ' + d.jogo.grupo;
+  document.getElementById('titulo').textContent = d.titulo;
+  document.getElementById('subinfo').innerHTML =
+    `<b>${d.jogo.confronto}</b> · ${d.jogo.estadio}, ${d.jogo.cidade} · bola ${new Date(d.jogo.kickoffISO).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'})} (Brasília)`;
+  document.getElementById('cenas').innerHTML = d.roteiro.cenas.map(s => `
+    <div class="cena">
+      <div class="tempo">${s.inicio}–${s.fim}<span class="corte">${s.corte}</span></div>
+      <div>
+        <div class="fala">${s.fala}</div>
+        ${s.falaFonetica !== s.fala ? `<div class="fonetica"><b>narração ›</b> ${s.falaFonetica}</div>` : ''}
+        <div class="prompt">🎨 ${s.promptImagem}</div>
+      </div>
+    </div>`).join('');
+  document.getElementById('narracao').textContent = d.narracao.texto;
+  const aj = d.narracao.ajustesFoneticos || [];
+  document.getElementById('meta').innerHTML = [
+    ['Duração alvo', d.roteiro.duracaoAlvo + ' · ' + d.roteiro.proporcao],
+    ['Voz', `${d.narracao.elevenlabs.model_id} (${d.narracao.elevenlabs.idioma})`],
+    ['Ajustes fonéticos', aj.length ? aj.map(a=>`${a.nome} → ${a.pronuncia}`).join(' · ') : 'nenhum necessário'],
+    ['Arquivo base', d.drive.arquivoBase],
+    ['Gerado em', new Date(d.geradoEm).toLocaleString('pt-BR')],
+    d.social ? ['Sentimento social', d.social.sentimentoDominante] : null,
+  ].filter(Boolean).map(([k,v])=>`<div class="kv"><span class="k">${k}</span><span class="v">${v}</span></div>`).join('');
+  document.getElementById('tags').innerHTML = d.hashtags.map(h=>`<span class="tag">${h}</span>`).join('');
+  document.getElementById('l-drive').href = d.drive.pastaGrupoId
+    ? `https://drive.google.com/drive/folders/${d.drive.pastaGrupoId}` : '#';
+  document.getElementById('l-json').href = apiUrl;
+})();
+</script>
+</body>
+</html>
