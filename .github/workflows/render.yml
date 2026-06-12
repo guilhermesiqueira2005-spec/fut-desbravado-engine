@@ -1,0 +1,26 @@
+name: Render vídeos pós-jogo
+
+# Após cada apito final, monta o MP4 vertical (identidade Fut Desbravado,
+# bandeiras, placar em sobreposição, narração) e publica na release "videos".
+on:
+  schedule:
+    - cron: "5,35 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar ffmpeg e rsvg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg librsvg2-bin
+      - name: Renderizar e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: bash tools/render_videos.sh
