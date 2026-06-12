@@ -8,7 +8,7 @@ module.exports = async (req, res) => {
   const q = req.query || {};
   const match = jogoPorId(q.id);
   if (!match) return res.status(404).json({ erro: "jogo não encontrado" });
-  let { placar = "0 x 0", minuto = "", status = "" } = q;
+  let { placar = null, minuto = "", status = "" } = q;
   if (q.placar === undefined) {
     const live = await aoVivo(match);
     if (live && !live.erro && live.status !== "NS") {
