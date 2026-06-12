@@ -7,7 +7,8 @@ module.exports = async (req, res) => {
   try {
     const agora = req.query && req.query.simular ? new Date(req.query.simular) : new Date();
     if (isNaN(agora)) return res.status(400).json({ erro: "parâmetro 'simular' inválido (use ISO 8601)" });
-    const resultado = await tick(agora);
+    const recuperar = Math.min(Number((req.query || {}).recuperar) || 0, 360);
+    const resultado = await tick(agora, recuperar);
     const despacho = await despacharParaMake(resultado).catch((e) => ({ despachado: false, erro: String(e) }));
     res.status(200).json({ ok: true, despacho, ...resultado });
   } catch (e) {

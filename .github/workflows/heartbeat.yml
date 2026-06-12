@@ -1,22 +1,57 @@
 name: Heartbeat Orquestrador Copa 2026
 
-# Pulso de 15 minutos do ciclo de monitoramento (aquecimento 1h antes,
-# varredura social a cada 30min de jogo, empacotamento no apito final).
-# Complementa o cron diário da Vercel (plano Hobby limita crons a 1x/dia).
+# Pulso de 15 minutos confiável: um job de longa duração executa ticks em loop
+# (sleep 900 entre eles) e se auto-redispara antes de terminar. O cron horário
+# serve só de reanimador: se o loop morreu, religa e recupera eventos perdidos.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "12 * * * *"
   workflow_dispatch:
+    inputs:
+      origem:
+        description: "auto-relay quando vem do próprio loop"
+        required: false
+        default: "manual"
+
+permissions:
+  actions: write
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
 
 jobs:
-  tick:
+  loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 350
     steps:
-      - name: Disparar /api/cron/tick
+      - name: Evitar loops duplicados
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          code=$(curl -fsS -o resposta.json -w "%{http_code}" \
-            "https://fut-desbravado-engine.vercel.app/api/cron/tick")
-          echo "HTTP $code"
-          cat resposta.json | head -c 2000
-          test "$code" = "200"
+          ATIVOS=$(gh api "repos/${{ github.repository }}/actions/workflows/heartbeat.yml/runs?status=in_progress" -q '.total_count')
+          if [ "$ATIVOS" -gt 1 ]; then
+            echo "Outro loop já está ativo ($ATIVOS) — encerrando esta instância."
+            echo "DUPLICADO=1" >> "$GITHUB_ENV"
+          fi
+
+      - name: Tick de recuperação (cobre janelas perdidas se o loop esteve fora)
+        if: env.DUPLICADO != '1' && github.event_name == 'schedule'
+        run: |
+          curl -fsS "https://fut-desbravado-engine.vercel.app/api/cron/tick?recuperar=75" -o r.json
+          echo "recuperação: $(head -c 400 r.json)"
+
+      - name: Loop de ticks (15 em 15 min por ~5h30)
+        if: env.DUPLICADO != '1'
+        run: |
+          for i in $(seq 1 22); do
+            code=$(curl -fsS -o tick.json -w "%{http_code}" "https://fut-desbravado-engine.vercel.app/api/cron/tick" || echo "ERR")
+            echo "[$(date -u +%H:%M)] tick $i → HTTP $code · $(python3 -c "import json;d=json.load(open('tick.json'));print(len(d.get('acoes',[])),'ações')" 2>/dev/null || echo '?')"
+            [ "$i" -lt 22 ] && sleep 900
+          done
+
+      - name: Auto-redisparo (mantém o loop vivo)
+        if: env.DUPLICADO != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run heartbeat.yml -R "${{ github.repository }}" -f origem=auto-relay || true

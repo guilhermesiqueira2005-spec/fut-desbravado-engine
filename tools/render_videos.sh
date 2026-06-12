@@ -17,7 +17,7 @@ agora = datetime.datetime.now(datetime.timezone.utc)
 for j in d['jogos']:
     k = datetime.datetime.fromisoformat(j['kickoffISO'])
     fim = k + datetime.timedelta(minutes=115)
-    if j['fase'] in ('POS_JOGO', 'ENCERRADO') and datetime.timedelta(0) <= agora - fim <= datetime.timedelta(hours=2):
+    if j['fase'] in ('POS_JOGO', 'ENCERRADO') and datetime.timedelta(0) <= agora - fim <= datetime.timedelta(hours=6):
         print(j['id'])
 ")
 
