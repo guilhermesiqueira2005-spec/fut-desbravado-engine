@@ -2,12 +2,12 @@
 // A decisão é registrada no Make (Data Store) e a mensagem é atualizada.
 // Publicação no YouTube SÓ acontece após aprovação (e exige conexão YouTube no Make).
 // Setup (uma vez): GET /api/telegram?setup=1  → registra este webhook no bot.
-const { tg, ativo } = require("../lib/telegram");
+const { tg } = require("../lib/telegram");
 
 const MAKE_HOOK = process.env.MAKE_WEBHOOK_URL;
 
 module.exports = async (req, res) => {
-  if (!ativo()) return res.status(200).json({ ok: false, motivo: "TELEGRAM_BOT_TOKEN/CHAT_ID não configurados" });
+  if (!process.env.TELEGRAM_BOT_TOKEN) return res.status(200).json({ ok: false, motivo: "TELEGRAM_BOT_TOKEN não configurado" });
 
   // registro do webhook
   if (req.method === "GET") {
@@ -22,6 +22,39 @@ module.exports = async (req, res) => {
 
   try {
     const update = req.body || {};
+
+    // /start → registra o chat_id automaticamente (Data Store do Make) e confirma
+    const msg = update.message;
+    if (msg && msg.chat && /^\/start/.test(msg.text || "")) {
+      const chatId = msg.chat.id;
+      if (MAKE_HOOK) {
+        await fetch(MAKE_HOOK, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            executadoEm: new Date().toISOString(),
+            evento: "TELEGRAM_REGISTRO",
+            acoes: [{
+              tipo: "TELEGRAM_CHAT", jogoId: chatId, confronto: "registro do bot",
+              grupo: "-", drive: "-",
+              payload: {
+                titulo: String(chatId), formatoNome: "registro",
+                narracao: { texto: "-" }, hashtags: [],
+                drive: { pastaGrupoId: null, arquivoBase: "telegram_chat" },
+                geradoEm: new Date().toISOString(),
+              },
+            }],
+          }),
+        }).catch(() => {});
+      }
+      await tg("sendMessage", {
+        chat_id: chatId,
+        text: `✅ <b>Fut Desbravado conectado!</b>\nChat registrado (id <code>${chatId}</code>). A partir de agora você recebe os conteúdos da Copa aqui, com botões de ✅ aprovar / ❌ rejeitar.`,
+        parse_mode: "HTML",
+      }).catch(() => {});
+      return res.status(200).json({ ok: true, registrado: chatId });
+    }
+
     const cb = update.callback_query;
     if (cb && cb.data) {
       const [decisao, jogoId, tipo] = cb.data.split(":");
